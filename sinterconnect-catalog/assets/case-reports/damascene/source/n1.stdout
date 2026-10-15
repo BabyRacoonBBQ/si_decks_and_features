@@ -1,0 +1,377 @@
+
+                            Sentaurus Interconnect 
+
+                  Version W-2024.09 for linux64 - Aug 16, 2024
+           Changelist number: 9150440, Compile host: sce-tcad-build04
+
+                    Copyright (c) 1993 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+      Started at: Wed Oct  7 23:57:36 2026 (EDT)
+       User name: mozztcad
+       Host name: mozztcad
+             PID: 1070982
+    Architecture: x86_64
+Operating system: Linux rel. 4.18.0-553.el8_10.x86_64 ver. #1 SMP Fri May 24 13:05:10 UTC 2024
+
+Starting Tcl interpreter with inputfile: n1_sis.cmd
+------------------------------------------------------------------------------
+Checking syntax of n1_sis.cmd:
+
+Syntax check complete.
+------------------------------------------------------------------------------
+
+Loading models file: /home/mozztcad/synopsys/sentaurus/W-2024.09-SP1/tcad/current/lib/sinterconnect/TclLib/SINTERCONNECT.models... done.
+Creating structure...
+Recreating refinements to take into account updated simulation dimension.
+Done recreating refinements.
+
+
+Points: 3
+Nodes: 3
+Edges: 2
+Faces: 0
+Volumes: 0
+
+sinterconnect parallel assembly thread count = 1
+sinterconnect Pardiso thread count = 1
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 1.5898e-03
+
+Updating sinterconnect mesh before Etch/Depo relax.
+* Name: active, Type: Standard
+* Name: metal, Type: Standard
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    24                                  48                                
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    0...1...2...3...4...5...6...7...8...9...1...1...1...1...1...1...1...1...1
+        0   0   0   0   0   0   0   0   0   0   1   2   3   4   5   6   7   8
+                                            0   0   0   0   0   0   0   0   0
+---------------------------------------------------------------------------------
+minAngle: 0.0343786  maxAngle: 90
+nVerts = 30  nTris = 28  nMats = 5
+max connectivity (tris per node): 3 [near (0 0.150008)]
+bmin: (0 -0.1)
+bmax: (3.0001e-05 0.20001)
+min edgeLength: 3.0001e-05  [near (1.50005e-05 0.0875044)]
+min volume: 1.87413e-07  max volume: 7.50025e-07  Total volume: 6.00014e-06
+bbox  volume: 9.0006e-06
+Are all boundaries on bbox? true
+=================================================================================
+Smallest region: Oxide_1  Total volume: 3.00004e-06
+Interpolating...elapsed time: 2.9846e-03
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 1.8361e-03
+
+Updating sinterconnect mesh before Etch/Depo relax.
+* Name: active, Type: Standard
+* Name: metal, Type: Standard
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    26                                  52                                
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+                                        |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    |                                   |                                   
+    0...1...2...3...4...5...6...7...8...9...1...1...1...1...1...1...1...1...1
+        0   0   0   0   0   0   0   0   0   0   1   2   3   4   5   6   7   8
+                                            0   0   0   0   0   0   0   0   0
+---------------------------------------------------------------------------------
+minAngle: 0.0572952  maxAngle: 90
+nVerts = 38  nTris = 36  nMats = 5
+max connectivity (tris per node): 3 [near (0 0.350016)]
+bmin: (0 -0.1)
+bmax: (5.00018e-05 0.400018)
+min edgeLength: 5.00018e-05  [near (2.50009e-05 0.287513)]
+min volume: 3.12103e-07  max volume: 1.2501e-06  Total volume: 2.00006e-05
+bbox  volume: 2.50018e-05
+Are all boundaries on bbox? true
+=================================================================================
+Smallest region: Silicon_1  Total volume: 5.00018e-06
+Interpolating...elapsed time: 2.7008e-03
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+Nodes: 92
+Edges: 195
+Faces: 108
+Volumes: 0
+
+Nodes: 736
+Edges: 3569
+Faces: 5106
+Volumes: 2268
+
+Initializing boundary from bulk mesh...decimating...done.
+Recreating refinements to take into account updated simulation dimension.
+Done recreating refinements.
+
+MGoals time: 0.341853
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Photoresist_1  Total volume: 0.00825
+SnMesh time: 0.1682
+Initializing sinterconnect...time: 0.013658
+Interpolating...elapsed time: 0.0161497
+sinterconnect ILS thread count = 1
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 6.2389e-03
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Photoresist_1  Total volume: 0.00825
+SnMesh time: 0.28975
+Initializing sinterconnect...time: 0.028731
+Interpolating...elapsed time: 0.0325222
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.014848
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00450007
+SnMesh time: 0.375184
+Initializing sinterconnect...time: 0.041203
+Interpolating...elapsed time: 0.048175
+Mechanics:         0s   to         1s   step    :         1s  
+
+MGoals time: 1.1549e-03
+
+Updating sinterconnect mesh before mechanics temp ramp.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00450006
+SnMesh time: 0.360818
+Initializing sinterconnect...time: 0.039177
+Interpolating...elapsed time: 0.0448201
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.013541
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00450006
+SnMesh time: 0.415228
+Initializing sinterconnect...time: 0.046424
+Interpolating...elapsed time: 0.0461022
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.096252
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00450006
+SnMesh time: 0.508899
+Initializing sinterconnect...time: 0.054621
+Interpolating...elapsed time: 0.0564008
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.163404
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00450006
+SnMesh time: 0.601616
+Initializing sinterconnect...time: 0.06783
+Interpolating...elapsed time: 0.0823601
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.013211
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00450006
+SnMesh time: 0.678645
+Initializing sinterconnect...time: 0.070296
+Interpolating...elapsed time: 0.0880057
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.0146489
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00450006
+SnMesh time: 0.72994
+Initializing sinterconnect...time: 0.079899
+Interpolating...elapsed time: 0.100701
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.0307689
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00490006
+SnMesh time: 0.752977
+Initializing sinterconnect...time: 0.087991
+Interpolating...elapsed time: 0.105185
+Mechanics:         0s   to         1s   step    :         1s  
+
+MGoals time: 2.5921e-03
+
+Updating sinterconnect mesh before mechanics temp ramp.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00490006
+SnMesh time: 0.727821
+Initializing sinterconnect...time: 0.083386
+Interpolating...elapsed time: 0.0928838
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.017499
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00490006
+SnMesh time: 0.628962
+Initializing sinterconnect...time: 0.068538
+Interpolating...elapsed time: 0.0796548
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.37891
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00490006
+SnMesh time: 0.64367
+Initializing sinterconnect...time: 0.069615
+Interpolating...elapsed time: 0.0983206
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.0135379
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Copper_1  Total volume: 0.00490006
+SnMesh time: 0.852915
+Initializing sinterconnect...time: 0.105825
+Interpolating...elapsed time: 0.11508
+Mechanics:         0s   to         1s   step    :         1s  
+
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.0249541
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Nitride_1  Total volume: 0.00512528
+SnMesh time: 0.862381
+Initializing sinterconnect...time: 0.099915
+Interpolating...elapsed time: 0.121226
+Mechanics:         0s   to         1s   step    :         1s  
+
+MGoals time: 3.4719e-03
+
+Updating sinterconnect mesh before mechanics temp ramp.
+Generating SnMesh mesh... 
+Smallest region: Nitride_1  Total volume: 0.00512528
+SnMesh time: 0.817259
+Initializing sinterconnect...time: 0.093438
+Interpolating...elapsed time: 0.113041
+Mechanics:         0s   to         1s   step    :         1s  
+MGoals time: 0.017555
+
+Updating sinterconnect mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+Smallest region: Nitride_1  Total volume: 0.00512528
+SnMesh time: 0.870364
+Initializing sinterconnect...time: 0.10015
+Interpolating...elapsed time: 0.131725
+Mechanics:         0s   to         1s   step    :         1s  
+
+Saving Delaunay-Voronoi weights.
+Writing file n1_sis.tdr...done
+
+------------------------------------------------------------------------------
+
+Elapsed Time:	00:00:27
+User Time:	00:00:27
+CPU Time:	00:00:25
+
+Detailed CPU time report:
+
+10.29 sec (39.3%) SnMesh meshing (19 calls).
+4.02 sec (15.3%) deposit command (12 calls).
+2.03 sec (7.8%) Solver(Mechanics) (32 calls).
+1.79 sec (6.8%) Mechanics assembly (serial mode) (32 calls).
+1.65 sec (6.3%) etch command (4 calls).
+1.30 sec (5.0%) Bulk Interpolation (19 calls).
+1.16 sec (4.4%) mgoals (19 calls).
+1.07 sec (4.1%) Other Program Parts (1 calls).
+0.99 sec (3.8%) Transfer from mesher 3D (17 calls).
+0.59 sec (2.2%) Mechanics preassembly (32 calls).
+0.48 sec (1.8%) struct command (1 calls).
+0.45 sec (1.7%) FieldServer copy (19 calls).
+0.17 sec (0.6%) MakeInterfaces (25 calls).
+
+Detailed elapsed time report:
+
+10.31 sec (39.3%) SnMesh meshing (19 calls).
+4.03 sec (15.3%) deposit command (12 calls).
+2.04 sec (7.8%) Solver(Mechanics) (32 calls).
+1.79 sec (6.8%) Mechanics assembly (serial mode) (32 calls).
+1.65 sec (6.3%) etch command (4 calls).
+1.31 sec (5.0%) Bulk Interpolation (19 calls).
+1.16 sec (4.4%) mgoals (19 calls).
+1.08 sec (4.1%) Other Program Parts (1 calls).
+0.99 sec (3.8%) Transfer from mesher 3D (17 calls).
+0.59 sec (2.2%) Mechanics preassembly (32 calls).
+0.48 sec (1.8%) struct command (1 calls).
+0.45 sec (1.7%) FieldServer copy (19 calls).
+0.17 sec (0.6%) MakeInterfaces (25 calls).

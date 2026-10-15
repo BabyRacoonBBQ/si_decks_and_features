@@ -1,0 +1,6512 @@
+{
+  "mesh": {
+    "vertices": 4064,
+    "bulk_region_local_vertices": 4864,
+    "bulk_and_interface_region_local_vertices": 5071,
+    "solid_vertices": 3729,
+    "total_tetrahedra": 19434,
+    "solid_tetrahedra": 17887,
+    "bounds_solid_um": [
+      [
+        -0.7,
+        -0.1,
+        0.0
+      ],
+      [
+        0.1,
+        0.05,
+        0.7
+      ]
+    ],
+    "regions": [
+      {
+        "name": "Silicon_1",
+        "material": "Silicon",
+        "tetrahedra": 822,
+        "region_nodes": 232
+      },
+      {
+        "name": "Nitride_1",
+        "material": "Nitride",
+        "tetrahedra": 2054,
+        "region_nodes": 540
+      },
+      {
+        "name": "Oxide_1",
+        "material": "Oxide",
+        "tetrahedra": 4339,
+        "region_nodes": 1009
+      },
+      {
+        "name": "Gas_1",
+        "material": "Gas",
+        "tetrahedra": 1547,
+        "region_nodes": 419
+      },
+      {
+        "name": "Oxide_2",
+        "material": "Oxide",
+        "tetrahedra": 5162,
+        "region_nodes": 1200
+      },
+      {
+        "name": "Nitride_2",
+        "material": "Nitride",
+        "tetrahedra": 1987,
+        "region_nodes": 520
+      },
+      {
+        "name": "Copper_1",
+        "material": "Copper",
+        "tetrahedra": 3523,
+        "region_nodes": 944
+      }
+    ]
+  },
+  "results": {
+    "1": {
+      "copper_mises_min_MPa": 2.002909791272739,
+      "copper_mises_max_MPa": 70.77372327788345,
+      "copper_mises_peak_xyz_um": [
+        -0.6500000000000002,
+        0.05,
+        0.2625
+      ],
+      "copper_temperature_C": [
+        249.99999999999994,
+        249.99999999999994
+      ],
+      "datasets": [
+        {
+          "path": "/collection/geometry_0/state_0/dataset_0",
+          "name": "Temperature",
+          "region": 0,
+          "location": 0,
+          "unit": "K",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_1",
+          "name": "PrevTemperature",
+          "region": 0,
+          "location": 0,
+          "unit": "K",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_10",
+          "name": "ElasticEnergyDens",
+          "region": 0,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_100",
+          "name": "ElasticStrain",
+          "region": 4,
+          "location": 0,
+          "unit": "1",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_101",
+          "name": "ElasticEnergyDensEL",
+          "region": 4,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_102",
+          "name": "ElasticEnergyDens",
+          "region": 4,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_103",
+          "name": "Pressure",
+          "region": 4,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_104",
+          "name": "MisesStress",
+          "region": 4,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_105",
+          "name": "MassDensity",
+          "region": 4,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_106",
+          "name": "Velocity",
+          "region": 4,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_107",
+          "name": "PseudoDisplacement",
+          "region": 4,
+          "location": 0,
+          "unit": "cm",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_108",
+          "name": "PseudoEnergyDensEL",
+          "region": 4,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_109",
+          "name": "DelVorWeight",
+          "region": 4,
+          "location": 0,
+          "unit": "um^2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_11",
+          "name": "Pressure",
+          "region": 0,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_110",
+          "name": "StressGP",
+          "region": 4,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_111",
+          "name": "PseudoEnergyDensGP",
+          "region": 4,
+          "location": 8,
+          "unit": "1",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_112",
+          "name": "ElasticEnergyDensGP",
+          "region": 4,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_113",
+          "name": "ElasticStrainGP",
+          "region": 4,
+          "location": 8,
+          "unit": "1",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_114",
+          "name": "GPLocation",
+          "region": 4,
+          "location": 8,
+          "unit": "cm",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_115",
+          "name": "Temperature",
+          "region": 5,
+          "location": 0,
+          "unit": "K",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_116",
+          "name": "PrevTemperature",
+          "region": 5,
+          "location": 0,
+          "unit": "K",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_117",
+          "name": "InitTemperature",
+          "region": 5,
+          "location": 0,
+          "unit": "K",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_118",
+          "name": "StressEL",
+          "region": 5,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_119",
+          "name": "Stress",
+          "region": 5,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_12",
+          "name": "MisesStress",
+          "region": 0,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_120",
+          "name": "Displacement",
+          "region": 5,
+          "location": 0,
+          "unit": "cm",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_121",
+          "name": "StepDisplacement",
+          "region": 5,
+          "location": 0,
+          "unit": "cm",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_122",
+          "name": "ElasticStrainEL",
+          "region": 5,
+          "location": 3,
+          "unit": "1",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_123",
+          "name": "ElasticStrain",
+          "region": 5,
+          "location": 0,
+          "unit": "1",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_124",
+          "name": "ElasticEnergyDensEL",
+          "region": 5,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_125",
+          "name": "ElasticEnergyDens",
+          "region": 5,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_126",
+          "name": "Pressure",
+          "region": 5,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_127",
+          "name": "MisesStress",
+          "region": 5,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_128",
+          "name": "MassDensity",
+          "region": 5,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_129",
+          "name": "Velocity",
+          "region": 5,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_13",
+          "name": "MassDensity",
+          "region": 0,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_130",
+          "name": "PseudoDisplacement",
+          "region": 5,
+          "location": 0,
+          "unit": "cm",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_131",
+          "name": "PseudoEnergyDensEL",
+          "region": 5,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_132",
+          "name": "DelVorWeight",
+          "region": 5,
+          "location": 0,
+          "unit": "um^2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_133",
+          "name": "StressGP",
+          "region": 5,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_134",
+          "name": "PseudoEnergyDensGP",
+          "region": 5,
+          "location": 8,
+          "unit": "1",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_135",
+          "name": "ElasticEnergyDensGP",
+          "region": 5,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_136",
+          "name": "ElasticStrainGP",
+          "region": 5,
+          "location": 8,
+          "unit": "1",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_137",
+          "name": "GPLocation",
+          "region": 5,
+          "location": 8,
+          "unit": "cm",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_138",
+          "name": "Temperature",
+          "region": 6,
+          "location": 0,
+          "unit": "K",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_139",
+          "name": "PrevTemperature",
+          "region": 6,
+          "location": 0,
+          "unit": "K",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_14",
+          "name": "Velocity",
+          "region": 0,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_140",
+          "name": "InitTemperature",
+          "region": 6,
+          "location": 0,
+          "unit": "K",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_141",
+          "name": "StressEL",
+          "region": 6,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_142",
+          "name": "Stress",
+          "region": 6,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_143",
+          "name": "Displacement",
+          "region": 6,
+          "location": 0,
+          "unit": "cm",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_144",
+          "name": "StepDisplacement",
+          "region": 6,
+          "location": 0,
+          "unit": "cm",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_145",
+          "name": "ElasticStrainEL",
+          "region": 6,
+          "location": 3,
+          "unit": "1",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_146",
+          "name": "ElasticStrain",
+          "region": 6,
+          "location": 0,
+          "unit": "1",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_147",
+          "name": "ElasticEnergyDensEL",
+          "region": 6,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_148",
+          "name": "ElasticEnergyDens",
+          "region": 6,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_149",
+          "name": "Pressure",
+          "region": 6,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_15",
+          "name": "PseudoDisplacement",
+          "region": 0,
+          "location": 0,
+          "unit": "cm",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_150",
+          "name": "MisesStress",
+          "region": 6,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_151",
+          "name": "MassDensity",
+          "region": 6,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_152",
+          "name": "Velocity",
+          "region": 6,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_153",
+          "name": "PseudoDisplacement",
+          "region": 6,
+          "location": 0,
+          "unit": "cm",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_154",
+          "name": "PseudoEnergyDensEL",
+          "region": 6,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_155",
+          "name": "DelVorWeight",
+          "region": 6,
+          "location": 0,
+          "unit": "um^2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_156",
+          "name": "StressGP",
+          "region": 6,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_157",
+          "name": "PseudoEnergyDensGP",
+          "region": 6,
+          "location": 8,
+          "unit": "1",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_158",
+          "name": "ElasticEnergyDensGP",
+          "region": 6,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_159",
+          "name": "ElasticStrainGP",
+          "region": 6,
+          "location": 8,
+          "unit": "1",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_16",
+          "name": "PseudoEnergyDensEL",
+          "region": 0,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_160",
+          "name": "GPLocation",
+          "region": 6,
+          "location": 8,
+          "unit": "cm",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_161",
+          "name": "Temperature",
+          "region": 7,
+          "location": 0,
+          "unit": "K",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_162",
+          "name": "PrevTemperature",
+          "region": 7,
+          "location": 0,
+          "unit": "K",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_163",
+          "name": "InitTemperature",
+          "region": 7,
+          "location": 0,
+          "unit": "K",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_164",
+          "name": "ElasticEnergyDens",
+          "region": 7,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_165",
+          "name": "Pressure",
+          "region": 7,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_166",
+          "name": "MisesStress",
+          "region": 7,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_167",
+          "name": "MassDensity",
+          "region": 7,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_168",
+          "name": "DelVorWeight",
+          "region": 7,
+          "location": 0,
+          "unit": "um^2",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_169",
+          "name": "Temperature",
+          "region": 8,
+          "location": 0,
+          "unit": "K",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_17",
+          "name": "DelVorWeight",
+          "region": 0,
+          "location": 0,
+          "unit": "um^2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_170",
+          "name": "PrevTemperature",
+          "region": 8,
+          "location": 0,
+          "unit": "K",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_171",
+          "name": "InitTemperature",
+          "region": 8,
+          "location": 0,
+          "unit": "K",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_172",
+          "name": "ElasticEnergyDens",
+          "region": 8,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_173",
+          "name": "Pressure",
+          "region": 8,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_174",
+          "name": "MisesStress",
+          "region": 8,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_175",
+          "name": "MassDensity",
+          "region": 8,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_176",
+          "name": "DelVorWeight",
+          "region": 8,
+          "location": 0,
+          "unit": "um^2",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_177",
+          "name": "Temperature",
+          "region": 9,
+          "location": 0,
+          "unit": "K",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_178",
+          "name": "PrevTemperature",
+          "region": 9,
+          "location": 0,
+          "unit": "K",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_179",
+          "name": "InitTemperature",
+          "region": 9,
+          "location": 0,
+          "unit": "K",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_18",
+          "name": "StressGP",
+          "region": 0,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_180",
+          "name": "ElasticEnergyDens",
+          "region": 9,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_181",
+          "name": "Pressure",
+          "region": 9,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_182",
+          "name": "MisesStress",
+          "region": 9,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_183",
+          "name": "MassDensity",
+          "region": 9,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_184",
+          "name": "DelVorWeight",
+          "region": 9,
+          "location": 0,
+          "unit": "um^2",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_185",
+          "name": "Temperature",
+          "region": 10,
+          "location": 0,
+          "unit": "K",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_186",
+          "name": "PrevTemperature",
+          "region": 10,
+          "location": 0,
+          "unit": "K",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_187",
+          "name": "InitTemperature",
+          "region": 10,
+          "location": 0,
+          "unit": "K",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_188",
+          "name": "ElasticEnergyDens",
+          "region": 10,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_189",
+          "name": "Pressure",
+          "region": 10,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_19",
+          "name": "PseudoEnergyDensGP",
+          "region": 0,
+          "location": 8,
+          "unit": "1",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_190",
+          "name": "MisesStress",
+          "region": 10,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_191",
+          "name": "MassDensity",
+          "region": 10,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_192",
+          "name": "DelVorWeight",
+          "region": 10,
+          "location": 0,
+          "unit": "um^2",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_193",
+          "name": "Temperature",
+          "region": 11,
+          "location": 0,
+          "unit": "K",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_194",
+          "name": "PrevTemperature",
+          "region": 11,
+          "location": 0,
+          "unit": "K",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_195",
+          "name": "InitTemperature",
+          "region": 11,
+          "location": 0,
+          "unit": "K",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_196",
+          "name": "ElasticEnergyDens",
+          "region": 11,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_197",
+          "name": "Pressure",
+          "region": 11,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_198",
+          "name": "MisesStress",
+          "region": 11,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_199",
+          "name": "MassDensity",
+          "region": 11,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_2",
+          "name": "InitTemperature",
+          "region": 0,
+          "location": 0,
+          "unit": "K",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_20",
+          "name": "ElasticEnergyDensGP",
+          "region": 0,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_200",
+          "name": "DelVorWeight",
+          "region": 11,
+          "location": 0,
+          "unit": "um^2",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_201",
+          "name": "Temperature",
+          "region": 12,
+          "location": 0,
+          "unit": "K",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_202",
+          "name": "PrevTemperature",
+          "region": 12,
+          "location": 0,
+          "unit": "K",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_203",
+          "name": "InitTemperature",
+          "region": 12,
+          "location": 0,
+          "unit": "K",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_204",
+          "name": "ElasticEnergyDens",
+          "region": 12,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_205",
+          "name": "Pressure",
+          "region": 12,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_206",
+          "name": "MisesStress",
+          "region": 12,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_207",
+          "name": "MassDensity",
+          "region": 12,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_208",
+          "name": "DelVorWeight",
+          "region": 12,
+          "location": 0,
+          "unit": "um^2",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_209",
+          "name": "Temperature",
+          "region": 13,
+          "location": 0,
+          "unit": "K",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_21",
+          "name": "ElasticStrainGP",
+          "region": 0,
+          "location": 8,
+          "unit": "1",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_210",
+          "name": "PrevTemperature",
+          "region": 13,
+          "location": 0,
+          "unit": "K",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_211",
+          "name": "InitTemperature",
+          "region": 13,
+          "location": 0,
+          "unit": "K",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_212",
+          "name": "ElasticEnergyDens",
+          "region": 13,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_213",
+          "name": "Pressure",
+          "region": 13,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_214",
+          "name": "MisesStress",
+          "region": 13,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_215",
+          "name": "MassDensity",
+          "region": 13,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_216",
+          "name": "DelVorWeight",
+          "region": 13,
+          "location": 0,
+          "unit": "um^2",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_217",
+          "name": "Temperature",
+          "region": 14,
+          "location": 0,
+          "unit": "K",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_218",
+          "name": "PrevTemperature",
+          "region": 14,
+          "location": 0,
+          "unit": "K",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_219",
+          "name": "InitTemperature",
+          "region": 14,
+          "location": 0,
+          "unit": "K",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_22",
+          "name": "GPLocation",
+          "region": 0,
+          "location": 8,
+          "unit": "cm",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_220",
+          "name": "ElasticEnergyDens",
+          "region": 14,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_221",
+          "name": "Pressure",
+          "region": 14,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_222",
+          "name": "MisesStress",
+          "region": 14,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_223",
+          "name": "MassDensity",
+          "region": 14,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_224",
+          "name": "DelVorWeight",
+          "region": 14,
+          "location": 0,
+          "unit": "um^2",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_225",
+          "name": "Temperature",
+          "region": 15,
+          "location": 0,
+          "unit": "K",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_226",
+          "name": "PrevTemperature",
+          "region": 15,
+          "location": 0,
+          "unit": "K",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_227",
+          "name": "InitTemperature",
+          "region": 15,
+          "location": 0,
+          "unit": "K",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_228",
+          "name": "ElasticEnergyDens",
+          "region": 15,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_229",
+          "name": "Pressure",
+          "region": 15,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_23",
+          "name": "Temperature",
+          "region": 1,
+          "location": 0,
+          "unit": "K",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_230",
+          "name": "MisesStress",
+          "region": 15,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_231",
+          "name": "MassDensity",
+          "region": 15,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_232",
+          "name": "DelVorWeight",
+          "region": 15,
+          "location": 0,
+          "unit": "um^2",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_24",
+          "name": "PrevTemperature",
+          "region": 1,
+          "location": 0,
+          "unit": "K",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_25",
+          "name": "InitTemperature",
+          "region": 1,
+          "location": 0,
+          "unit": "K",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_26",
+          "name": "StressEL",
+          "region": 1,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_27",
+          "name": "Stress",
+          "region": 1,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_28",
+          "name": "Displacement",
+          "region": 1,
+          "location": 0,
+          "unit": "cm",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_29",
+          "name": "StepDisplacement",
+          "region": 1,
+          "location": 0,
+          "unit": "cm",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_3",
+          "name": "StressEL",
+          "region": 0,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_30",
+          "name": "ElasticStrainEL",
+          "region": 1,
+          "location": 3,
+          "unit": "1",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_31",
+          "name": "ElasticStrain",
+          "region": 1,
+          "location": 0,
+          "unit": "1",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_32",
+          "name": "ElasticEnergyDensEL",
+          "region": 1,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_33",
+          "name": "ElasticEnergyDens",
+          "region": 1,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_34",
+          "name": "Pressure",
+          "region": 1,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_35",
+          "name": "MisesStress",
+          "region": 1,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_36",
+          "name": "MassDensity",
+          "region": 1,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_37",
+          "name": "Velocity",
+          "region": 1,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_38",
+          "name": "PseudoDisplacement",
+          "region": 1,
+          "location": 0,
+          "unit": "cm",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_39",
+          "name": "PseudoEnergyDensEL",
+          "region": 1,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_4",
+          "name": "Stress",
+          "region": 0,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_40",
+          "name": "DelVorWeight",
+          "region": 1,
+          "location": 0,
+          "unit": "um^2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_41",
+          "name": "StressGP",
+          "region": 1,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_42",
+          "name": "PseudoEnergyDensGP",
+          "region": 1,
+          "location": 8,
+          "unit": "1",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_43",
+          "name": "ElasticEnergyDensGP",
+          "region": 1,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_44",
+          "name": "ElasticStrainGP",
+          "region": 1,
+          "location": 8,
+          "unit": "1",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_45",
+          "name": "GPLocation",
+          "region": 1,
+          "location": 8,
+          "unit": "cm",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_46",
+          "name": "Temperature",
+          "region": 2,
+          "location": 0,
+          "unit": "K",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_47",
+          "name": "PrevTemperature",
+          "region": 2,
+          "location": 0,
+          "unit": "K",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_48",
+          "name": "InitTemperature",
+          "region": 2,
+          "location": 0,
+          "unit": "K",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_49",
+          "name": "StressEL",
+          "region": 2,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_5",
+          "name": "Displacement",
+          "region": 0,
+          "location": 0,
+          "unit": "cm",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_50",
+          "name": "Stress",
+          "region": 2,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_51",
+          "name": "Displacement",
+          "region": 2,
+          "location": 0,
+          "unit": "cm",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_52",
+          "name": "StepDisplacement",
+          "region": 2,
+          "location": 0,
+          "unit": "cm",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_53",
+          "name": "ElasticStrainEL",
+          "region": 2,
+          "location": 3,
+          "unit": "1",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_54",
+          "name": "ElasticStrain",
+          "region": 2,
+          "location": 0,
+          "unit": "1",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_55",
+          "name": "ElasticEnergyDensEL",
+          "region": 2,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_56",
+          "name": "ElasticEnergyDens",
+          "region": 2,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_57",
+          "name": "Pressure",
+          "region": 2,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_58",
+          "name": "MisesStress",
+          "region": 2,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_59",
+          "name": "MassDensity",
+          "region": 2,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_6",
+          "name": "StepDisplacement",
+          "region": 0,
+          "location": 0,
+          "unit": "cm",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_60",
+          "name": "Velocity",
+          "region": 2,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_61",
+          "name": "PseudoDisplacement",
+          "region": 2,
+          "location": 0,
+          "unit": "cm",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_62",
+          "name": "PseudoEnergyDensEL",
+          "region": 2,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_63",
+          "name": "DelVorWeight",
+          "region": 2,
+          "location": 0,
+          "unit": "um^2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_64",
+          "name": "StressGP",
+          "region": 2,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_65",
+          "name": "PseudoEnergyDensGP",
+          "region": 2,
+          "location": 8,
+          "unit": "1",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_66",
+          "name": "ElasticEnergyDensGP",
+          "region": 2,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_67",
+          "name": "ElasticStrainGP",
+          "region": 2,
+          "location": 8,
+          "unit": "1",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_68",
+          "name": "GPLocation",
+          "region": 2,
+          "location": 8,
+          "unit": "cm",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_69",
+          "name": "Temperature",
+          "region": 3,
+          "location": 0,
+          "unit": "K",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_7",
+          "name": "ElasticStrainEL",
+          "region": 0,
+          "location": 3,
+          "unit": "1",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_70",
+          "name": "PrevTemperature",
+          "region": 3,
+          "location": 0,
+          "unit": "K",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_71",
+          "name": "InitTemperature",
+          "region": 3,
+          "location": 0,
+          "unit": "K",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_72",
+          "name": "StressEL",
+          "region": 3,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_73",
+          "name": "Stress",
+          "region": 3,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_74",
+          "name": "Displacement",
+          "region": 3,
+          "location": 0,
+          "unit": "cm",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_75",
+          "name": "StepDisplacement",
+          "region": 3,
+          "location": 0,
+          "unit": "cm",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_76",
+          "name": "ElasticStrainEL",
+          "region": 3,
+          "location": 3,
+          "unit": "1",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_77",
+          "name": "ElasticStrain",
+          "region": 3,
+          "location": 0,
+          "unit": "1",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_78",
+          "name": "ElasticEnergyDensEL",
+          "region": 3,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_79",
+          "name": "ElasticEnergyDens",
+          "region": 3,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_8",
+          "name": "ElasticStrain",
+          "region": 0,
+          "location": 0,
+          "unit": "1",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_80",
+          "name": "Pressure",
+          "region": 3,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_81",
+          "name": "MisesStress",
+          "region": 3,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_82",
+          "name": "MassDensity",
+          "region": 3,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_83",
+          "name": "Velocity",
+          "region": 3,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_84",
+          "name": "PseudoDisplacement",
+          "region": 3,
+          "location": 0,
+          "unit": "cm",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_85",
+          "name": "PseudoEnergyDensEL",
+          "region": 3,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_86",
+          "name": "DelVorWeight",
+          "region": 3,
+          "location": 0,
+          "unit": "um^2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_87",
+          "name": "StressGP",
+          "region": 3,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_88",
+          "name": "PseudoEnergyDensGP",
+          "region": 3,
+          "location": 8,
+          "unit": "1",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_89",
+          "name": "ElasticEnergyDensGP",
+          "region": 3,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_9",
+          "name": "ElasticEnergyDensEL",
+          "region": 0,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_90",
+          "name": "ElasticStrainGP",
+          "region": 3,
+          "location": 8,
+          "unit": "1",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_91",
+          "name": "GPLocation",
+          "region": 3,
+          "location": 8,
+          "unit": "cm",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_92",
+          "name": "Temperature",
+          "region": 4,
+          "location": 0,
+          "unit": "K",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_93",
+          "name": "PrevTemperature",
+          "region": 4,
+          "location": 0,
+          "unit": "K",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_94",
+          "name": "InitTemperature",
+          "region": 4,
+          "location": 0,
+          "unit": "K",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_95",
+          "name": "StressEL",
+          "region": 4,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_96",
+          "name": "Stress",
+          "region": 4,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_97",
+          "name": "Displacement",
+          "region": 4,
+          "location": 0,
+          "unit": "cm",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_98",
+          "name": "StepDisplacement",
+          "region": 4,
+          "location": 0,
+          "unit": "cm",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_99",
+          "name": "ElasticStrainEL",
+          "region": 4,
+          "location": 3,
+          "unit": "1",
+          "count": 5162
+        }
+      ]
+    },
+    "2": {
+      "copper_mises_min_MPa": 138.0223120484075,
+      "copper_mises_max_MPa": 721.5454664981892,
+      "copper_mises_peak_xyz_um": [
+        -0.6500000000000002,
+        0.05,
+        0.25
+      ],
+      "copper_temperature_C": [
+        25.0,
+        25.0
+      ],
+      "datasets": [
+        {
+          "path": "/collection/geometry_0/state_0/dataset_0",
+          "name": "Temperature",
+          "region": 0,
+          "location": 0,
+          "unit": "K",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_1",
+          "name": "PrevTemperature",
+          "region": 0,
+          "location": 0,
+          "unit": "K",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_10",
+          "name": "ElasticEnergyDens",
+          "region": 0,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_100",
+          "name": "MisesStress",
+          "region": 4,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_101",
+          "name": "MassDensity",
+          "region": 4,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_102",
+          "name": "Velocity",
+          "region": 4,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_103",
+          "name": "PseudoDisplacement",
+          "region": 4,
+          "location": 0,
+          "unit": "cm",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_104",
+          "name": "PseudoEnergyDensEL",
+          "region": 4,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_105",
+          "name": "StressGP",
+          "region": 4,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_106",
+          "name": "PseudoEnergyDensGP",
+          "region": 4,
+          "location": 8,
+          "unit": "1",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_107",
+          "name": "ElasticEnergyDensGP",
+          "region": 4,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_108",
+          "name": "ElasticStrainGP",
+          "region": 4,
+          "location": 8,
+          "unit": "1",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_109",
+          "name": "GPLocation",
+          "region": 4,
+          "location": 8,
+          "unit": "cm",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_11",
+          "name": "Pressure",
+          "region": 0,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_110",
+          "name": "Temperature",
+          "region": 5,
+          "location": 0,
+          "unit": "K",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_111",
+          "name": "PrevTemperature",
+          "region": 5,
+          "location": 0,
+          "unit": "K",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_112",
+          "name": "InitTemperature",
+          "region": 5,
+          "location": 0,
+          "unit": "K",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_113",
+          "name": "StressEL",
+          "region": 5,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_114",
+          "name": "Stress",
+          "region": 5,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_115",
+          "name": "Displacement",
+          "region": 5,
+          "location": 0,
+          "unit": "cm",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_116",
+          "name": "StepDisplacement",
+          "region": 5,
+          "location": 0,
+          "unit": "cm",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_117",
+          "name": "ElasticStrainEL",
+          "region": 5,
+          "location": 3,
+          "unit": "1",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_118",
+          "name": "ElasticStrain",
+          "region": 5,
+          "location": 0,
+          "unit": "1",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_119",
+          "name": "ElasticEnergyDensEL",
+          "region": 5,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_12",
+          "name": "MisesStress",
+          "region": 0,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_120",
+          "name": "ElasticEnergyDens",
+          "region": 5,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_121",
+          "name": "Pressure",
+          "region": 5,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_122",
+          "name": "MisesStress",
+          "region": 5,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_123",
+          "name": "MassDensity",
+          "region": 5,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_124",
+          "name": "Velocity",
+          "region": 5,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_125",
+          "name": "PseudoDisplacement",
+          "region": 5,
+          "location": 0,
+          "unit": "cm",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_126",
+          "name": "PseudoEnergyDensEL",
+          "region": 5,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_127",
+          "name": "StressGP",
+          "region": 5,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_128",
+          "name": "PseudoEnergyDensGP",
+          "region": 5,
+          "location": 8,
+          "unit": "1",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_129",
+          "name": "ElasticEnergyDensGP",
+          "region": 5,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_13",
+          "name": "MassDensity",
+          "region": 0,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_130",
+          "name": "ElasticStrainGP",
+          "region": 5,
+          "location": 8,
+          "unit": "1",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_131",
+          "name": "GPLocation",
+          "region": 5,
+          "location": 8,
+          "unit": "cm",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_132",
+          "name": "Temperature",
+          "region": 6,
+          "location": 0,
+          "unit": "K",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_133",
+          "name": "PrevTemperature",
+          "region": 6,
+          "location": 0,
+          "unit": "K",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_134",
+          "name": "InitTemperature",
+          "region": 6,
+          "location": 0,
+          "unit": "K",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_135",
+          "name": "StressEL",
+          "region": 6,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_136",
+          "name": "Stress",
+          "region": 6,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_137",
+          "name": "Displacement",
+          "region": 6,
+          "location": 0,
+          "unit": "cm",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_138",
+          "name": "StepDisplacement",
+          "region": 6,
+          "location": 0,
+          "unit": "cm",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_139",
+          "name": "ElasticStrainEL",
+          "region": 6,
+          "location": 3,
+          "unit": "1",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_14",
+          "name": "Velocity",
+          "region": 0,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_140",
+          "name": "ElasticStrain",
+          "region": 6,
+          "location": 0,
+          "unit": "1",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_141",
+          "name": "ElasticEnergyDensEL",
+          "region": 6,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_142",
+          "name": "ElasticEnergyDens",
+          "region": 6,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_143",
+          "name": "Pressure",
+          "region": 6,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_144",
+          "name": "MisesStress",
+          "region": 6,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_145",
+          "name": "MassDensity",
+          "region": 6,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_146",
+          "name": "Velocity",
+          "region": 6,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_147",
+          "name": "PseudoDisplacement",
+          "region": 6,
+          "location": 0,
+          "unit": "cm",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_148",
+          "name": "PseudoEnergyDensEL",
+          "region": 6,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_149",
+          "name": "StressGP",
+          "region": 6,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_15",
+          "name": "PseudoDisplacement",
+          "region": 0,
+          "location": 0,
+          "unit": "cm",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_150",
+          "name": "PseudoEnergyDensGP",
+          "region": 6,
+          "location": 8,
+          "unit": "1",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_151",
+          "name": "ElasticEnergyDensGP",
+          "region": 6,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_152",
+          "name": "ElasticStrainGP",
+          "region": 6,
+          "location": 8,
+          "unit": "1",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_153",
+          "name": "GPLocation",
+          "region": 6,
+          "location": 8,
+          "unit": "cm",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_154",
+          "name": "Temperature",
+          "region": 7,
+          "location": 0,
+          "unit": "K",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_155",
+          "name": "PrevTemperature",
+          "region": 7,
+          "location": 0,
+          "unit": "K",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_156",
+          "name": "InitTemperature",
+          "region": 7,
+          "location": 0,
+          "unit": "K",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_157",
+          "name": "ElasticEnergyDens",
+          "region": 7,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_158",
+          "name": "Pressure",
+          "region": 7,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_159",
+          "name": "MisesStress",
+          "region": 7,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_16",
+          "name": "PseudoEnergyDensEL",
+          "region": 0,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_160",
+          "name": "MassDensity",
+          "region": 7,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_161",
+          "name": "Temperature",
+          "region": 8,
+          "location": 0,
+          "unit": "K",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_162",
+          "name": "PrevTemperature",
+          "region": 8,
+          "location": 0,
+          "unit": "K",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_163",
+          "name": "InitTemperature",
+          "region": 8,
+          "location": 0,
+          "unit": "K",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_164",
+          "name": "ElasticEnergyDens",
+          "region": 8,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_165",
+          "name": "Pressure",
+          "region": 8,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_166",
+          "name": "MisesStress",
+          "region": 8,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_167",
+          "name": "MassDensity",
+          "region": 8,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_168",
+          "name": "Temperature",
+          "region": 9,
+          "location": 0,
+          "unit": "K",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_169",
+          "name": "PrevTemperature",
+          "region": 9,
+          "location": 0,
+          "unit": "K",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_17",
+          "name": "StressGP",
+          "region": 0,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_170",
+          "name": "InitTemperature",
+          "region": 9,
+          "location": 0,
+          "unit": "K",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_171",
+          "name": "ElasticEnergyDens",
+          "region": 9,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_172",
+          "name": "Pressure",
+          "region": 9,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_173",
+          "name": "MisesStress",
+          "region": 9,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_174",
+          "name": "MassDensity",
+          "region": 9,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_175",
+          "name": "Temperature",
+          "region": 10,
+          "location": 0,
+          "unit": "K",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_176",
+          "name": "PrevTemperature",
+          "region": 10,
+          "location": 0,
+          "unit": "K",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_177",
+          "name": "InitTemperature",
+          "region": 10,
+          "location": 0,
+          "unit": "K",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_178",
+          "name": "ElasticEnergyDens",
+          "region": 10,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_179",
+          "name": "Pressure",
+          "region": 10,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_18",
+          "name": "PseudoEnergyDensGP",
+          "region": 0,
+          "location": 8,
+          "unit": "1",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_180",
+          "name": "MisesStress",
+          "region": 10,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_181",
+          "name": "MassDensity",
+          "region": 10,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_182",
+          "name": "Temperature",
+          "region": 11,
+          "location": 0,
+          "unit": "K",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_183",
+          "name": "PrevTemperature",
+          "region": 11,
+          "location": 0,
+          "unit": "K",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_184",
+          "name": "InitTemperature",
+          "region": 11,
+          "location": 0,
+          "unit": "K",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_185",
+          "name": "ElasticEnergyDens",
+          "region": 11,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_186",
+          "name": "Pressure",
+          "region": 11,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_187",
+          "name": "MisesStress",
+          "region": 11,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_188",
+          "name": "MassDensity",
+          "region": 11,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_189",
+          "name": "Temperature",
+          "region": 12,
+          "location": 0,
+          "unit": "K",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_19",
+          "name": "ElasticEnergyDensGP",
+          "region": 0,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_190",
+          "name": "PrevTemperature",
+          "region": 12,
+          "location": 0,
+          "unit": "K",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_191",
+          "name": "InitTemperature",
+          "region": 12,
+          "location": 0,
+          "unit": "K",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_192",
+          "name": "ElasticEnergyDens",
+          "region": 12,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_193",
+          "name": "Pressure",
+          "region": 12,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_194",
+          "name": "MisesStress",
+          "region": 12,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_195",
+          "name": "MassDensity",
+          "region": 12,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_196",
+          "name": "Temperature",
+          "region": 13,
+          "location": 0,
+          "unit": "K",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_197",
+          "name": "PrevTemperature",
+          "region": 13,
+          "location": 0,
+          "unit": "K",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_198",
+          "name": "InitTemperature",
+          "region": 13,
+          "location": 0,
+          "unit": "K",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_199",
+          "name": "ElasticEnergyDens",
+          "region": 13,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_2",
+          "name": "InitTemperature",
+          "region": 0,
+          "location": 0,
+          "unit": "K",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_20",
+          "name": "ElasticStrainGP",
+          "region": 0,
+          "location": 8,
+          "unit": "1",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_200",
+          "name": "Pressure",
+          "region": 13,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_201",
+          "name": "MisesStress",
+          "region": 13,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_202",
+          "name": "MassDensity",
+          "region": 13,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_203",
+          "name": "Temperature",
+          "region": 14,
+          "location": 0,
+          "unit": "K",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_204",
+          "name": "PrevTemperature",
+          "region": 14,
+          "location": 0,
+          "unit": "K",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_205",
+          "name": "InitTemperature",
+          "region": 14,
+          "location": 0,
+          "unit": "K",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_206",
+          "name": "ElasticEnergyDens",
+          "region": 14,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_207",
+          "name": "Pressure",
+          "region": 14,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_208",
+          "name": "MisesStress",
+          "region": 14,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_209",
+          "name": "MassDensity",
+          "region": 14,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_21",
+          "name": "GPLocation",
+          "region": 0,
+          "location": 8,
+          "unit": "cm",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_210",
+          "name": "Temperature",
+          "region": 15,
+          "location": 0,
+          "unit": "K",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_211",
+          "name": "PrevTemperature",
+          "region": 15,
+          "location": 0,
+          "unit": "K",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_212",
+          "name": "InitTemperature",
+          "region": 15,
+          "location": 0,
+          "unit": "K",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_213",
+          "name": "ElasticEnergyDens",
+          "region": 15,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_214",
+          "name": "Pressure",
+          "region": 15,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_215",
+          "name": "MisesStress",
+          "region": 15,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_216",
+          "name": "MassDensity",
+          "region": 15,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_22",
+          "name": "Temperature",
+          "region": 1,
+          "location": 0,
+          "unit": "K",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_23",
+          "name": "PrevTemperature",
+          "region": 1,
+          "location": 0,
+          "unit": "K",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_24",
+          "name": "InitTemperature",
+          "region": 1,
+          "location": 0,
+          "unit": "K",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_25",
+          "name": "StressEL",
+          "region": 1,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_26",
+          "name": "Stress",
+          "region": 1,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_27",
+          "name": "Displacement",
+          "region": 1,
+          "location": 0,
+          "unit": "cm",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_28",
+          "name": "StepDisplacement",
+          "region": 1,
+          "location": 0,
+          "unit": "cm",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_29",
+          "name": "ElasticStrainEL",
+          "region": 1,
+          "location": 3,
+          "unit": "1",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_3",
+          "name": "StressEL",
+          "region": 0,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_30",
+          "name": "ElasticStrain",
+          "region": 1,
+          "location": 0,
+          "unit": "1",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_31",
+          "name": "ElasticEnergyDensEL",
+          "region": 1,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_32",
+          "name": "ElasticEnergyDens",
+          "region": 1,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_33",
+          "name": "Pressure",
+          "region": 1,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_34",
+          "name": "MisesStress",
+          "region": 1,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_35",
+          "name": "MassDensity",
+          "region": 1,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_36",
+          "name": "Velocity",
+          "region": 1,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_37",
+          "name": "PseudoDisplacement",
+          "region": 1,
+          "location": 0,
+          "unit": "cm",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_38",
+          "name": "PseudoEnergyDensEL",
+          "region": 1,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_39",
+          "name": "StressGP",
+          "region": 1,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_4",
+          "name": "Stress",
+          "region": 0,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_40",
+          "name": "PseudoEnergyDensGP",
+          "region": 1,
+          "location": 8,
+          "unit": "1",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_41",
+          "name": "ElasticEnergyDensGP",
+          "region": 1,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_42",
+          "name": "ElasticStrainGP",
+          "region": 1,
+          "location": 8,
+          "unit": "1",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_43",
+          "name": "GPLocation",
+          "region": 1,
+          "location": 8,
+          "unit": "cm",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_44",
+          "name": "Temperature",
+          "region": 2,
+          "location": 0,
+          "unit": "K",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_45",
+          "name": "PrevTemperature",
+          "region": 2,
+          "location": 0,
+          "unit": "K",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_46",
+          "name": "InitTemperature",
+          "region": 2,
+          "location": 0,
+          "unit": "K",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_47",
+          "name": "StressEL",
+          "region": 2,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_48",
+          "name": "Stress",
+          "region": 2,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_49",
+          "name": "Displacement",
+          "region": 2,
+          "location": 0,
+          "unit": "cm",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_5",
+          "name": "Displacement",
+          "region": 0,
+          "location": 0,
+          "unit": "cm",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_50",
+          "name": "StepDisplacement",
+          "region": 2,
+          "location": 0,
+          "unit": "cm",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_51",
+          "name": "ElasticStrainEL",
+          "region": 2,
+          "location": 3,
+          "unit": "1",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_52",
+          "name": "ElasticStrain",
+          "region": 2,
+          "location": 0,
+          "unit": "1",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_53",
+          "name": "ElasticEnergyDensEL",
+          "region": 2,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_54",
+          "name": "ElasticEnergyDens",
+          "region": 2,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_55",
+          "name": "Pressure",
+          "region": 2,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_56",
+          "name": "MisesStress",
+          "region": 2,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_57",
+          "name": "MassDensity",
+          "region": 2,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_58",
+          "name": "Velocity",
+          "region": 2,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_59",
+          "name": "PseudoDisplacement",
+          "region": 2,
+          "location": 0,
+          "unit": "cm",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_6",
+          "name": "StepDisplacement",
+          "region": 0,
+          "location": 0,
+          "unit": "cm",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_60",
+          "name": "PseudoEnergyDensEL",
+          "region": 2,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_61",
+          "name": "StressGP",
+          "region": 2,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_62",
+          "name": "PseudoEnergyDensGP",
+          "region": 2,
+          "location": 8,
+          "unit": "1",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_63",
+          "name": "ElasticEnergyDensGP",
+          "region": 2,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_64",
+          "name": "ElasticStrainGP",
+          "region": 2,
+          "location": 8,
+          "unit": "1",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_65",
+          "name": "GPLocation",
+          "region": 2,
+          "location": 8,
+          "unit": "cm",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_66",
+          "name": "Temperature",
+          "region": 3,
+          "location": 0,
+          "unit": "K",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_67",
+          "name": "PrevTemperature",
+          "region": 3,
+          "location": 0,
+          "unit": "K",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_68",
+          "name": "InitTemperature",
+          "region": 3,
+          "location": 0,
+          "unit": "K",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_69",
+          "name": "StressEL",
+          "region": 3,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_7",
+          "name": "ElasticStrainEL",
+          "region": 0,
+          "location": 3,
+          "unit": "1",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_70",
+          "name": "Stress",
+          "region": 3,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_71",
+          "name": "Displacement",
+          "region": 3,
+          "location": 0,
+          "unit": "cm",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_72",
+          "name": "StepDisplacement",
+          "region": 3,
+          "location": 0,
+          "unit": "cm",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_73",
+          "name": "ElasticStrainEL",
+          "region": 3,
+          "location": 3,
+          "unit": "1",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_74",
+          "name": "ElasticStrain",
+          "region": 3,
+          "location": 0,
+          "unit": "1",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_75",
+          "name": "ElasticEnergyDensEL",
+          "region": 3,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_76",
+          "name": "ElasticEnergyDens",
+          "region": 3,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_77",
+          "name": "Pressure",
+          "region": 3,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_78",
+          "name": "MisesStress",
+          "region": 3,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_79",
+          "name": "MassDensity",
+          "region": 3,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_8",
+          "name": "ElasticStrain",
+          "region": 0,
+          "location": 0,
+          "unit": "1",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_80",
+          "name": "Velocity",
+          "region": 3,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_81",
+          "name": "PseudoDisplacement",
+          "region": 3,
+          "location": 0,
+          "unit": "cm",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_82",
+          "name": "PseudoEnergyDensEL",
+          "region": 3,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_83",
+          "name": "StressGP",
+          "region": 3,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_84",
+          "name": "PseudoEnergyDensGP",
+          "region": 3,
+          "location": 8,
+          "unit": "1",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_85",
+          "name": "ElasticEnergyDensGP",
+          "region": 3,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_86",
+          "name": "ElasticStrainGP",
+          "region": 3,
+          "location": 8,
+          "unit": "1",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_87",
+          "name": "GPLocation",
+          "region": 3,
+          "location": 8,
+          "unit": "cm",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_88",
+          "name": "Temperature",
+          "region": 4,
+          "location": 0,
+          "unit": "K",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_89",
+          "name": "PrevTemperature",
+          "region": 4,
+          "location": 0,
+          "unit": "K",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_9",
+          "name": "ElasticEnergyDensEL",
+          "region": 0,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_90",
+          "name": "InitTemperature",
+          "region": 4,
+          "location": 0,
+          "unit": "K",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_91",
+          "name": "StressEL",
+          "region": 4,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_92",
+          "name": "Stress",
+          "region": 4,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_93",
+          "name": "Displacement",
+          "region": 4,
+          "location": 0,
+          "unit": "cm",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_94",
+          "name": "StepDisplacement",
+          "region": 4,
+          "location": 0,
+          "unit": "cm",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_95",
+          "name": "ElasticStrainEL",
+          "region": 4,
+          "location": 3,
+          "unit": "1",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_96",
+          "name": "ElasticStrain",
+          "region": 4,
+          "location": 0,
+          "unit": "1",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_97",
+          "name": "ElasticEnergyDensEL",
+          "region": 4,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_98",
+          "name": "ElasticEnergyDens",
+          "region": 4,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_99",
+          "name": "Pressure",
+          "region": 4,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1200
+        }
+      ]
+    },
+    "3": {
+      "copper_mises_min_MPa": 127.31560057041688,
+      "copper_mises_max_MPa": 709.8044816047017,
+      "copper_mises_peak_xyz_um": [
+        -0.6500000000000002,
+        0.05,
+        0.25
+      ],
+      "copper_temperature_C": [
+        27.952149487370434,
+        44.31797021340196
+      ],
+      "datasets": [
+        {
+          "path": "/collection/geometry_0/state_0/dataset_0",
+          "name": "Temperature",
+          "region": 0,
+          "location": 0,
+          "unit": "K",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_1",
+          "name": "PrevTemperature",
+          "region": 0,
+          "location": 0,
+          "unit": "K",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_10",
+          "name": "ElasticEnergyDens",
+          "region": 0,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_100",
+          "name": "ElasticStrainEL",
+          "region": 3,
+          "location": 3,
+          "unit": "1",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_101",
+          "name": "ElasticStrain",
+          "region": 3,
+          "location": 0,
+          "unit": "1",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_102",
+          "name": "ElasticEnergyDensEL",
+          "region": 3,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_103",
+          "name": "ElasticEnergyDens",
+          "region": 3,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_104",
+          "name": "Pressure",
+          "region": 3,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_105",
+          "name": "MisesStress",
+          "region": 3,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_106",
+          "name": "MassDensity",
+          "region": 3,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_107",
+          "name": "Velocity",
+          "region": 3,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_108",
+          "name": "PseudoDisplacement",
+          "region": 3,
+          "location": 0,
+          "unit": "cm",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_109",
+          "name": "PseudoEnergyDensEL",
+          "region": 3,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_11",
+          "name": "Pressure",
+          "region": 0,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_110",
+          "name": "StressGP",
+          "region": 3,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_111",
+          "name": "PseudoEnergyDensGP",
+          "region": 3,
+          "location": 8,
+          "unit": "1",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_112",
+          "name": "ElasticEnergyDensGP",
+          "region": 3,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_113",
+          "name": "ElasticStrainGP",
+          "region": 3,
+          "location": 8,
+          "unit": "1",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_114",
+          "name": "GPLocation",
+          "region": 3,
+          "location": 8,
+          "unit": "cm",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_115",
+          "name": "Potential",
+          "region": 3,
+          "location": 0,
+          "unit": "V",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_116",
+          "name": "ElectricField",
+          "region": 3,
+          "location": 0,
+          "unit": "V*cm^-1",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_117",
+          "name": "ElectricalConductivity",
+          "region": 3,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_118",
+          "name": "ConductionCurrentDensity",
+          "region": 3,
+          "location": 0,
+          "unit": "A*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_119",
+          "name": "TemperatureGradient",
+          "region": 3,
+          "location": 0,
+          "unit": "K*cm^-1",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_12",
+          "name": "MisesStress",
+          "region": 0,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_120",
+          "name": "HeatFlux",
+          "region": 3,
+          "location": 0,
+          "unit": "W*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_121",
+          "name": "JouleHeat",
+          "region": 3,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_122",
+          "name": "TotalHeat",
+          "region": 3,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_123",
+          "name": "PowerDensity",
+          "region": 3,
+          "location": 0,
+          "unit": "1",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_124",
+          "name": "Temperature",
+          "region": 4,
+          "location": 0,
+          "unit": "K",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_125",
+          "name": "PrevTemperature",
+          "region": 4,
+          "location": 0,
+          "unit": "K",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_126",
+          "name": "InitTemperature",
+          "region": 4,
+          "location": 0,
+          "unit": "K",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_127",
+          "name": "StressEL",
+          "region": 4,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_128",
+          "name": "Stress",
+          "region": 4,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_129",
+          "name": "Displacement",
+          "region": 4,
+          "location": 0,
+          "unit": "cm",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_13",
+          "name": "MassDensity",
+          "region": 0,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_130",
+          "name": "StepDisplacement",
+          "region": 4,
+          "location": 0,
+          "unit": "cm",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_131",
+          "name": "ElasticStrainEL",
+          "region": 4,
+          "location": 3,
+          "unit": "1",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_132",
+          "name": "ElasticStrain",
+          "region": 4,
+          "location": 0,
+          "unit": "1",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_133",
+          "name": "ElasticEnergyDensEL",
+          "region": 4,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_134",
+          "name": "ElasticEnergyDens",
+          "region": 4,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_135",
+          "name": "Pressure",
+          "region": 4,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_136",
+          "name": "MisesStress",
+          "region": 4,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_137",
+          "name": "MassDensity",
+          "region": 4,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_138",
+          "name": "Velocity",
+          "region": 4,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_139",
+          "name": "PseudoDisplacement",
+          "region": 4,
+          "location": 0,
+          "unit": "cm",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_14",
+          "name": "Velocity",
+          "region": 0,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_140",
+          "name": "PseudoEnergyDensEL",
+          "region": 4,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_141",
+          "name": "StressGP",
+          "region": 4,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_142",
+          "name": "PseudoEnergyDensGP",
+          "region": 4,
+          "location": 8,
+          "unit": "1",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_143",
+          "name": "ElasticEnergyDensGP",
+          "region": 4,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_144",
+          "name": "ElasticStrainGP",
+          "region": 4,
+          "location": 8,
+          "unit": "1",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_145",
+          "name": "GPLocation",
+          "region": 4,
+          "location": 8,
+          "unit": "cm",
+          "count": 5162
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_146",
+          "name": "Potential",
+          "region": 4,
+          "location": 0,
+          "unit": "V",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_147",
+          "name": "ElectricField",
+          "region": 4,
+          "location": 0,
+          "unit": "V*cm^-1",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_148",
+          "name": "ElectricalConductivity",
+          "region": 4,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_149",
+          "name": "ConductionCurrentDensity",
+          "region": 4,
+          "location": 0,
+          "unit": "A*cm^-2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_15",
+          "name": "PseudoDisplacement",
+          "region": 0,
+          "location": 0,
+          "unit": "cm",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_150",
+          "name": "TemperatureGradient",
+          "region": 4,
+          "location": 0,
+          "unit": "K*cm^-1",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_151",
+          "name": "HeatFlux",
+          "region": 4,
+          "location": 0,
+          "unit": "W*cm^-2",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_152",
+          "name": "JouleHeat",
+          "region": 4,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_153",
+          "name": "TotalHeat",
+          "region": 4,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_154",
+          "name": "PowerDensity",
+          "region": 4,
+          "location": 0,
+          "unit": "1",
+          "count": 1200
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_155",
+          "name": "Temperature",
+          "region": 5,
+          "location": 0,
+          "unit": "K",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_156",
+          "name": "PrevTemperature",
+          "region": 5,
+          "location": 0,
+          "unit": "K",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_157",
+          "name": "InitTemperature",
+          "region": 5,
+          "location": 0,
+          "unit": "K",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_158",
+          "name": "StressEL",
+          "region": 5,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_159",
+          "name": "Stress",
+          "region": 5,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_16",
+          "name": "PseudoEnergyDensEL",
+          "region": 0,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_160",
+          "name": "Displacement",
+          "region": 5,
+          "location": 0,
+          "unit": "cm",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_161",
+          "name": "StepDisplacement",
+          "region": 5,
+          "location": 0,
+          "unit": "cm",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_162",
+          "name": "ElasticStrainEL",
+          "region": 5,
+          "location": 3,
+          "unit": "1",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_163",
+          "name": "ElasticStrain",
+          "region": 5,
+          "location": 0,
+          "unit": "1",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_164",
+          "name": "ElasticEnergyDensEL",
+          "region": 5,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_165",
+          "name": "ElasticEnergyDens",
+          "region": 5,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_166",
+          "name": "Pressure",
+          "region": 5,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_167",
+          "name": "MisesStress",
+          "region": 5,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_168",
+          "name": "MassDensity",
+          "region": 5,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_169",
+          "name": "Velocity",
+          "region": 5,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_17",
+          "name": "StressGP",
+          "region": 0,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_170",
+          "name": "PseudoDisplacement",
+          "region": 5,
+          "location": 0,
+          "unit": "cm",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_171",
+          "name": "PseudoEnergyDensEL",
+          "region": 5,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_172",
+          "name": "StressGP",
+          "region": 5,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_173",
+          "name": "PseudoEnergyDensGP",
+          "region": 5,
+          "location": 8,
+          "unit": "1",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_174",
+          "name": "ElasticEnergyDensGP",
+          "region": 5,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_175",
+          "name": "ElasticStrainGP",
+          "region": 5,
+          "location": 8,
+          "unit": "1",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_176",
+          "name": "GPLocation",
+          "region": 5,
+          "location": 8,
+          "unit": "cm",
+          "count": 1987
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_177",
+          "name": "Potential",
+          "region": 5,
+          "location": 0,
+          "unit": "V",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_178",
+          "name": "ElectricField",
+          "region": 5,
+          "location": 0,
+          "unit": "V*cm^-1",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_179",
+          "name": "ElectricalConductivity",
+          "region": 5,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_18",
+          "name": "PseudoEnergyDensGP",
+          "region": 0,
+          "location": 8,
+          "unit": "1",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_180",
+          "name": "ConductionCurrentDensity",
+          "region": 5,
+          "location": 0,
+          "unit": "A*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_181",
+          "name": "TemperatureGradient",
+          "region": 5,
+          "location": 0,
+          "unit": "K*cm^-1",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_182",
+          "name": "HeatFlux",
+          "region": 5,
+          "location": 0,
+          "unit": "W*cm^-2",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_183",
+          "name": "JouleHeat",
+          "region": 5,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_184",
+          "name": "TotalHeat",
+          "region": 5,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_185",
+          "name": "PowerDensity",
+          "region": 5,
+          "location": 0,
+          "unit": "1",
+          "count": 520
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_186",
+          "name": "Temperature",
+          "region": 6,
+          "location": 0,
+          "unit": "K",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_187",
+          "name": "PrevTemperature",
+          "region": 6,
+          "location": 0,
+          "unit": "K",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_188",
+          "name": "InitTemperature",
+          "region": 6,
+          "location": 0,
+          "unit": "K",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_189",
+          "name": "StressEL",
+          "region": 6,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_19",
+          "name": "ElasticEnergyDensGP",
+          "region": 0,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_190",
+          "name": "Stress",
+          "region": 6,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_191",
+          "name": "Displacement",
+          "region": 6,
+          "location": 0,
+          "unit": "cm",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_192",
+          "name": "StepDisplacement",
+          "region": 6,
+          "location": 0,
+          "unit": "cm",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_193",
+          "name": "ElasticStrainEL",
+          "region": 6,
+          "location": 3,
+          "unit": "1",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_194",
+          "name": "ElasticStrain",
+          "region": 6,
+          "location": 0,
+          "unit": "1",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_195",
+          "name": "ElasticEnergyDensEL",
+          "region": 6,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_196",
+          "name": "ElasticEnergyDens",
+          "region": 6,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_197",
+          "name": "Pressure",
+          "region": 6,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_198",
+          "name": "MisesStress",
+          "region": 6,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_199",
+          "name": "MassDensity",
+          "region": 6,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_2",
+          "name": "InitTemperature",
+          "region": 0,
+          "location": 0,
+          "unit": "K",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_20",
+          "name": "ElasticStrainGP",
+          "region": 0,
+          "location": 8,
+          "unit": "1",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_200",
+          "name": "Velocity",
+          "region": 6,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_201",
+          "name": "PseudoDisplacement",
+          "region": 6,
+          "location": 0,
+          "unit": "cm",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_202",
+          "name": "PseudoEnergyDensEL",
+          "region": 6,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_203",
+          "name": "StressGP",
+          "region": 6,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_204",
+          "name": "PseudoEnergyDensGP",
+          "region": 6,
+          "location": 8,
+          "unit": "1",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_205",
+          "name": "ElasticEnergyDensGP",
+          "region": 6,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_206",
+          "name": "ElasticStrainGP",
+          "region": 6,
+          "location": 8,
+          "unit": "1",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_207",
+          "name": "GPLocation",
+          "region": 6,
+          "location": 8,
+          "unit": "cm",
+          "count": 3523
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_208",
+          "name": "Potential",
+          "region": 6,
+          "location": 0,
+          "unit": "V",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_209",
+          "name": "ElectricField",
+          "region": 6,
+          "location": 0,
+          "unit": "V*cm^-1",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_21",
+          "name": "GPLocation",
+          "region": 0,
+          "location": 8,
+          "unit": "cm",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_210",
+          "name": "ElectricalConductivity",
+          "region": 6,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_211",
+          "name": "ConductionCurrentDensity",
+          "region": 6,
+          "location": 0,
+          "unit": "A*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_212",
+          "name": "TemperatureGradient",
+          "region": 6,
+          "location": 0,
+          "unit": "K*cm^-1",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_213",
+          "name": "HeatFlux",
+          "region": 6,
+          "location": 0,
+          "unit": "W*cm^-2",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_214",
+          "name": "JouleHeat",
+          "region": 6,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_215",
+          "name": "TotalHeat",
+          "region": 6,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_216",
+          "name": "PowerDensity",
+          "region": 6,
+          "location": 0,
+          "unit": "1",
+          "count": 944
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_217",
+          "name": "Temperature",
+          "region": 7,
+          "location": 0,
+          "unit": "K",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_218",
+          "name": "PrevTemperature",
+          "region": 7,
+          "location": 0,
+          "unit": "K",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_219",
+          "name": "InitTemperature",
+          "region": 7,
+          "location": 0,
+          "unit": "K",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_22",
+          "name": "Potential",
+          "region": 0,
+          "location": 0,
+          "unit": "V",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_220",
+          "name": "ElasticEnergyDens",
+          "region": 7,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_221",
+          "name": "Pressure",
+          "region": 7,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_222",
+          "name": "MisesStress",
+          "region": 7,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_223",
+          "name": "MassDensity",
+          "region": 7,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_224",
+          "name": "Potential",
+          "region": 7,
+          "location": 0,
+          "unit": "V",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_225",
+          "name": "ElectricalConductivity",
+          "region": 7,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_226",
+          "name": "JouleHeat",
+          "region": 7,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_227",
+          "name": "TotalHeat",
+          "region": 7,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_228",
+          "name": "PowerDensity",
+          "region": 7,
+          "location": 0,
+          "unit": "1",
+          "count": 50
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_229",
+          "name": "Temperature",
+          "region": 8,
+          "location": 0,
+          "unit": "K",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_23",
+          "name": "ElectricField",
+          "region": 0,
+          "location": 0,
+          "unit": "V*cm^-1",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_230",
+          "name": "PrevTemperature",
+          "region": 8,
+          "location": 0,
+          "unit": "K",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_231",
+          "name": "InitTemperature",
+          "region": 8,
+          "location": 0,
+          "unit": "K",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_232",
+          "name": "ElasticEnergyDens",
+          "region": 8,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_233",
+          "name": "Pressure",
+          "region": 8,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_234",
+          "name": "MisesStress",
+          "region": 8,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_235",
+          "name": "MassDensity",
+          "region": 8,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_236",
+          "name": "Potential",
+          "region": 8,
+          "location": 0,
+          "unit": "V",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_237",
+          "name": "ElectricalConductivity",
+          "region": 8,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_238",
+          "name": "JouleHeat",
+          "region": 8,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_239",
+          "name": "TotalHeat",
+          "region": 8,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_24",
+          "name": "ElectricalConductivity",
+          "region": 0,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_240",
+          "name": "PowerDensity",
+          "region": 8,
+          "location": 0,
+          "unit": "1",
+          "count": 79
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_241",
+          "name": "Temperature",
+          "region": 9,
+          "location": 0,
+          "unit": "K",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_242",
+          "name": "PrevTemperature",
+          "region": 9,
+          "location": 0,
+          "unit": "K",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_243",
+          "name": "InitTemperature",
+          "region": 9,
+          "location": 0,
+          "unit": "K",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_244",
+          "name": "ElasticEnergyDens",
+          "region": 9,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_245",
+          "name": "Pressure",
+          "region": 9,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_246",
+          "name": "MisesStress",
+          "region": 9,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_247",
+          "name": "MassDensity",
+          "region": 9,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_248",
+          "name": "Potential",
+          "region": 9,
+          "location": 0,
+          "unit": "V",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_249",
+          "name": "ElectricalConductivity",
+          "region": 9,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_25",
+          "name": "ConductionCurrentDensity",
+          "region": 0,
+          "location": 0,
+          "unit": "A*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_250",
+          "name": "JouleHeat",
+          "region": 9,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_251",
+          "name": "TotalHeat",
+          "region": 9,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_252",
+          "name": "PowerDensity",
+          "region": 9,
+          "location": 0,
+          "unit": "1",
+          "count": 111
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_253",
+          "name": "Temperature",
+          "region": 10,
+          "location": 0,
+          "unit": "K",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_254",
+          "name": "PrevTemperature",
+          "region": 10,
+          "location": 0,
+          "unit": "K",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_255",
+          "name": "InitTemperature",
+          "region": 10,
+          "location": 0,
+          "unit": "K",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_256",
+          "name": "ElasticEnergyDens",
+          "region": 10,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_257",
+          "name": "Pressure",
+          "region": 10,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_258",
+          "name": "MisesStress",
+          "region": 10,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_259",
+          "name": "MassDensity",
+          "region": 10,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_26",
+          "name": "TemperatureGradient",
+          "region": 0,
+          "location": 0,
+          "unit": "K*cm^-1",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_260",
+          "name": "Potential",
+          "region": 10,
+          "location": 0,
+          "unit": "V",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_261",
+          "name": "ElectricalConductivity",
+          "region": 10,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_262",
+          "name": "JouleHeat",
+          "region": 10,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_263",
+          "name": "TotalHeat",
+          "region": 10,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_264",
+          "name": "PowerDensity",
+          "region": 10,
+          "location": 0,
+          "unit": "1",
+          "count": 68
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_265",
+          "name": "Temperature",
+          "region": 11,
+          "location": 0,
+          "unit": "K",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_266",
+          "name": "PrevTemperature",
+          "region": 11,
+          "location": 0,
+          "unit": "K",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_267",
+          "name": "InitTemperature",
+          "region": 11,
+          "location": 0,
+          "unit": "K",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_268",
+          "name": "ElasticEnergyDens",
+          "region": 11,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_269",
+          "name": "Pressure",
+          "region": 11,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_27",
+          "name": "HeatFlux",
+          "region": 0,
+          "location": 0,
+          "unit": "W*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_270",
+          "name": "MisesStress",
+          "region": 11,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_271",
+          "name": "MassDensity",
+          "region": 11,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_272",
+          "name": "Potential",
+          "region": 11,
+          "location": 0,
+          "unit": "V",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_273",
+          "name": "ElectricalConductivity",
+          "region": 11,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_274",
+          "name": "JouleHeat",
+          "region": 11,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_275",
+          "name": "TotalHeat",
+          "region": 11,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_276",
+          "name": "PowerDensity",
+          "region": 11,
+          "location": 0,
+          "unit": "1",
+          "count": 145
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_277",
+          "name": "Temperature",
+          "region": 12,
+          "location": 0,
+          "unit": "K",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_278",
+          "name": "PrevTemperature",
+          "region": 12,
+          "location": 0,
+          "unit": "K",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_279",
+          "name": "InitTemperature",
+          "region": 12,
+          "location": 0,
+          "unit": "K",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_28",
+          "name": "JouleHeat",
+          "region": 0,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_280",
+          "name": "ElasticEnergyDens",
+          "region": 12,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_281",
+          "name": "Pressure",
+          "region": 12,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_282",
+          "name": "MisesStress",
+          "region": 12,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_283",
+          "name": "MassDensity",
+          "region": 12,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_284",
+          "name": "Potential",
+          "region": 12,
+          "location": 0,
+          "unit": "V",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_285",
+          "name": "ElectricalConductivity",
+          "region": 12,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_286",
+          "name": "JouleHeat",
+          "region": 12,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_287",
+          "name": "TotalHeat",
+          "region": 12,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_288",
+          "name": "PowerDensity",
+          "region": 12,
+          "location": 0,
+          "unit": "1",
+          "count": 84
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_289",
+          "name": "Temperature",
+          "region": 13,
+          "location": 0,
+          "unit": "K",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_29",
+          "name": "TotalHeat",
+          "region": 0,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_290",
+          "name": "PrevTemperature",
+          "region": 13,
+          "location": 0,
+          "unit": "K",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_291",
+          "name": "InitTemperature",
+          "region": 13,
+          "location": 0,
+          "unit": "K",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_292",
+          "name": "ElasticEnergyDens",
+          "region": 13,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_293",
+          "name": "Pressure",
+          "region": 13,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_294",
+          "name": "MisesStress",
+          "region": 13,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_295",
+          "name": "MassDensity",
+          "region": 13,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_296",
+          "name": "Potential",
+          "region": 13,
+          "location": 0,
+          "unit": "V",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_297",
+          "name": "ElectricalConductivity",
+          "region": 13,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_298",
+          "name": "JouleHeat",
+          "region": 13,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_299",
+          "name": "TotalHeat",
+          "region": 13,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_3",
+          "name": "StressEL",
+          "region": 0,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_30",
+          "name": "PowerDensity",
+          "region": 0,
+          "location": 0,
+          "unit": "1",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_300",
+          "name": "PowerDensity",
+          "region": 13,
+          "location": 0,
+          "unit": "1",
+          "count": 78
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_301",
+          "name": "Temperature",
+          "region": 14,
+          "location": 0,
+          "unit": "K",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_302",
+          "name": "PrevTemperature",
+          "region": 14,
+          "location": 0,
+          "unit": "K",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_303",
+          "name": "InitTemperature",
+          "region": 14,
+          "location": 0,
+          "unit": "K",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_304",
+          "name": "ElasticEnergyDens",
+          "region": 14,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_305",
+          "name": "Pressure",
+          "region": 14,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_306",
+          "name": "MisesStress",
+          "region": 14,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_307",
+          "name": "MassDensity",
+          "region": 14,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_308",
+          "name": "Potential",
+          "region": 14,
+          "location": 0,
+          "unit": "V",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_309",
+          "name": "ElectricalConductivity",
+          "region": 14,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_31",
+          "name": "Temperature",
+          "region": 1,
+          "location": 0,
+          "unit": "K",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_310",
+          "name": "JouleHeat",
+          "region": 14,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_311",
+          "name": "TotalHeat",
+          "region": 14,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_312",
+          "name": "PowerDensity",
+          "region": 14,
+          "location": 0,
+          "unit": "1",
+          "count": 178
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_313",
+          "name": "Temperature",
+          "region": 15,
+          "location": 0,
+          "unit": "K",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_314",
+          "name": "PrevTemperature",
+          "region": 15,
+          "location": 0,
+          "unit": "K",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_315",
+          "name": "InitTemperature",
+          "region": 15,
+          "location": 0,
+          "unit": "K",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_316",
+          "name": "ElasticEnergyDens",
+          "region": 15,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_317",
+          "name": "Pressure",
+          "region": 15,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_318",
+          "name": "MisesStress",
+          "region": 15,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_319",
+          "name": "MassDensity",
+          "region": 15,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_32",
+          "name": "PrevTemperature",
+          "region": 1,
+          "location": 0,
+          "unit": "K",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_320",
+          "name": "Potential",
+          "region": 15,
+          "location": 0,
+          "unit": "V",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_321",
+          "name": "ElectricalConductivity",
+          "region": 15,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_322",
+          "name": "JouleHeat",
+          "region": 15,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_323",
+          "name": "TotalHeat",
+          "region": 15,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_324",
+          "name": "PowerDensity",
+          "region": 15,
+          "location": 0,
+          "unit": "1",
+          "count": 45
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_33",
+          "name": "InitTemperature",
+          "region": 1,
+          "location": 0,
+          "unit": "K",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_34",
+          "name": "StressEL",
+          "region": 1,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_35",
+          "name": "Stress",
+          "region": 1,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_36",
+          "name": "Displacement",
+          "region": 1,
+          "location": 0,
+          "unit": "cm",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_37",
+          "name": "StepDisplacement",
+          "region": 1,
+          "location": 0,
+          "unit": "cm",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_38",
+          "name": "ElasticStrainEL",
+          "region": 1,
+          "location": 3,
+          "unit": "1",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_39",
+          "name": "ElasticStrain",
+          "region": 1,
+          "location": 0,
+          "unit": "1",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_4",
+          "name": "Stress",
+          "region": 0,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_40",
+          "name": "ElasticEnergyDensEL",
+          "region": 1,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_41",
+          "name": "ElasticEnergyDens",
+          "region": 1,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_42",
+          "name": "Pressure",
+          "region": 1,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_43",
+          "name": "MisesStress",
+          "region": 1,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_44",
+          "name": "MassDensity",
+          "region": 1,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_45",
+          "name": "Velocity",
+          "region": 1,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_46",
+          "name": "PseudoDisplacement",
+          "region": 1,
+          "location": 0,
+          "unit": "cm",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_47",
+          "name": "PseudoEnergyDensEL",
+          "region": 1,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_48",
+          "name": "StressGP",
+          "region": 1,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_49",
+          "name": "PseudoEnergyDensGP",
+          "region": 1,
+          "location": 8,
+          "unit": "1",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_5",
+          "name": "Displacement",
+          "region": 0,
+          "location": 0,
+          "unit": "cm",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_50",
+          "name": "ElasticEnergyDensGP",
+          "region": 1,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_51",
+          "name": "ElasticStrainGP",
+          "region": 1,
+          "location": 8,
+          "unit": "1",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_52",
+          "name": "GPLocation",
+          "region": 1,
+          "location": 8,
+          "unit": "cm",
+          "count": 2054
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_53",
+          "name": "Potential",
+          "region": 1,
+          "location": 0,
+          "unit": "V",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_54",
+          "name": "ElectricField",
+          "region": 1,
+          "location": 0,
+          "unit": "V*cm^-1",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_55",
+          "name": "ElectricalConductivity",
+          "region": 1,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_56",
+          "name": "ConductionCurrentDensity",
+          "region": 1,
+          "location": 0,
+          "unit": "A*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_57",
+          "name": "TemperatureGradient",
+          "region": 1,
+          "location": 0,
+          "unit": "K*cm^-1",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_58",
+          "name": "HeatFlux",
+          "region": 1,
+          "location": 0,
+          "unit": "W*cm^-2",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_59",
+          "name": "JouleHeat",
+          "region": 1,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_6",
+          "name": "StepDisplacement",
+          "region": 0,
+          "location": 0,
+          "unit": "cm",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_60",
+          "name": "TotalHeat",
+          "region": 1,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_61",
+          "name": "PowerDensity",
+          "region": 1,
+          "location": 0,
+          "unit": "1",
+          "count": 540
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_62",
+          "name": "Temperature",
+          "region": 2,
+          "location": 0,
+          "unit": "K",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_63",
+          "name": "PrevTemperature",
+          "region": 2,
+          "location": 0,
+          "unit": "K",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_64",
+          "name": "InitTemperature",
+          "region": 2,
+          "location": 0,
+          "unit": "K",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_65",
+          "name": "StressEL",
+          "region": 2,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_66",
+          "name": "Stress",
+          "region": 2,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_67",
+          "name": "Displacement",
+          "region": 2,
+          "location": 0,
+          "unit": "cm",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_68",
+          "name": "StepDisplacement",
+          "region": 2,
+          "location": 0,
+          "unit": "cm",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_69",
+          "name": "ElasticStrainEL",
+          "region": 2,
+          "location": 3,
+          "unit": "1",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_7",
+          "name": "ElasticStrainEL",
+          "region": 0,
+          "location": 3,
+          "unit": "1",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_70",
+          "name": "ElasticStrain",
+          "region": 2,
+          "location": 0,
+          "unit": "1",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_71",
+          "name": "ElasticEnergyDensEL",
+          "region": 2,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_72",
+          "name": "ElasticEnergyDens",
+          "region": 2,
+          "location": 0,
+          "unit": "erg*cm^-3",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_73",
+          "name": "Pressure",
+          "region": 2,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_74",
+          "name": "MisesStress",
+          "region": 2,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_75",
+          "name": "MassDensity",
+          "region": 2,
+          "location": 0,
+          "unit": "g*cm^-3",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_76",
+          "name": "Velocity",
+          "region": 2,
+          "location": 0,
+          "unit": "cm*s^-1",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_77",
+          "name": "PseudoDisplacement",
+          "region": 2,
+          "location": 0,
+          "unit": "cm",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_78",
+          "name": "PseudoEnergyDensEL",
+          "region": 2,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_79",
+          "name": "StressGP",
+          "region": 2,
+          "location": 8,
+          "unit": "dyn*cm^-2",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_8",
+          "name": "ElasticStrain",
+          "region": 0,
+          "location": 0,
+          "unit": "1",
+          "count": 232
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_80",
+          "name": "PseudoEnergyDensGP",
+          "region": 2,
+          "location": 8,
+          "unit": "1",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_81",
+          "name": "ElasticEnergyDensGP",
+          "region": 2,
+          "location": 8,
+          "unit": "erg*cm^-3",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_82",
+          "name": "ElasticStrainGP",
+          "region": 2,
+          "location": 8,
+          "unit": "1",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_83",
+          "name": "GPLocation",
+          "region": 2,
+          "location": 8,
+          "unit": "cm",
+          "count": 4339
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_84",
+          "name": "Potential",
+          "region": 2,
+          "location": 0,
+          "unit": "V",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_85",
+          "name": "ElectricField",
+          "region": 2,
+          "location": 0,
+          "unit": "V*cm^-1",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_86",
+          "name": "ElectricalConductivity",
+          "region": 2,
+          "location": 0,
+          "unit": "A*V^-1*cm^-1",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_87",
+          "name": "ConductionCurrentDensity",
+          "region": 2,
+          "location": 0,
+          "unit": "A*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_88",
+          "name": "TemperatureGradient",
+          "region": 2,
+          "location": 0,
+          "unit": "K*cm^-1",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_89",
+          "name": "HeatFlux",
+          "region": 2,
+          "location": 0,
+          "unit": "W*cm^-2",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_9",
+          "name": "ElasticEnergyDensEL",
+          "region": 0,
+          "location": 3,
+          "unit": "erg*cm^-3",
+          "count": 822
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_90",
+          "name": "JouleHeat",
+          "region": 2,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_91",
+          "name": "TotalHeat",
+          "region": 2,
+          "location": 0,
+          "unit": "W*cm^-3",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_92",
+          "name": "PowerDensity",
+          "region": 2,
+          "location": 0,
+          "unit": "1",
+          "count": 1009
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_93",
+          "name": "Temperature",
+          "region": 3,
+          "location": 0,
+          "unit": "K",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_94",
+          "name": "PrevTemperature",
+          "region": 3,
+          "location": 0,
+          "unit": "K",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_95",
+          "name": "InitTemperature",
+          "region": 3,
+          "location": 0,
+          "unit": "K",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_96",
+          "name": "StressEL",
+          "region": 3,
+          "location": 3,
+          "unit": "dyn*cm^-2",
+          "count": 1547
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_97",
+          "name": "Stress",
+          "region": 3,
+          "location": 0,
+          "unit": "dyn*cm^-2",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_98",
+          "name": "Displacement",
+          "region": 3,
+          "location": 0,
+          "unit": "cm",
+          "count": 419
+        },
+        {
+          "path": "/collection/geometry_0/state_0/dataset_99",
+          "name": "StepDisplacement",
+          "region": 3,
+          "location": 0,
+          "unit": "cm",
+          "count": 419
+        }
+      ]
+    }
+  },
+  "profiles": {
+    "StressEL_xx": {
+      "samples": 44,
+      "min_MPa": 218.95659999999998,
+      "max_MPa": 658.6501
+    },
+    "StressEL_yy": {
+      "samples": 44,
+      "min_MPa": 90.09273999999999,
+      "max_MPa": 618.506
+    },
+    "StressEL_zz": {
+      "samples": 44,
+      "min_MPa": 378.6996,
+      "max_MPa": 639.563
+    }
+  },
+  "contacts": [
+    {
+      "name": "upper",
+      "triangles": 47,
+      "vertices": 35,
+      "bounds_um": [
+        [
+          -0.6500000000000002,
+          0.0,
+          0.7
+        ],
+        [
+          -0.4500000000000002,
+          0.05,
+          0.7
+        ]
+      ]
+    },
+    {
+      "name": "lower",
+      "triangles": 52,
+      "vertices": 38,
+      "bounds_um": [
+        [
+          -0.3,
+          0.0,
+          0.0
+        ],
+        [
+          -0.09999673407110038,
+          0.05,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "tm0",
+      "triangles": 72,
+      "vertices": 50,
+      "bounds_um": [
+        [
+          0.0,
+          -0.1,
+          0.0
+        ],
+        [
+          0.0,
+          0.05,
+          0.7
+        ]
+      ]
+    },
+    {
+      "name": "tm1",
+      "triangles": 131,
+      "vertices": 84,
+      "bounds_um": [
+        [
+          -0.7,
+          -0.1,
+          0.0
+        ],
+        [
+          -0.7,
+          0.05,
+          0.7
+        ]
+      ]
+    }
+  ],
+  "geometry_and_mesh_unchanged_between_saved_stages": true,
+  "physical_checks": {
+    "zero_joule_heat_and_power_density": true,
+    "thermal_storage_term": false,
+    "electrical_contact_values_verified": true,
+    "thermal_contact_values_verified": true,
+    "mechanics_default_boundary_reference": "Sentaurus Interconnect User Guide W-2024.09 pp.109-111; local si_ug/boundary_condition*.png",
+    "final_time_s": 1.0,
+    "accepted_steps": 14,
+    "initial_step_s": 0.0001
+  },
+  "plot_settings": {
+    "section_y_um": 0.04,
+    "coordinate_transform": "horizontal Z; vertical -X",
+    "deformation_scale": 0,
+    "stress": "saved MisesStress; region-local nodal; dyn/cm2 to MPa factor 1e-7",
+    "temperature": "saved K minus source Celsius offset 273.156",
+    "stress_range_MPa": [
+      0,
+      750
+    ]
+  },
+  "sources": [
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n1.command.json",
+      "sha256": "a3bb1867ff025181bec32e3585ac545dc8f0e4a8474b54f9aa9c643ed4b72bad"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n1.exit.json",
+      "sha256": "d5c59f771d0437a0ace5d11fb38fa74bc0399bdc9feeab1f4be46a825de176bb"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n1.inputs.json",
+      "sha256": "1dff3d1cfd868c5a8b164be607f4250f37ca33d58cd805bb359a604509da2ba8"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n1.stdout",
+      "sha256": "a087f2da1040e0b4ed18bf9cbdfe4e302abc35da4a50072916455f4af2d6f22c"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n1_sis.cmd",
+      "sha256": "35727d3bfafc35fef1ee61be0d0d3c73f1fe3c9461996825e1c84a968e00723f"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n1_sis.tdr",
+      "sha256": "1f1d5196ce4360b50cb4ab8144cc1644f598bd2ec5b58a0b67b2d48c21c266a3"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n2.command.json",
+      "sha256": "3b04f58348402f5900bee159187a755edbd84ec686f22d61326e70498f4fa277"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n2.exit.json",
+      "sha256": "bc68c1611b59b8883a585ac41b6189a2b5153ca66eeb14695e6bdf1924ec3fcb"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n2.inputs.json",
+      "sha256": "47f842fdf241d25d85ceabff192c0d1ea1e395bd313cdb5ca1f6e3d5a6af18f4"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n2.stdout",
+      "sha256": "373b57a48721ff88a5d28f523578e24d06755aad608188dd10ea5f786ec815bc"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n2_sis.cmd",
+      "sha256": "586c072ec2c2281b62df35747870cb33ce649d244782d85fde55a9957d37fd8a"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n2_sis.tdr",
+      "sha256": "368f74f35e2aaca6a7ea0c9bc86ba82a98a86aa00ea20a4abbbb160c82e93f9d"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n2_via.plx",
+      "sha256": "7b0e70aa92edaea7499c872c397665f8b1ee734ba30d97997dee61e30c450f74"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n3.command.json",
+      "sha256": "504d7eb61671994983c06d3ebddbe54a045d560dea5aa0c6c0fb896683cf3b08"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n3.exit.json",
+      "sha256": "6e6da7d1455880ed80ddd917dfa03f2dd678570f65e7f0b24b6bedfc312d194c"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n3.inputs.json",
+      "sha256": "793d46458606355f9b28f9e273f41e1457d4b30244adbd8bb41dba228746b4e5"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n3.stdout",
+      "sha256": "d84db0cbf2e0f83ba2b462ce42f0c11b5397145605ce2b49e01a3c855fd178b0"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n3_sis.cmd",
+      "sha256": "e1c28c8377b267880d68f123ef39d32012f6ac8c95ad061b253758aeda4846c6"
+    },
+    {
+      "path": "assets\\case-reports\\damascene\\source\\n3_sis.tdr",
+      "sha256": "8bf9e1c1d04ff20ab992cf45770730a9d04d4d081384bcd48ffd4eb915ee37cb"
+    }
+  ],
+  "static_converter_review": {
+    "root": "D:/my_repos/si_to_ans_converter",
+    "files": [
+      "converter_core/cmd_reader/cmd_reader.py:590-594",
+      "converter_core/cmd_reader/execution_controls.py:41-43",
+      "converter_core/cmd_reader/thermal_semantics.py:66-88",
+      "converter_core/tdr_reader.py:20-25"
+    ],
+    "conclusion": "Combined mechanics/current/thermal mode and active StressHistory/EtchDepoRelax rejected; steady constant-property thermal subset exists; no case conversion executed"
+  },
+  "gt_a": "No matching target solve or numerical benchmark found",
+  "solver_identity": "Retained integrated sinterconnect_run commands; native reference comparisons in assets/svisual/validation-results.json"
+}

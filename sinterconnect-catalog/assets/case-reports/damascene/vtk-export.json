@@ -1,0 +1,25 @@
+{
+  "export": "vtk-model.js",
+  "sha256": "a1818137dcea85b26b94e8c9ae8667387f0cdfb70ad573ac2cdf767125bbc422",
+  "source": [
+    {
+      "file": "n1_sis.tdr",
+      "sha256": "1f1d5196ce4360b50cb4ab8144cc1644f598bd2ec5b58a0b67b2d48c21c266a3"
+    },
+    {
+      "file": "n2_sis.tdr",
+      "sha256": "368f74f35e2aaca6a7ea0c9bc86ba82a98a86aa00ea20a4abbbb160c82e93f9d"
+    },
+    {
+      "file": "n3_sis.tdr",
+      "sha256": "8bf9e1c1d04ff20ab992cf45770730a9d04d4d081384bcd48ffd4eb915ee37cb"
+    }
+  ],
+  "region_count": 6,
+  "tetrahedra": 17887,
+  "transform": "display = (Z, Y, -X) in micrometers",
+  "stress_conversion": "dyn/cm\u00b2 \u00d7 1e-7 \u2192 MPa",
+  "celsius_offset": 273.156,
+  "topology": "All solid tetrahedra retained; boundary faces oriented outward; no decimation",
+  "fields": "Float32 region-local nodal fields; no cross-material averaging; Gas excluded"
+}

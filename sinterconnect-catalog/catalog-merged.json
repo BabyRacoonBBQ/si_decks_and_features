@@ -1,0 +1,3301 @@
+{
+  "features": [
+    {
+      "id": "mechanics-analysis-methods-quasistatic-equilibrium",
+      "name": "Quasistatic equilibrium",
+      "module": "Mechanics",
+      "category": "Analysis methods",
+      "status": "LCA",
+      "case_ids": [
+        "quasistatic",
+        "backend",
+        "submodel"
+      ],
+      "page": "feature-mechanics-analysis-methods-quasistatic-equilibrium.html",
+      "details": [
+        21
+      ],
+      "related_cases": [
+        "Quasistatic",
+        "Package_Reliability",
+        "Submodeling",
+        "Damascene",
+        "Cantilever",
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ]
+    },
+    {
+      "id": "mechanics-analysis-methods-linear-buckling",
+      "name": "Linear buckling",
+      "module": "Mechanics",
+      "category": "Analysis methods",
+      "status": "TODO",
+      "case_ids": [
+        "buckling"
+      ],
+      "page": "feature-mechanics-analysis-methods-linear-buckling.html",
+      "details": [
+        26
+      ],
+      "related_cases": [
+        "Linear_Buckling",
+        "User_Line"
+      ]
+    },
+    {
+      "id": "mechanics-analysis-methods-post-buckling",
+      "name": "Post-buckling",
+      "module": "Mechanics",
+      "category": "Analysis methods",
+      "status": "TODO",
+      "case_ids": [
+        "postbuckling"
+      ],
+      "page": "feature-mechanics-analysis-methods-post-buckling.html",
+      "details": [
+        27
+      ],
+      "related_cases": [
+        "Post_Buckling",
+        "User_Line"
+      ]
+    },
+    {
+      "id": "mechanics-material-models-isotropic-elasticity",
+      "name": "Isotropic elasticity",
+      "module": "Mechanics",
+      "category": "Material models",
+      "status": "LCA",
+      "case_ids": [
+        "backend"
+      ],
+      "page": "feature-mechanics-material-models-isotropic-elasticity.html",
+      "details": [],
+      "related_cases": [
+        "Package_Reliability"
+      ]
+    },
+    {
+      "id": "mechanics-material-models-anisotropic-elasticity",
+      "name": "Anisotropic elasticity",
+      "module": "Mechanics",
+      "category": "Material models",
+      "status": "LCA",
+      "case_ids": [
+        "backend"
+      ],
+      "page": "feature-mechanics-material-models-anisotropic-elasticity.html",
+      "details": [],
+      "related_cases": [
+        "Package_Reliability"
+      ]
+    },
+    {
+      "id": "viscous",
+      "name": "Viscous",
+      "category": "Material models",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [],
+      "page": "feature-viscous.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "viscoelastic",
+      "name": "Viscoelastic",
+      "category": "Material models",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [],
+      "page": "feature-viscoelastic.html",
+      "details": [
+        17
+      ],
+      "related_cases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Line",
+        "User_TSV"
+      ]
+    },
+    {
+      "id": "plastic",
+      "name": "Plastic",
+      "category": "Material models",
+      "module": "Mechanics",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-plastic.html",
+      "details": [
+        13
+      ],
+      "related_cases": [
+        "Backend_CopperReliability",
+        "User_Warpage"
+      ]
+    },
+    {
+      "id": "viscoplastic",
+      "name": "Viscoplastic",
+      "category": "Material models",
+      "module": "Mechanics",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-viscoplastic.html",
+      "details": [
+        14
+      ],
+      "related_cases": [
+        "Backend_CopperReliability"
+      ]
+    },
+    {
+      "id": "mechanics-material-models-power-law-creep",
+      "name": "Power-law creep",
+      "module": "Mechanics",
+      "category": "Material models",
+      "status": "Prototype",
+      "case_ids": [],
+      "page": "feature-mechanics-material-models-power-law-creep.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "mechanics-material-models-swelling",
+      "name": "Swelling",
+      "module": "Mechanics",
+      "category": "Material models",
+      "status": "Prototype",
+      "case_ids": [],
+      "page": "feature-mechanics-material-models-swelling.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "cohesive-damage",
+      "name": "Cohesive damage",
+      "category": "Material models",
+      "module": "Mechanics",
+      "status": "Prototype",
+      "case_ids": [],
+      "page": "feature-cohesive-damage.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "softening",
+      "name": "Softening",
+      "category": "Material models",
+      "module": "Mechanics",
+      "status": "Prototype",
+      "case_ids": [],
+      "page": "feature-softening.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "mechanics-material-models-temperature-dependent-parameters",
+      "name": "Temperature-dependent parameters",
+      "module": "Mechanics",
+      "category": "Material models",
+      "status": "LCA",
+      "case_ids": [],
+      "page": "feature-mechanics-material-models-temperature-dependent-parameters.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "mechanics-element-library-plane-strain",
+      "name": "Plane strain",
+      "module": "Mechanics",
+      "category": "Element library",
+      "status": "LCA",
+      "case_ids": [],
+      "page": "feature-mechanics-element-library-plane-strain.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "mechanics-element-library-3d-solid",
+      "name": "3D solid",
+      "module": "Mechanics",
+      "category": "Element library",
+      "status": "LCA",
+      "case_ids": [],
+      "page": "feature-mechanics-element-library-3d-solid.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "mechanics-element-library-plane-stress",
+      "name": "Plane stress",
+      "module": "Mechanics",
+      "category": "Element library",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-mechanics-element-library-plane-stress.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "mechanics-element-library-axisymmetric",
+      "name": "Axisymmetric",
+      "module": "Mechanics",
+      "category": "Element library",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-mechanics-element-library-axisymmetric.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "mechanics-element-library-composite-solid-shell",
+      "name": "Composite solid shell",
+      "module": "Mechanics",
+      "category": "Element library",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-mechanics-element-library-composite-solid-shell.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "mechanics-element-library-3d-timoshenko-composite-beam",
+      "name": "3D Timoshenko composite beam",
+      "module": "Mechanics",
+      "category": "Element library",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-mechanics-element-library-3d-timoshenko-composite-beam.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "first-order-elements",
+      "name": "First-order elements",
+      "category": "Element library",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [],
+      "page": "feature-first-order-elements.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "second-order-elements",
+      "name": "Second-order elements",
+      "category": "Element library",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [],
+      "page": "feature-second-order-elements.html",
+      "details": [
+        20
+      ],
+      "related_cases": [
+        "Cantilever",
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "User_Fluid",
+        "User_Warpage",
+        "User_Line"
+      ]
+    },
+    {
+      "id": "mechanics-element-library-mixed-mesh",
+      "name": "Mixed mesh",
+      "module": "Mechanics",
+      "category": "Element library",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-mechanics-element-library-mixed-mesh.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "thermal-mismatch",
+      "name": "Thermal mismatch",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [
+        "backend",
+        "tsv",
+        "submodel"
+      ],
+      "page": "feature-thermal-mismatch.html",
+      "details": [
+        15
+      ],
+      "related_cases": [
+        "Package_Reliability",
+        "TSV_Local",
+        "Submodeling",
+        "Backend_FlipChip",
+        "Backend_Thermomech",
+        "Backend_Stress"
+      ]
+    },
+    {
+      "id": "intrinsic-stress",
+      "name": "Intrinsic stress",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [
+        "backend",
+        "tsv",
+        "submodel"
+      ],
+      "page": "feature-intrinsic-stress.html",
+      "details": [],
+      "related_cases": [
+        "Package_Reliability",
+        "TSV_Local",
+        "Submodeling"
+      ]
+    },
+    {
+      "id": "densification",
+      "name": "Densification",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-densification.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "grain-growth",
+      "name": "Grain growth",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-grain-growth.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "mechanics-stress-causing-mechanisms-gravity-force",
+      "name": "Gravity force",
+      "module": "Mechanics",
+      "category": "Stress-causing mechanisms",
+      "status": "Prototype",
+      "case_ids": [],
+      "page": "feature-mechanics-stress-causing-mechanisms-gravity-force.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "surface-reflow",
+      "name": "Surface reflow",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-surface-reflow.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "edge-dislocation",
+      "name": "Edge dislocation",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-edge-dislocation.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "mechanics-stress-causing-mechanisms-inverse-piezoelectric-effect",
+      "name": "Inverse piezoelectric effect",
+      "module": "Mechanics",
+      "category": "Stress-causing mechanisms",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-mechanics-stress-causing-mechanisms-inverse-piezoelectric-effect.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "fluid-surface-tension",
+      "name": "Fluid surface tension",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-fluid-surface-tension.html",
+      "details": [
+        25
+      ],
+      "related_cases": [
+        "User_Fluid"
+      ]
+    },
+    {
+      "id": "fluid-pressure",
+      "name": "Fluid pressure",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-fluid-pressure.html",
+      "details": [
+        25
+      ],
+      "related_cases": [
+        "User_Fluid"
+      ]
+    },
+    {
+      "id": "cohesive-zipping",
+      "name": "Cohesive zipping",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-cohesive-zipping.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "phase-change",
+      "name": "Phase change",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-phase-change.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "etch-stress-rebalancing",
+      "name": "Etch stress rebalancing",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [],
+      "page": "feature-etch-stress-rebalancing.html",
+      "details": [],
+      "related_cases": [
+        "Damascene"
+      ]
+    },
+    {
+      "id": "deposition-stress-rebalancing",
+      "name": "Deposition stress rebalancing",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [],
+      "page": "feature-deposition-stress-rebalancing.html",
+      "details": [],
+      "related_cases": [
+        "Damascene"
+      ]
+    },
+    {
+      "id": "mechanics-nonlinearity-geometric-nonlinearity",
+      "name": "Geometric nonlinearity",
+      "module": "Mechanics",
+      "category": "Nonlinearity",
+      "status": "LCA",
+      "case_ids": [
+        "deformation"
+      ],
+      "page": "feature-mechanics-nonlinearity-geometric-nonlinearity.html",
+      "details": [
+        28
+      ],
+      "related_cases": [
+        "Large_Deformation",
+        "User_Line"
+      ]
+    },
+    {
+      "id": "mechanical-contact",
+      "name": "Mechanical contact",
+      "category": "Nonlinearity",
+      "module": "Mechanics",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-mechanical-contact.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "crack-analysis",
+      "name": "Crack analysis",
+      "category": "Nonlinearity",
+      "module": "Mechanics",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-crack-analysis.html",
+      "details": [
+        52
+      ],
+      "related_cases": [
+        "Backend_FlipChip",
+        "Backend_Thermomech"
+      ]
+    },
+    {
+      "id": "prescribed-displacement",
+      "name": "Prescribed displacement",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [
+        "submodel",
+        "tsv"
+      ],
+      "page": "feature-prescribed-displacement.html",
+      "details": [
+        4,
+        7,
+        11
+      ],
+      "related_cases": [
+        "Submodeling",
+        "TSV_Local",
+        "Cantilever",
+        "3D_Matrix_Calculation",
+        "Backend_CopperReliability",
+        "Backend_FlipChip",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Fluid",
+        "User_Cap",
+        "User_Line",
+        "User_TSV",
+        "3D_Interconnect"
+      ]
+    },
+    {
+      "id": "prescribed-displacement-rate",
+      "name": "Prescribed displacement rate",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [
+        "submodel",
+        "tsv"
+      ],
+      "page": "feature-prescribed-displacement-rate.html",
+      "details": [
+        3
+      ],
+      "related_cases": [
+        "Submodeling",
+        "TSV_Local",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_SolderReliability",
+        "User_Warpage"
+      ]
+    },
+    {
+      "id": "traction",
+      "name": "Traction",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [
+        "submodel",
+        "tsv"
+      ],
+      "page": "feature-traction.html",
+      "details": [
+        6
+      ],
+      "related_cases": [
+        "Submodeling",
+        "TSV_Local",
+        "Cantilever"
+      ]
+    },
+    {
+      "id": "pressure-boundary",
+      "name": "Pressure boundary",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [
+        "submodel",
+        "tsv"
+      ],
+      "page": "feature-pressure-boundary.html",
+      "details": [
+        5
+      ],
+      "related_cases": [
+        "Submodeling",
+        "TSV_Local",
+        "3D_Interconnect"
+      ]
+    },
+    {
+      "id": "point-force",
+      "name": "Point force",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [
+        "submodel",
+        "tsv"
+      ],
+      "page": "feature-point-force.html",
+      "details": [
+        2
+      ],
+      "related_cases": [
+        "Submodeling",
+        "TSV_Local",
+        "Cantilever"
+      ]
+    },
+    {
+      "id": "reaction-force-output",
+      "name": "Reaction-force output",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "LCA",
+      "case_ids": [
+        "submodel",
+        "tsv"
+      ],
+      "page": "feature-reaction-force-output.html",
+      "details": [
+        12
+      ],
+      "related_cases": [
+        "Submodeling",
+        "TSV_Local"
+      ]
+    },
+    {
+      "id": "moment",
+      "name": "Moment",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-moment.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "symmetry",
+      "name": "Symmetry",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-symmetry.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "periodic-boundary",
+      "name": "Periodic boundary",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-periodic-boundary.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "coupling-boundary",
+      "name": "Coupling boundary",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-coupling-boundary.html",
+      "details": [
+        24
+      ],
+      "related_cases": [
+        "Backend_FlipChip",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Warpage"
+      ]
+    },
+    {
+      "id": "beam-plate-coupling",
+      "name": "Beam-plate coupling",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-beam-plate-coupling.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "variable-boundary",
+      "name": "Variable boundary",
+      "category": "Boundary conditions & constraints",
+      "module": "Mechanics",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-variable-boundary.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "steady-state-thermal-analysis",
+      "name": "Steady-state thermal analysis",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-steady-state-thermal-analysis.html",
+      "details": [
+        33
+      ],
+      "related_cases": [
+        "Damascene",
+        "3D_Interconnect"
+      ]
+    },
+    {
+      "id": "transient-thermal-analysis",
+      "name": "Transient thermal analysis",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-transient-thermal-analysis.html",
+      "details": [
+        33
+      ],
+      "related_cases": [
+        "Damascene",
+        "3D_Interconnect"
+      ]
+    },
+    {
+      "id": "conduction",
+      "name": "Conduction",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [
+        "backend"
+      ],
+      "page": "feature-conduction.html",
+      "details": [],
+      "related_cases": [
+        "Package_Reliability"
+      ]
+    },
+    {
+      "id": "convection",
+      "name": "Convection",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [
+        "backend"
+      ],
+      "page": "feature-convection.html",
+      "details": [],
+      "related_cases": [
+        "Package_Reliability"
+      ]
+    },
+    {
+      "id": "radiation",
+      "name": "Radiation",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [
+        "backend"
+      ],
+      "page": "feature-radiation.html",
+      "details": [],
+      "related_cases": [
+        "Package_Reliability"
+      ]
+    },
+    {
+      "id": "thermal-conductivity",
+      "name": "Thermal conductivity",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-thermal-conductivity.html",
+      "details": [
+        16
+      ],
+      "related_cases": [
+        "Damascene",
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ]
+    },
+    {
+      "id": "heat-storage",
+      "name": "Heat storage",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-heat-storage.html",
+      "details": [
+        16
+      ],
+      "related_cases": [
+        "Damascene",
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ]
+    },
+    {
+      "id": "emissivity",
+      "name": "Emissivity",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-emissivity.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "thermal-heat-transfer-materials-temperature-dependent-parameters",
+      "name": "Temperature-dependent parameters",
+      "module": "Thermal",
+      "category": "Heat transfer & materials",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-thermal-heat-transfer-materials-temperature-dependent-parameters.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "applied-heating",
+      "name": "Applied heating",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-applied-heating.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "electrical-heating",
+      "name": "Electrical heating",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-electrical-heating.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "prescribed-temperature",
+      "name": "Prescribed temperature",
+      "category": "Boundary & interface conditions",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-prescribed-temperature.html",
+      "details": [
+        9,
+        57
+      ],
+      "related_cases": [
+        "Damascene",
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding",
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Stress"
+      ]
+    },
+    {
+      "id": "temperature-ramps",
+      "name": "Temperature ramps",
+      "category": "Boundary & interface conditions",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-temperature-ramps.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "prescribed-heat-flux",
+      "name": "Prescribed heat flux",
+      "category": "Boundary & interface conditions",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-prescribed-heat-flux.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "contact-power",
+      "name": "Contact power",
+      "category": "Boundary & interface conditions",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-contact-power.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "adiabatic-boundary",
+      "name": "Adiabatic boundary",
+      "category": "Boundary & interface conditions",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-adiabatic-boundary.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "convection-boundary",
+      "name": "Convection boundary",
+      "category": "Boundary & interface conditions",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-convection-boundary.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "radiation-boundary",
+      "name": "Radiation boundary",
+      "category": "Boundary & interface conditions",
+      "module": "Thermal",
+      "status": "Alpha",
+      "case_ids": [],
+      "page": "feature-radiation-boundary.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "thermal-boundary-interface-conditions-thermal-resistor",
+      "name": "Thermal resistor",
+      "module": "Thermal",
+      "category": "Boundary & interface conditions",
+      "status": "Prototype",
+      "case_ids": [],
+      "page": "feature-thermal-boundary-interface-conditions-thermal-resistor.html",
+      "details": [
+        8
+      ],
+      "related_cases": [
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ]
+    },
+    {
+      "id": "temperature-continuity",
+      "name": "Temperature continuity",
+      "category": "Boundary & interface conditions",
+      "module": "Thermal",
+      "status": "Prototype",
+      "case_ids": [],
+      "page": "feature-temperature-continuity.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "heat-flux-continuity",
+      "name": "Heat-flux continuity",
+      "category": "Boundary & interface conditions",
+      "module": "Thermal",
+      "status": "Prototype",
+      "case_ids": [],
+      "page": "feature-heat-flux-continuity.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "thermal-boundary-interface-conditions-interface-thermal-resistance",
+      "name": "Interface thermal resistance",
+      "module": "Thermal",
+      "category": "Boundary & interface conditions",
+      "status": "Prototype",
+      "case_ids": [],
+      "page": "feature-thermal-boundary-interface-conditions-interface-thermal-resistance.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "coupled-electrical-analysis-modes-thermomechanical",
+      "name": "Thermomechanical",
+      "module": "Coupled / Electrical",
+      "category": "Analysis modes",
+      "status": "Alpha",
+      "case_ids": [
+        "backend",
+        "tsv",
+        "submodel"
+      ],
+      "page": "feature-coupled-electrical-analysis-modes-thermomechanical.html",
+      "details": [],
+      "related_cases": [
+        "Package_Reliability",
+        "TSV_Local",
+        "Submodeling"
+      ]
+    },
+    {
+      "id": "electrical-current",
+      "name": "Electrical current",
+      "category": "Analysis modes",
+      "module": "Coupled / Electrical",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-electrical-current.html",
+      "details": [
+        10,
+        18,
+        35,
+        39
+      ],
+      "related_cases": [
+        "Damascene",
+        "3D_Interconnect",
+        "Inverter",
+        "Backend_SRAM",
+        "Backend_SRAMRounding",
+        "3D_Matrix_Calculation"
+      ]
+    },
+    {
+      "id": "electrostatic",
+      "name": "Electrostatic",
+      "category": "Analysis modes",
+      "module": "Coupled / Electrical",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-electrostatic.html",
+      "details": [
+        34,
+        38
+      ],
+      "related_cases": [
+        "Inverter",
+        "3D_Matrix_Calculation"
+      ]
+    },
+    {
+      "id": "coupled-electrical-analysis-modes-electrothermal",
+      "name": "Electrothermal",
+      "module": "Coupled / Electrical",
+      "category": "Analysis modes",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-coupled-electrical-analysis-modes-electrothermal.html",
+      "details": [
+        36
+      ],
+      "related_cases": [
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ]
+    },
+    {
+      "id": "coupled-electrical-analysis-modes-electromechanical",
+      "name": "Electromechanical",
+      "module": "Coupled / Electrical",
+      "category": "Analysis modes",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-coupled-electrical-analysis-modes-electromechanical.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "fem-mechanics",
+      "name": "FEM mechanics",
+      "category": "Solver components",
+      "module": "Numerics",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-fem-mechanics.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "fvm-thermal",
+      "name": "FVM thermal",
+      "category": "Solver components",
+      "module": "Numerics",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-fvm-thermal.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "fvm-electrical",
+      "name": "FVM electrical",
+      "category": "Solver components",
+      "module": "Numerics",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-fvm-electrical.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "trbdf",
+      "name": "TRBDF",
+      "category": "Solver components",
+      "module": "Numerics",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-trbdf.html",
+      "details": [
+        30
+      ],
+      "related_cases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Warpage"
+      ]
+    },
+    {
+      "id": "newton",
+      "name": "Newton",
+      "category": "Solver components",
+      "module": "Numerics",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-newton.html",
+      "details": [
+        22,
+        23
+      ],
+      "related_cases": [
+        "Backend_Thermomech",
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ]
+    },
+    {
+      "id": "direct-solvers",
+      "name": "Direct solvers",
+      "category": "Solver components",
+      "module": "Numerics",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-direct-solvers.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "iterative-solvers",
+      "name": "Iterative solvers",
+      "category": "Solver components",
+      "module": "Numerics",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-iterative-solvers.html",
+      "details": [
+        56
+      ],
+      "related_cases": [
+        "Backend_Thermomech",
+        "Backend_CopperReliability"
+      ]
+    },
+    {
+      "id": "arpack",
+      "name": "ARPACK",
+      "category": "Solver components",
+      "module": "Numerics",
+      "status": "",
+      "case_ids": [
+        "buckling"
+      ],
+      "page": "feature-arpack.html",
+      "details": [
+        60
+      ],
+      "related_cases": [
+        "Linear_Buckling",
+        "User_Line"
+      ]
+    },
+    {
+      "id": "mumps",
+      "name": "MUMPS",
+      "category": "Solver components",
+      "module": "Numerics",
+      "status": "",
+      "case_ids": [
+        "buckling"
+      ],
+      "page": "feature-mumps.html",
+      "details": [],
+      "related_cases": [
+        "Linear_Buckling"
+      ]
+    },
+    {
+      "id": "shape-functions",
+      "name": "Shape functions",
+      "category": "Element library",
+      "module": "Mechanics",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-shape-functions.html",
+      "details": [
+        41
+      ],
+      "related_cases": [
+        "Backend_Stress"
+      ]
+    },
+    {
+      "id": "material-inheritance",
+      "name": "Material inheritance",
+      "category": "Material models",
+      "module": "Mechanics",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-material-inheritance.html",
+      "details": [
+        19
+      ],
+      "related_cases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "Backend_SRAM",
+        "Backend_SRAMRounding",
+        "User_Fluid",
+        "User_Cap",
+        "User_Warpage",
+        "User_Line",
+        "User_TSV"
+      ]
+    },
+    {
+      "id": "thermoelectromechanical-coupling",
+      "name": "Thermoelectromechanical coupling",
+      "category": "Analysis modes",
+      "module": "Coupled / Electrical",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-thermoelectromechanical-coupling.html",
+      "details": [
+        37
+      ],
+      "related_cases": [
+        "Damascene",
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ]
+    },
+    {
+      "id": "thermal-resistance-matrix",
+      "name": "Thermal resistance matrix",
+      "category": "Heat transfer & materials",
+      "module": "Thermal",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-thermal-resistance-matrix.html",
+      "details": [
+        40
+      ],
+      "related_cases": [
+        "3D_Matrix_Calculation"
+      ]
+    },
+    {
+      "id": "stress-analysis",
+      "name": "Stress analysis",
+      "category": "Post-processing & output",
+      "module": "General",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-stress-analysis.html",
+      "details": [
+        31,
+        32
+      ],
+      "related_cases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Cap",
+        "User_Warpage",
+        "User_Line",
+        "User_TSV"
+      ]
+    },
+    {
+      "id": "stress-history",
+      "name": "Stress history",
+      "category": "Post-processing & output",
+      "module": "General",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-stress-history.html",
+      "details": [
+        29
+      ],
+      "related_cases": [
+        "Damascene",
+        "Backend_Stress",
+        "User_Line"
+      ]
+    },
+    {
+      "id": "field-visualization",
+      "name": "Field visualization",
+      "category": "Post-processing & output",
+      "module": "General",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-field-visualization.html",
+      "details": [
+        42,
+        44,
+        46
+      ],
+      "related_cases": [
+        "Damascene",
+        "Cantilever",
+        "Backend_Thermomech",
+        "User_Fluid",
+        "User_Cap",
+        "User_Warpage",
+        "User_Line",
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ]
+    },
+    {
+      "id": "field-output",
+      "name": "Field output",
+      "category": "Post-processing & output",
+      "module": "General",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-field-output.html",
+      "details": [
+        43,
+        45,
+        47,
+        48,
+        53
+      ],
+      "output_fields": {
+        "Mechanics": [
+          "Displacement",
+          "Displacement increments",
+          "Pseudo displacement",
+          "Stress components",
+          "von Mises stress",
+          "Pressure",
+          "Principal stresses",
+          "Principal strains",
+          "Principal directions",
+          "Elastic strain",
+          "Plastic strain",
+          "Viscoplastic strain",
+          "Creep strain",
+          "Swelling strain",
+          "Equivalent plastic strain",
+          "Equivalent viscoplastic strain",
+          "Equivalent creep strain",
+          "Strain energy densities",
+          "Energy-rate densities",
+          "Nodal forces",
+          "Reaction forces",
+          "Stress maxima",
+          "Strain maxima"
+        ],
+        "Thermal": [
+          "Temperature",
+          "Previous temperature",
+          "Temperature gradient",
+          "Heat flux",
+          "Total heat-source density",
+          "Joule heating",
+          "Derived hotspot maps"
+        ]
+      },
+      "related_cases": [
+        "Cantilever",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Warpage",
+        "User_Line",
+        "User_TSV",
+        "Damascene",
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ]
+    },
+    {
+      "id": "stress-induced-mobility-enhancement",
+      "name": "Stress-induced mobility enhancement",
+      "category": "Stress-causing mechanisms",
+      "module": "Mechanics",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-stress-induced-mobility-enhancement.html",
+      "details": [
+        49
+      ],
+      "related_cases": [
+        "User_TSV"
+      ]
+    },
+    {
+      "id": "geometry-transformations-and-vertex-merging",
+      "name": "Geometry transformations and vertex merging",
+      "category": "Geometry & mesh",
+      "module": "General",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-geometry-transformations-and-vertex-merging.html",
+      "details": [
+        50,
+        51
+      ],
+      "show_on_home": false,
+      "related_cases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ]
+    },
+    {
+      "id": "tcl-scripting",
+      "name": "Tcl scripting",
+      "category": "Scripting & data exchange",
+      "module": "General",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-tcl-scripting.html",
+      "details": [
+        54,
+        55
+      ],
+      "related_cases": [
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "User_Warpage"
+      ]
+    },
+    {
+      "id": "units",
+      "name": "Units",
+      "category": "Scripting & data exchange",
+      "module": "General",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-units.html",
+      "details": [
+        59
+      ],
+      "related_cases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "Backend_SRAM",
+        "Backend_SRAMRounding",
+        "Backend_Fatigue",
+        "Damascene",
+        "Cantilever",
+        "3D_Interconnect",
+        "3D_Matrix_Calculation",
+        "Inverter",
+        "User_Fluid",
+        "User_Cap",
+        "User_Warpage",
+        "User_Line",
+        "User_TSV"
+      ]
+    },
+    {
+      "id": "field-data-import",
+      "name": "Field-data import",
+      "category": "Scripting & data exchange",
+      "module": "General",
+      "status": "",
+      "case_ids": [],
+      "page": "feature-field-data-import.html",
+      "details": [
+        58
+      ],
+      "related_cases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability"
+      ]
+    },
+    {
+      "id": "trace-mapping",
+      "name": "Trace Mapping",
+      "category": "Solutions",
+      "module": "Future Plan",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-trace-mapping.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "hybrid-bonding",
+      "name": "Hybrid Bonding",
+      "category": "Solutions",
+      "module": "Future Plan",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-hybrid-bonding.html",
+      "details": [],
+      "related_cases": []
+    },
+    {
+      "id": "vibration-analysis",
+      "name": "Vibration Analysis",
+      "category": "Solutions",
+      "module": "Future Plan",
+      "status": "TODO",
+      "case_ids": [],
+      "page": "feature-vibration-analysis.html",
+      "details": [],
+      "related_cases": []
+    }
+  ],
+  "cases": [
+    {
+      "id": "tsv",
+      "name": "TSV",
+      "kind": "用户案例",
+      "source": "Original user case: photographs converted to CMD by OCR and manually corrected; the user confirmed the original-version identity.",
+      "adapt": "The OCR-converted directory is the original input. The repository integrates a mesh-simplified version. cmd_flat and cmd organize the same inputs differently; they are not the original and simplified versions.",
+      "original": "D:/WORK/qx_deck/SI/tsv_stress/cmd_flat/; cmd/ contains categorized copies; ocr_clean/photo_to_cmd_manifest.csv traces photographs to CMD files.",
+      "cmd": [
+        "Geometry: n5..n11_dvs.cmd (7 files)",
+        "Material / mesh preprocessing: n19..n25_sis.cmd (7 files)",
+        "Thermomechanical solution: n40..n46_sis.cmd (7 files)",
+        "Corresponding pp* copies: 21 files; common templates / execution graph: 4 files"
+      ],
+      "flow": "Photographs → OCR / correction → 7 original chains × 3 stages → repository mesh-simplified version → verification workflow",
+      "verify": "Matched (confirmed by user)",
+      "note": "The original verify_in_vm.sh performs vendor syntax checks only: 28 expanded files plus one expanded template. The user confirmed integration of the simplified version; repository paths, verification entry point and current results remain to be checked.",
+      "feature": "TSV thermal stress · temperature history · material / mesh preprocessing · fixed displacement and directional constraints",
+      "archive": null,
+      "source_files": [
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\common\\gexec.cmd",
+          "sha256": "650c459b6e7178b17d7f8a49e8a7931230ee9c4ba7473d00cccc9ef98ed28b97"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\common\\sde_dvs.cmd",
+          "sha256": "b1ea9d38547f642d4b577f25f38c24005c6fd8c6b1351671b964c76771593d40"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\common\\sdemodel_msh.cmd",
+          "sha256": "0d6e5732907124b3a26300c4a2919ce676d0e2ea90714f38520eaf451a03aeba"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\common\\sinterconnect_sis.cmd",
+          "sha256": "30d31558166b1e0749eca4bf11a98109372b4b8b2534a80678e2ba2ad267eb30"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n10_dvs.cmd",
+          "sha256": "d24c079b002884c45c86b0dc04199b14a0b6541042c05282510bf11e6de8c984"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n11_dvs.cmd",
+          "sha256": "c090d62fc46a6cf2a5dba9b66d06cfde169dd6b3d06872c033e837ac6545a2d3"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n5_dvs.cmd",
+          "sha256": "d6fcb869498cabedfa7c0e0435e729f6fc52551df54359aefea03fee239e8dd9"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n6_dvs.cmd",
+          "sha256": "7b08ff6d560b6f61d21e3268238db54b4da14a7343f8f19a2402a3ed7c259679"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n7_dvs.cmd",
+          "sha256": "93d1f670c5b043a3847c18be3578ff704adbca2e43c75bc0b48291bbe47809ec"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n8_dvs.cmd",
+          "sha256": "97d4897e85dfce5841c2b92c86b6462f65446d4f3d738d0a24d4cd183e5d0877"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n9_dvs.cmd",
+          "sha256": "47d394d7679b77f6db94c1001c38c2345f9c3062aa86e9ab57ccc1f8ee908a85"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp10_dvs.cmd",
+          "sha256": "d24c079b002884c45c86b0dc04199b14a0b6541042c05282510bf11e6de8c984"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp11_dvs.cmd",
+          "sha256": "c090d62fc46a6cf2a5dba9b66d06cfde169dd6b3d06872c033e837ac6545a2d3"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp5_dvs.cmd",
+          "sha256": "d6fcb869498cabedfa7c0e0435e729f6fc52551df54359aefea03fee239e8dd9"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp6_dvs.cmd",
+          "sha256": "7b08ff6d560b6f61d21e3268238db54b4da14a7343f8f19a2402a3ed7c259679"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp7_dvs.cmd",
+          "sha256": "93d1f670c5b043a3847c18be3578ff704adbca2e43c75bc0b48291bbe47809ec"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp8_dvs.cmd",
+          "sha256": "97d4897e85dfce5841c2b92c86b6462f65446d4f3d738d0a24d4cd183e5d0877"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp9_dvs.cmd",
+          "sha256": "47d394d7679b77f6db94c1001c38c2345f9c3062aa86e9ab57ccc1f8ee908a85"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n19_sis.cmd",
+          "sha256": "f0d040ca8d1e98ca2d45f1d02ff2e037ff1162ba6f5ac2c621975d11e71c308e"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n20_sis.cmd",
+          "sha256": "094e1b0ec028cf2649eab1ef8a58060f9935a115fddeacfdc3639826120bc202"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n21_sis.cmd",
+          "sha256": "2b6f7a2626d2c81455358503e574a21ad6d6a2ed747a5fe260a0ff2957057863"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n22_sis.cmd",
+          "sha256": "43188215f6251f0b0e11479231372969f41038b788445944578b24348bf28b92"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n23_sis.cmd",
+          "sha256": "c6fda80d2dac40f4416cba316c3172ed9f8bda7169b3c78d533edbcc61bc2de2"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n24_sis.cmd",
+          "sha256": "a42d7f9127a7011bafbf500e20e19b3b0b2ac9ef0be5619c9597f881c948319c"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n25_sis.cmd",
+          "sha256": "54003ec8fc90d07152868ea2c912828349e3d6221868448ac5407849940fea1d"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp19_sis.cmd",
+          "sha256": "f0d040ca8d1e98ca2d45f1d02ff2e037ff1162ba6f5ac2c621975d11e71c308e"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp20_sis.cmd",
+          "sha256": "094e1b0ec028cf2649eab1ef8a58060f9935a115fddeacfdc3639826120bc202"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp21_sis.cmd",
+          "sha256": "2b6f7a2626d2c81455358503e574a21ad6d6a2ed747a5fe260a0ff2957057863"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp22_sis.cmd",
+          "sha256": "43188215f6251f0b0e11479231372969f41038b788445944578b24348bf28b92"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp23_sis.cmd",
+          "sha256": "c6fda80d2dac40f4416cba316c3172ed9f8bda7169b3c78d533edbcc61bc2de2"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp24_sis.cmd",
+          "sha256": "a42d7f9127a7011bafbf500e20e19b3b0b2ac9ef0be5619c9597f881c948319c"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp25_sis.cmd",
+          "sha256": "54003ec8fc90d07152868ea2c912828349e3d6221868448ac5407849940fea1d"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n40_sis.cmd",
+          "sha256": "1d2bbcabdc60855b0aa30ab01dd226e766042d7a92e57524f85edd213590eb9d"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n41_sis.cmd",
+          "sha256": "be3d5a62eaedaf06eef188c22b9a51b21d56e0e4b7b6a8c481acda217789cf94"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n42_sis.cmd",
+          "sha256": "72427364dcf2a878441b424c716ff9a5eff5f0b1ffde89303b23e65f583ba6cd"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n43_sis.cmd",
+          "sha256": "fa4fbd76dcad26d94662c55365e37b0ad78d72ef018c9ebeaf1b130446b2874a"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n44_sis.cmd",
+          "sha256": "1d9318ecde31e89c8c81e4560dbd12ceda4402304994ed480b2492e81fba96ea"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n45_sis.cmd",
+          "sha256": "7a277dfd7c60bf570f7f0e60c02b98ef2f01841a40891759b1948976ad251f3a"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n46_sis.cmd",
+          "sha256": "28e8d7ee8c30164c5db2a1df0ebff9b6302c3674cbd13add268cb5749f79420d"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp40_sis.cmd",
+          "sha256": "1d2bbcabdc60855b0aa30ab01dd226e766042d7a92e57524f85edd213590eb9d"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp41_sis.cmd",
+          "sha256": "be3d5a62eaedaf06eef188c22b9a51b21d56e0e4b7b6a8c481acda217789cf94"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp42_sis.cmd",
+          "sha256": "72427364dcf2a878441b424c716ff9a5eff5f0b1ffde89303b23e65f583ba6cd"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp43_sis.cmd",
+          "sha256": "fa4fbd76dcad26d94662c55365e37b0ad78d72ef018c9ebeaf1b130446b2874a"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp44_sis.cmd",
+          "sha256": "1d9318ecde31e89c8c81e4560dbd12ceda4402304994ed480b2492e81fba96ea"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp45_sis.cmd",
+          "sha256": "7a277dfd7c60bf570f7f0e60c02b98ef2f01841a40891759b1948976ad251f3a"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp46_sis.cmd",
+          "sha256": "28e8d7ee8c30164c5db2a1df0ebff9b6302c3674cbd13add268cb5749f79420d"
+        }
+      ],
+      "alias": "TSV_Local",
+      "page": "case-tsv.html",
+      "record_type": "Catalog record",
+      "mode": "mode mechanics",
+      "category": "Application cases",
+      "integrated": true,
+      "display_alias": "TSV_Local",
+      "application_group": "User"
+    },
+    {
+      "id": "backend",
+      "name": "Backend / Package reliability",
+      "kind": "改编案例",
+      "source": "Backend / Package_ThermomechanicalReliability; archived as a PowerSO-10RF / LDMOS adaptation.",
+      "adapt": "Geometry, materials and solution flow were adapted. The benchmark separates thermal and mechanical solution entry points.",
+      "original": "benchmark-golden/original-case/dpack_struct_sis.cmd",
+      "cmd": [
+        "benchmark-golden/package/thermal_bench.cmd",
+        "benchmark-golden/package/mechanics_bench.cmd"
+      ],
+      "flow": "Geometry / mesh.tdr → thermal_bench.cmd → temperature output → mechanics_bench.cmd",
+      "verify": "Standalone validation recorded; regression integration pending confirmation",
+      "note": "The two solution CMD files run sequentially. Geometry generation is an additional prerequisite. Four-step mechanics, 400 K, initial-temperature and parameter-error checks are variants of this case.",
+      "feature": "Steady-state heat transfer · conduction / convection / radiation · thermal expansion · thermal stress",
+      "archive": "01_Package_reliability.zip",
+      "alias": "Package_Reliability",
+      "page": "case-backend.html",
+      "record_type": "Catalog record",
+      "mode": "mode thermal; mode mechanics",
+      "category": "Application cases",
+      "integrated": false,
+      "device": "Power semiconductor package, adapted from a PowerSO-10RF / LDMOS device package.",
+      "background": "Uneven heating causes differential thermal expansion between package materials, producing thermomechanical stress. The temperature field is mapped into the mechanical calculation.",
+      "display_alias": "Backend_Package_Reliability",
+      "application_group": "Backend"
+    },
+    {
+      "id": "submodel",
+      "name": "Submodeling",
+      "kind": "改编案例",
+      "source": "Adapted from part of an existing case (confirmed by user); the exact parent-case mapping remains to be checked.",
+      "adapt": "The workflow targets global displacement mapping onto a refined single-pillar mesh. It is an adaptation, not an independently invented case.",
+      "original": "Candidate source: original/submodel-candidates/PackageAssembly_Stress/*; vendor-original.cmd is also archived, but this does not establish direct derivation.",
+      "cmd": [
+        "benchmark-golden/pillar/inputs/global.cmd",
+        "benchmark-golden/pillar/inputs/unit-fine.cmd"
+      ],
+      "flow": "Global geometry / mesh → global.cmd → global displacement → unit-fine.cmd → local stress",
+      "verify": "Standalone validation recorded; regression integration pending confirmation",
+      "note": "The two solution CMD files have a data dependency. Frozen-mesh variants are global-freeze.cmd / unit-fine-freeze.cmd. Temperature is a prescribed cooling load, not a heat-conduction solution.",
+      "feature": "Global-to-local displacement mapping · local refinement · mechanical constraints",
+      "archive": "02_Submodelling.zip",
+      "alias": "Submodeling",
+      "page": "case-submodel.html",
+      "record_type": "Catalog record",
+      "mode": "mode mechanics",
+      "category": "Application cases",
+      "integrated": false,
+      "device": "Flip-chip package with a 3 × 3 copper-pillar array and a single-pillar submodel.",
+      "background": "Cooling from 180 °C to 25 °C. Global displacement is mapped to the refined single-pillar mesh to solve local stress.",
+      "display_alias": "Backend_Submodeling",
+      "application_group": "Backend"
+    },
+    {
+      "id": "quasistatic",
+      "name": "Quasistatic equilibrium",
+      "kind": "自建 feature deck",
+      "source": "Purpose-built feature case (confirmed by user), with no direct external reference case.",
+      "adapt": "The same model produces 16 frames with different loads. These form one case series, not 16 independent features.",
+      "original": "Purpose-built baseline; the archived vendor-reference-cantilever.cmd is a separately retained reference, without a confirmed derivation relationship.",
+      "cmd": [
+        "quasistatic/frame-01/case.cmd … frame-16/case.cmd"
+      ],
+      "flow": "setup.py / refine.py → shared mesh → case.cmd for each frame",
+      "verify": "Run records available; regression integration pending confirmation",
+      "note": "The 16 CMD files are parameter variants, not a sequential 01→16 result chain. An arch-quasistatic variant is also retained.",
+      "feature": "Quasistatic equilibrium · displacement / stress output",
+      "archive": "03_Quasistatic_equilibrium.zip",
+      "alias": "Quasistatic",
+      "page": "case-quasistatic.html",
+      "record_type": "Catalog record",
+      "mode": "mode mechanics",
+      "category": "Feature tests",
+      "integrated": false,
+      "display_alias": "Quasistatic",
+      "application_group": ""
+    },
+    {
+      "id": "buckling",
+      "name": "Linear buckling",
+      "kind": "来源待核对",
+      "source": "Archived feature demonstration deck; original provenance remains to be checked.",
+      "adapt": "The main case is retained separately from plate-buckling and arch-linear. Three and six modes are solver-configuration variants.",
+      "original": "linear-buckling/case.cmd (archived baseline)",
+      "cmd": [
+        "linear-buckling/case.cmd"
+      ],
+      "flow": "Mesh preparation → case.cmd → eigenvalues / buckling modes / TDR",
+      "verify": "Standalone validation recorded; regression integration pending confirmation",
+      "note": "One main solution CMD. Recorded ARPACK-call validation does not establish validation of every buckling variant.",
+      "feature": "Linear buckling · ARPACK · eigenvalue and mode output",
+      "archive": "04_Linear_buckling.zip",
+      "alias": "Linear_Buckling",
+      "page": "case-buckling.html",
+      "record_type": "Catalog record",
+      "mode": "mode buckling",
+      "category": "Feature tests",
+      "integrated": false,
+      "display_alias": "Linear_Buckling",
+      "application_group": ""
+    },
+    {
+      "id": "postbuckling",
+      "name": "Post-buckling",
+      "kind": "来源待核对",
+      "source": "Archived feature demonstration series; direct provenance remains to be checked.",
+      "adapt": "Supercritical is the main case; post-buckling is an earlier subcritical calibration, and arch-snap is a separate variant.",
+      "original": "post-buckling-supercritical/case.cmd",
+      "cmd": [
+        "post-buckling-supercritical/case.cmd"
+      ],
+      "flow": "Mesh preparation → main case.cmd",
+      "verify": "Archive available; regression integration pending confirmation",
+      "note": "The directories contain independent variants, not multiple CMD files forming one pipeline. Complete passing status has not been confirmed.",
+      "feature": "Post-buckling response · nonlinear solution path",
+      "archive": "05_Post_buckling.zip",
+      "alias": "Post_Buckling",
+      "page": "case-postbuckling.html",
+      "record_type": "Catalog record",
+      "mode": "mode buckling",
+      "category": "Feature tests",
+      "integrated": false,
+      "display_alias": "Post_Buckling",
+      "application_group": ""
+    },
+    {
+      "id": "deformation",
+      "name": "Large deformation",
+      "kind": "来源待核对",
+      "source": "Archived feature demonstration series; direct provenance remains to be checked.",
+      "adapt": "Paired geometric-nonlinearity OFF / ON comparison; v2 is the entry point designated by the archive documentation.",
+      "original": "Original geometric-off/on versions and v2 are both retained.",
+      "cmd": [
+        "geometric-off-v2/case.cmd",
+        "geometric-on-v2/case.cmd"
+      ],
+      "flow": "Shared geometry / mesh → separate OFF and ON solutions → comparison",
+      "verify": "Deferred in this round",
+      "note": "The two CMD files are paired runs, not sequentially dependent. The user explicitly deferred large-deformation validation.",
+      "feature": "Geometric nonlinearity · large deformation / rotation",
+      "archive": "06_Large_deformation.zip",
+      "alias": "Large_Deformation",
+      "page": "case-deformation.html",
+      "record_type": "Catalog record",
+      "mode": "mode mechanics",
+      "category": "Feature tests",
+      "integrated": false,
+      "display_alias": "Large_Deformation",
+      "application_group": ""
+    },
+    {
+      "row": 1,
+      "alias": "Backend_FlipChip",
+      "name": "Flip-Chip Package Reliability Optimization With Copper Pillar Stress and Crack Modelling",
+      "origin": "Backend",
+      "mode": "mode mechanics",
+      "path": "Applications_Library/Backend/CopperPillar_FlipChip_Crack",
+      "source_status": "未开始",
+      "screenshot": "468",
+      "status_note": "原图状态列为跨行合并单元格：未开始。",
+      "page": "case-source-backend-flipchip.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Backend_FlipChip",
+      "application_group": "Backend"
+    },
+    {
+      "row": 2,
+      "alias": "Backend_CopperReliability",
+      "name": "Reliability and Optimization of Copper Pillar Bumps in High-Performance Flip-Chip Packages",
+      "origin": "Backend",
+      "mode": "mode mechanics",
+      "path": "Applications_Library/Backend/CopperPillar_Reliability",
+      "source_status": "未开始",
+      "screenshot": "468",
+      "status_note": "原图状态列为跨行合并单元格：未开始。",
+      "page": "case-source-backend-copperreliability.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Backend_CopperReliability",
+      "application_group": "Backend"
+    },
+    {
+      "row": 3,
+      "alias": "Backend_Thermomech",
+      "name": "Coupled Thermomechanical Reliability Analysis of Power Semiconductor Packages",
+      "origin": "Backend",
+      "mode": "mode mechanics",
+      "path": "Applications_Library/Backend/Package_ThermomechanicalReliability",
+      "source_status": "未开始",
+      "screenshot": "468",
+      "notes": "原表附文：Backend_Thermomech 功率半导体封装过程的可靠性分析（热固耦合分析）Thermomechanical Reliability",
+      "status_note": "原图状态列为跨行合并单元格：未开始。",
+      "page": "case-source-backend-thermomech.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Backend_Thermomech",
+      "application_group": "Backend"
+    },
+    {
+      "row": 4,
+      "alias": "Backend_Stress",
+      "name": "Modeling Mechanical Stress Evolution During BEOL Fabrication and Package Assembly Process",
+      "origin": "Backend",
+      "mode": "mode mechanics",
+      "path": "Applications_Library/Backend/PackageAssembly_Stress",
+      "source_status": "未开始",
+      "screenshot": "468",
+      "status_note": "原图状态列为跨行合并单元格：未开始。",
+      "page": "case-source-backend-stress.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Backend_Stress",
+      "application_group": "Backend"
+    },
+    {
+      "row": 5,
+      "alias": "Backend_SolderReliability",
+      "name": "Mechanical Reliability Analysis of Advanced Bumping Schemes Under Chip-Package Integration",
+      "origin": "Backend",
+      "mode": "mode mechanics",
+      "path": "Applications_Library/Backend/SolderBump_Reliability",
+      "source_status": "未开始",
+      "screenshot": "468",
+      "status_note": "原图状态列为跨行合并单元格：未开始。",
+      "page": "case-source-backend-solderreliability.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Backend_SolderReliability",
+      "application_group": "Backend"
+    },
+    {
+      "row": 6,
+      "alias": "Backend_SRAM",
+      "name": "Processing and Modeling of 6T SRAM Backend Structure Using Sentaurus Interconnect Based on Rectangular Geometries",
+      "origin": "Backend",
+      "mode": "mode mechanics; mode current thermal mechanics",
+      "path": "Applications_Library/Backend/SRAM_Backend",
+      "source_status": "未开始",
+      "screenshot": "467",
+      "status_note": "原图状态列为跨行合并单元格：未开始。",
+      "page": "case-source-backend-sram.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Backend_SRAM",
+      "application_group": "Backend"
+    },
+    {
+      "row": 7,
+      "alias": "Backend_SRAMRounding",
+      "name": "Processing and Modeling of 6T SRAM Backend Structure Using Sentaurus Interconnect",
+      "origin": "Backend",
+      "mode": "mode mechanics; mode current thermal mechanics",
+      "path": "Applications_Library/Backend/SRAM_Backend_Rounding",
+      "source_status": "未开始",
+      "screenshot": "467",
+      "status_note": "原图状态列为跨行合并单元格：未开始。",
+      "page": "case-source-backend-sramrounding.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Backend_SRAMRounding",
+      "application_group": "Backend"
+    },
+    {
+      "row": 8,
+      "alias": "Backend_Fatigue",
+      "name": "Prediction of Flip-Chip Bump Thermal Fatigue Life From Full-Package Board-Level Simulations Using Nonlinear Material Models",
+      "origin": "Backend",
+      "mode": "TODO",
+      "path": "Applications_Library/Backend/FlipChip_BumpFatigue",
+      "source_status": "未开始",
+      "screenshot": "467",
+      "notes": "原表重复列出英文标题，并附：倒装芯片凸点热疲劳寿命 - 工艺器件模拟处 - Confluence Production",
+      "status_note": "原图状态列为跨行合并单元格：未开始。",
+      "page": "case-source-backend-fatigue.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Backend_Fatigue",
+      "application_group": "Backend"
+    },
+    {
+      "row": 9,
+      "alias": "Damascene",
+      "name": "Example-Three-Dimensional Damascene Structure",
+      "origin": "Training manual",
+      "mode": "mode mechanics; mode mechanics current thermal",
+      "path": "Applications_Library/GettingStarted/sinterconnect/DualDamascene",
+      "source_status": "全流程跑通，输出一致",
+      "screenshot": "467",
+      "page": "case-source-damascene.html",
+      "verify": "Full workflow completed; matching output",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Damascene",
+      "application_group": "Getting Started"
+    },
+    {
+      "row": 10,
+      "alias": "Cantilever",
+      "name": "Example: Cantilever With End Load (3D)",
+      "origin": "Training manual",
+      "mode": "mode mechanics",
+      "path": "Applications_Library/GettingStarted/sinterconnect/3D_Cantilever",
+      "source_status": "全流程跑通，输出一致",
+      "screenshot": "467",
+      "page": "case-source-cantilever.html",
+      "verify": "Full workflow completed; matching output",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Cantilever",
+      "application_group": "Getting Started"
+    },
+    {
+      "row": 11,
+      "alias": "3D_Interconnect",
+      "name": "Example: Thermoelectromechanical Analysis of an Interconnect (3D)",
+      "origin": "Training manual",
+      "mode": "mode mechanics current thermal",
+      "path": "Applications_Library/GettingStarted/sinterconnect/3D_Interconnect",
+      "source_status": "全流程跑通，输出一致",
+      "screenshot": "467",
+      "page": "case-source-3d-interconnect.html",
+      "verify": "Full workflow completed; matching output",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "3D_Interconnect",
+      "application_group": "Getting Started"
+    },
+    {
+      "row": 12,
+      "alias": "3D_Matrix_Calculation",
+      "name": "Example: Electrostatic, Electrical, and Thermal Analyses (3D)",
+      "origin": "Training manual",
+      "mode": "mode capacitance; mode resistance; mode thermal.resistance",
+      "path": "Applications_Library/GettingStarted/sinterconnect/3D_Matrix_Calculation",
+      "source_status": "未开始",
+      "screenshot": "467",
+      "page": "case-source-3d-matrix-calculation.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "3D_Matrix_Calculation",
+      "application_group": "Getting Started"
+    },
+    {
+      "row": 13,
+      "alias": "Inverter",
+      "name": "Example: Inverter",
+      "origin": "Training manual",
+      "mode": "mode electrostatic",
+      "path": "Applications_Library/GettingStarted/sinterconnect/Inverter",
+      "source_status": "全流程跑通，输出一致",
+      "screenshot": "467",
+      "page": "case-source-inverter.html",
+      "verify": "Full workflow completed; matching output",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "Inverter",
+      "application_group": "Getting Started"
+    },
+    {
+      "row": 14,
+      "alias": "User_Fluid",
+      "name": "Fluid Stress",
+      "origin": "客户",
+      "mode": "mode mechanics",
+      "path": "/global/ae/tcad/eamon/STDB/work/CXMT/AA_Structure_demo_for_stress_simulation && /global/ae/tcad/eamon/STDB/work/CXMT/Fluid_Stress/Fluid_Stress_Kangkang_20231109",
+      "source_status": "未开始",
+      "screenshot": "466",
+      "notes": "原表附文：User_Fluid AA Bridge中的液体表面张力 - 工艺器件模拟处 - Confluence Production",
+      "page": "case-source-user-fluid.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "User_Fluid",
+      "application_group": "User"
+    },
+    {
+      "row": 15,
+      "alias": "User_Cap",
+      "name": "*Cap Layer Bending",
+      "origin": "客户",
+      "mode": "mode mechanics",
+      "path": "/global/ae/tcad/eamon/STDB/work/CXMT/AA_Structure_demo_for_stress_simulation",
+      "source_status": "未开始",
+      "screenshot": "466",
+      "page": "case-source-user-cap.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "User_Cap",
+      "application_group": "User"
+    },
+    {
+      "row": 16,
+      "alias": "User_Warpage",
+      "name": "*Wafer Warpage",
+      "origin": "客户",
+      "mode": "mode mechanics",
+      "path": "/global/ae/tcad/eamon/STDB/work/CXMT/Wafer_warpage",
+      "source_status": "未开始",
+      "screenshot": "466",
+      "page": "case-source-user-warpage.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "User_Warpage",
+      "application_group": "User"
+    },
+    {
+      "row": 17,
+      "alias": "User_Line",
+      "name": "Line Bending",
+      "origin": "客户",
+      "mode": "mode mechanics; mode buckling",
+      "path": "/global/ae/tcad/eamon/STDB/work/CXMT/deformation20231208",
+      "source_status": "未开始",
+      "screenshot": "466",
+      "page": "case-source-user-line.html",
+      "verify": "Not started",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "User_Line",
+      "application_group": "User"
+    },
+    {
+      "row": 18,
+      "alias": "User_TSV",
+      "name": "*TSV Stress",
+      "origin": "客户",
+      "mode": "mode mechanics",
+      "path": "/global/ae/tcad/eamon/STDB/work/CXMT/TSV_copper_20240222",
+      "source_status": "全流程跑通，输出一致",
+      "screenshot": "466",
+      "page": "case-source-user-tsv.html",
+      "verify": "Full workflow completed; matching output",
+      "record_type": "Table record",
+      "category": "Application cases",
+      "integrated": false,
+      "display_alias": "User_TSV",
+      "application_group": "User"
+    }
+  ],
+  "details": [
+    {
+      "row": 2,
+      "original_category": "Boundary conditions / loads",
+      "name": "Point-force boundary conditions",
+      "commands": "stressdata bc.location=pointend point.coord={0 0 0} bc.value={pfx=0 pfy=0 \\ pfz=@p@<dyn>}",
+      "reference": "p.112 Point-Force Boundary Condition",
+      "case_aliases": [
+        "Cantilever"
+      ],
+      "difficulty": "Low",
+      "mode": "Mechanics",
+      "source_status": "done",
+      "category": "Boundary conditions & constraints",
+      "screenshot": "466"
+    },
+    {
+      "row": 3,
+      "original_category": "Boundary conditions / loads",
+      "name": "Point-displacement rate boundary conditions",
+      "commands": "stressdata bc.location=<c> bc.value={pdx=<n> pdy=<n> pdz=<n>} point.coord={<n> <n> <n>}",
+      "reference": "p.113 Point-Displacement Rate Boundary Condition",
+      "case_aliases": [
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_SolderReliability",
+        "User_Warpage"
+      ],
+      "difficulty": "Low",
+      "mode": "Mechanics",
+      "source_status": "done",
+      "category": "Boundary conditions & constraints",
+      "screenshot": "466"
+    },
+    {
+      "row": 4,
+      "original_category": "Boundary conditions / loads",
+      "name": "Prescribed surface displacement",
+      "commands": "stressdata bc.location=Bottom bc.value={dx=0 dy=0 dz=0}",
+      "reference": "p.107 Boundary Conditions",
+      "case_aliases": [
+        "Cantilever",
+        "3D_Matrix_Calculation",
+        "Backend_CopperReliability",
+        "Backend_FlipChip",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Fluid",
+        "User_Cap",
+        "User_Line",
+        "User_TSV"
+      ],
+      "difficulty": "Low",
+      "mode": "Mechanics",
+      "source_status": "done",
+      "category": "Boundary conditions & constraints",
+      "screenshot": "466"
+    },
+    {
+      "row": 5,
+      "original_category": "Boundary conditions / loads",
+      "name": "Pressure boundary conditions",
+      "commands": "stressdata bc.location=cont2 bc.value={pressure=50.0<MPa>}",
+      "reference": "p.111 Pressure Boundary Condition; p.694 stressdata",
+      "case_aliases": [
+        "3D_Interconnect"
+      ],
+      "difficulty": "Low",
+      "mode": "Mechanics",
+      "source_status": "done",
+      "category": "Boundary conditions & constraints",
+      "screenshot": "466"
+    },
+    {
+      "row": 6,
+      "original_category": "Boundary conditions / loads",
+      "name": "Surface traction",
+      "commands": "stressdata bc.location=Back bc.value={sx=0 sy=0 sz=0}",
+      "reference": "p.107 Boundary Conditions",
+      "case_aliases": [
+        "Cantilever"
+      ],
+      "difficulty": "Low",
+      "mode": "Mechanics",
+      "source_status": "ongoing",
+      "category": "Boundary conditions & constraints",
+      "screenshot": "466"
+    },
+    {
+      "row": 7,
+      "original_category": "Boundary conditions / loads",
+      "name": "Dirichlet boundary matrix reduction",
+      "commands": "pdbSet Mechanics Boundary.Method.Type MatrixReduction",
+      "reference": "p.108 Boundary Conditions",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "ongoing",
+      "category": "Boundary conditions & constraints",
+      "screenshot": "466"
+    },
+    {
+      "row": 8,
+      "original_category": "Boundary conditions / loads",
+      "name": "Bottom thermal boundary condition",
+      "commands": "pdbSet <material> AttachThermalResistor 1\npdbSet WaferThickness <n>\npdbSet Env.Temp <n>",
+      "reference": "p.176 Bottom Boundary Condition",
+      "case_aliases": [
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ],
+      "difficulty": "Low",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Boundary & interface conditions",
+      "screenshot": "466"
+    },
+    {
+      "row": 9,
+      "original_category": "Boundary conditions / loads",
+      "name": "Prescribed temperature boundary",
+      "commands": "supply contact.name=tm0 temperature=100<C>",
+      "reference": "p.709 supply — Specifies a constant temperature supply.",
+      "case_aliases": [
+        "Damascene",
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ],
+      "difficulty": "Low",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Boundary & interface conditions",
+      "screenshot": "465"
+    },
+    {
+      "row": 10,
+      "original_category": "Boundary conditions / loads",
+      "name": "Voltage supply",
+      "commands": "supply contact.name=upper voltage=0.1<V>",
+      "reference": "p.709 supply — Specifies a constant voltage supply.",
+      "case_aliases": [
+        "Damascene",
+        "3D_Interconnect",
+        "Inverter",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ],
+      "difficulty": "Low",
+      "mode": "Electrical",
+      "source_status": "not started",
+      "category": "Analysis modes",
+      "screenshot": "465"
+    },
+    {
+      "row": 11,
+      "original_category": "Boundary conditions / loads",
+      "name": "Contact-name boundary selection",
+      "commands": "stressdata bc.location=<c>",
+      "reference": "p.694 stressdata",
+      "case_aliases": [
+        "3D_Interconnect",
+        "Cantilever",
+        "3D_Matrix_Calculation",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability"
+      ],
+      "difficulty": "Low",
+      "mode": "General",
+      "source_status": "ongoing",
+      "category": "Boundary conditions & constraints",
+      "screenshot": "465"
+    },
+    {
+      "row": 12,
+      "original_category": "Boundary conditions / loads",
+      "name": "Reaction-force output",
+      "commands": "pdbSetBoolean Mechanics Save.Reaction.Force 1",
+      "reference": "p.107 Boundary Conditions",
+      "case_aliases": [],
+      "difficulty": "Low",
+      "mode": "General",
+      "source_status": "ongoing",
+      "category": "Boundary conditions & constraints",
+      "screenshot": "465"
+    },
+    {
+      "row": 13,
+      "original_category": "Materials",
+      "name": "Plasticity: isotropic and kinematic hardening",
+      "commands": "pdbSetBoolean BumpMat Mechanics IsPlastic 1",
+      "reference": "p.82 Plastic Materials",
+      "case_aliases": [
+        "Backend_CopperReliability",
+        "User_Warpage"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "done",
+      "category": "Material models",
+      "screenshot": "465"
+    },
+    {
+      "row": 14,
+      "original_category": "Materials",
+      "name": "Viscoplasticity",
+      "commands": "pdbSetBoolean BumpMat Mechanics IsViscoPlastic 1",
+      "reference": "p.86 Viscoplastic Materials",
+      "case_aliases": [
+        "Backend_CopperReliability"
+      ],
+      "difficulty": "High",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Material models",
+      "screenshot": "465"
+    },
+    {
+      "row": 15,
+      "original_category": "Materials",
+      "name": "Absolute / relative thermal expansion coefficients",
+      "commands": "pdbSetDouble Mechanics RefThExpCoeff 0\nor\npdbSetDouble Mechanics RefThExpCoeff <n>",
+      "reference": "p.118 Thermal Mismatch",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_Thermomech",
+        "Backend_Stress"
+      ],
+      "difficulty": "Low",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Stress-causing mechanisms",
+      "screenshot": "465"
+    },
+    {
+      "row": 16,
+      "original_category": "Materials",
+      "name": "Specific heat, thermal conductivity and density",
+      "commands": "pdbSet <material> MassDensity <n>\npdbSet <material> SpecificHeatCapacity <expression>\npdbSet <material> Temperature Conductivity <expression>",
+      "reference": "p.173 Thermal Analysis",
+      "case_aliases": [
+        "Damascene",
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ],
+      "difficulty": "Low",
+      "mode": "Thermal",
+      "source_status": "not started",
+      "category": "Heat transfer & materials",
+      "screenshot": "465"
+    },
+    {
+      "row": 17,
+      "original_category": "Materials",
+      "name": "Viscoelasticity",
+      "commands": "pdbSetDouble Pass Mechanics Viscosity0 1e40\npdbSetDouble Pass Mechanics ViscosityW 0.0",
+      "reference": "p.73 Viscoelastic Materials",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Line",
+        "User_TSV"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "done",
+      "category": "Material models",
+      "screenshot": "465"
+    },
+    {
+      "row": 18,
+      "original_category": "Materials",
+      "name": "Electrical conductivity",
+      "commands": "pdbSetString Copper Potential Conductivity 5.9e5",
+      "reference": "p.17? Thermal Analysis (page number obscured by the pointer)",
+      "case_aliases": [
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ],
+      "difficulty": "Low",
+      "mode": "Electrical",
+      "source_status": "not started",
+      "category": "Analysis modes",
+      "screenshot": "465"
+    },
+    {
+      "row": 19,
+      "original_category": "Materials",
+      "name": "Material inheritance with new.like",
+      "commands": "mater add name=mat1 new.like=Silicon",
+      "reference": "p.47 Materials: Material Parameter Inheritance",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "Backend_SRAM",
+        "Backend_SRAMRounding",
+        "User_Fluid",
+        "User_Cap",
+        "User_Warpage",
+        "User_Line",
+        "User_TSV"
+      ],
+      "difficulty": "Medium",
+      "mode": "General",
+      "source_status": "done",
+      "category": "Material models",
+      "screenshot": "465"
+    },
+    {
+      "row": 20,
+      "original_category": "Elements",
+      "name": "Second-order finite elements",
+      "commands": "pdbSetDouble Mechanics FiniteElementOrder 2",
+      "reference": "p.98 Second-Order Finite Element Analysis",
+      "case_aliases": [
+        "Cantilever",
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "User_Fluid",
+        "User_Warpage",
+        "User_Line"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Element library",
+      "screenshot": "465"
+    },
+    {
+      "row": 21,
+      "original_category": "Analysis methods",
+      "name": "Mechanical analysis",
+      "commands": "mode mechanics",
+      "reference": "p.71 Computing Mechanical Stress",
+      "case_aliases": [
+        "Damascene",
+        "Cantilever",
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ],
+      "difficulty": "Low",
+      "mode": "Mechanics",
+      "source_status": "done",
+      "category": "Analysis methods",
+      "screenshot": "465"
+    },
+    {
+      "row": 22,
+      "original_category": "Analysis methods",
+      "name": "Convergence diagnostic output",
+      "commands": "pdbSet Mechanics Convergence.Info 1",
+      "reference": "p.409 Convergence Criteria",
+      "case_aliases": [
+        "Backend_Thermomech"
+      ],
+      "difficulty": "High",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Solver components",
+      "screenshot": "465"
+    },
+    {
+      "row": 23,
+      "original_category": "Analysis methods",
+      "name": "Newton iteration parameters",
+      "commands": "pdbSet Mechanics MaxIterations 20\npdbSet Mechanics Convergence.Force.Tolerance 1e-3\npdbSet Mechanics Convergence.Energy.Tolerance 1e-3",
+      "reference": "p.409 Convergence Criteria",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Thermomech"
+      ],
+      "difficulty": "High",
+      "mode": "Mechanics",
+      "source_status": "done",
+      "category": "Solver components",
+      "screenshot": "464"
+    },
+    {
+      "row": 24,
+      "original_category": "Analysis methods",
+      "name": "Mechanical submodeling",
+      "commands": "stressdata global.model=<c>\nor\npdbSet Mechanics Submodel <c>",
+      "reference": "p.148 Submodelling",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Warpage"
+      ],
+      "difficulty": "High",
+      "mode": "Mechanics",
+      "source_status": "ongoing",
+      "category": "Boundary conditions & constraints",
+      "screenshot": "464"
+    },
+    {
+      "row": 25,
+      "original_category": "Analysis methods",
+      "name": "Fluid surface tension and pressure",
+      "commands": "pdbSetDoubleArray WetFluid ContactAngle {Oxide @angle@}\npdbSetDoubleArray WetFluid SurfaceTension {Oxide 75}\npdbSetDoubleArray WetFluid AveragePressure {Oxide 1e9}",
+      "reference": "p.122 Effective Surface Tension and Pressure due to Fluid",
+      "case_aliases": [
+        "User_Fluid"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Stress-causing mechanisms",
+      "screenshot": "464"
+    },
+    {
+      "row": 26,
+      "original_category": "Analysis methods",
+      "name": "Linear buckling analysis",
+      "commands": "mode buckling\npdbSetBoolean Mechanics ArcLength 0",
+      "reference": "p.128 Linear Buckling Analysis",
+      "case_aliases": [
+        "User_Line"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Analysis methods",
+      "screenshot": "464"
+    },
+    {
+      "row": 27,
+      "original_category": "Analysis methods",
+      "name": "Post-buckling analysis",
+      "commands": "mode buckling\npdbSetBoolean Mechanics ArcLength 1",
+      "reference": "p.130 Post-Buckling Analysis",
+      "case_aliases": [
+        "User_Line"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Analysis methods",
+      "screenshot": "464"
+    },
+    {
+      "row": 28,
+      "original_category": "Analysis methods",
+      "name": "Geometric nonlinearity",
+      "commands": "pdbSetBoolean Mechanics LargeDeformation 1",
+      "reference": "p.103 Large Deformation Analysis",
+      "case_aliases": [
+        "User_Line"
+      ],
+      "difficulty": "High",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Nonlinearity",
+      "screenshot": "464"
+    },
+    {
+      "row": 29,
+      "original_category": "Analysis methods",
+      "name": "Stress-history tracking",
+      "commands": "pdbSet Mechanics StressHistory 1",
+      "reference": "p.126 Automated Tracing of Stress History",
+      "case_aliases": [
+        "Damascene",
+        "Backend_Stress",
+        "User_Line"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "done",
+      "category": "Analysis methods",
+      "screenshot": "464"
+    },
+    {
+      "row": 30,
+      "original_category": "Analysis methods",
+      "name": "Time-step control",
+      "commands": "solve temperature=180.0<C> t.final=25.0<C> delNT=155.0 \\\ntime=1.0<s> init=1.0<s> maxstep=1.0<s>",
+      "reference": "p.406 Time-Step Control",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Warpage"
+      ],
+      "difficulty": "High",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Solver components",
+      "screenshot": "464"
+    },
+    {
+      "row": 31,
+      "original_category": "Analysis methods",
+      "name": "Principal stresses and directions",
+      "commands": "pdbSet Mechanics Calculate.Principal.Stress 1\npdbSet Mechanics Calculate.Principal.Direction 1",
+      "reference": "p.145 Principal Stresses",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Cap",
+        "User_Warpage",
+        "User_Line",
+        "User_TSV"
+      ],
+      "difficulty": "Low",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "464"
+    },
+    {
+      "row": 32,
+      "original_category": "Analysis methods",
+      "name": "Maximum-stress tracking",
+      "commands": "pdbSet Mechanics SaveMaxStress 1",
+      "reference": "p.14? Tracking Maximum Stress (page number obscured by the pointer)",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Warpage",
+        "User_Line",
+        "User_TSV"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "464"
+    },
+    {
+      "row": 33,
+      "original_category": "Analysis methods",
+      "name": "Thermal analysis",
+      "commands": "mode thermal",
+      "reference": "p.173 Thermal Analysis",
+      "case_aliases": [
+        "Damascene",
+        "3D_Interconnect"
+      ],
+      "difficulty": "Medium",
+      "mode": "Thermal",
+      "source_status": "not started",
+      "category": "Heat transfer & materials",
+      "screenshot": "464"
+    },
+    {
+      "row": 34,
+      "original_category": "Analysis methods",
+      "name": "Electrostatic analysis",
+      "commands": "mode electrostatic",
+      "reference": "p.197 Electrostatic Analysis",
+      "case_aliases": [
+        "Inverter"
+      ],
+      "difficulty": "Medium",
+      "mode": "Electrical",
+      "source_status": "not started",
+      "category": "Analysis modes",
+      "screenshot": "464"
+    },
+    {
+      "row": 35,
+      "original_category": "Analysis methods",
+      "name": "Electrical current analysis",
+      "commands": "mode current",
+      "reference": "p.184 Electrical Current Analysis",
+      "case_aliases": [
+        "Damascene"
+      ],
+      "difficulty": "Medium",
+      "mode": "Electrical",
+      "source_status": "not started",
+      "category": "Analysis modes",
+      "screenshot": "464"
+    },
+    {
+      "row": 36,
+      "original_category": "Analysis methods",
+      "name": "Electrothermal coupling and Joule heating",
+      "commands": "pdbSet <material> Temperature JouleHeating 1\nmode current thermal",
+      "reference": "p.174 Thermal Model",
+      "case_aliases": [
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ],
+      "difficulty": "Medium",
+      "mode": "Electrothermal",
+      "source_status": "not started",
+      "category": "Analysis modes",
+      "screenshot": "464"
+    },
+    {
+      "row": 37,
+      "original_category": "Analysis methods",
+      "name": "Thermoelectromechanical coupling",
+      "commands": "mode mechanics current thermal",
+      "reference": "N/A",
+      "case_aliases": [
+        "Damascene",
+        "3D_Interconnect",
+        "Backend_SRAM",
+        "Backend_SRAMRounding"
+      ],
+      "difficulty": "High",
+      "mode": "Thermoelectromechanical",
+      "source_status": "not started",
+      "category": "Analysis modes",
+      "screenshot": "464"
+    },
+    {
+      "row": 38,
+      "original_category": "Analysis methods",
+      "name": "Capacitance matrix calculation and output",
+      "commands": "mode capacitance\nprintCapacitanceMatrix",
+      "reference": "p.749 Electrostatic Analysis: Capacitance Matrix; p.636 printCapacitanceMatrix; p.200 Capacitance Matrix",
+      "case_aliases": [
+        "3D_Matrix_Calculation"
+      ],
+      "difficulty": "Medium",
+      "mode": "Electrical",
+      "source_status": "not started",
+      "category": "Analysis modes",
+      "screenshot": "463"
+    },
+    {
+      "row": 39,
+      "original_category": "Analysis methods",
+      "name": "Resistance matrix calculation and output",
+      "commands": "mode resistance\nprintResistanceMatrix",
+      "reference": "p.757 Thermal Analysis: Thermal RC Network; p.640 printResistanceMatrix; p.193 Resistance Matrix",
+      "case_aliases": [
+        "3D_Matrix_Calculation"
+      ],
+      "difficulty": "Medium",
+      "mode": "Electrical",
+      "source_status": "not started",
+      "category": "Analysis modes",
+      "screenshot": "463"
+    },
+    {
+      "row": 40,
+      "original_category": "Analysis methods",
+      "name": "Thermal resistance matrix calculation and output",
+      "commands": "mode thermal.resistance\nprintThermalResistanceMatrix",
+      "reference": "p.755 Thermal Analysis: Thermal Resistance Matrix; p.644 printThermalResistanceMatrix",
+      "case_aliases": [
+        "3D_Matrix_Calculation"
+      ],
+      "difficulty": "Medium",
+      "mode": "Thermal",
+      "source_status": "not started",
+      "category": "Heat transfer & materials",
+      "screenshot": "463"
+    },
+    {
+      "row": 41,
+      "original_category": "Analysis methods",
+      "name": "Shape.Function.LinTriTet.Distance",
+      "commands": "pdbSetBoolean Mechanics Shape.Function.LinTriTet.Distance 1",
+      "reference": "N/A",
+      "case_aliases": [
+        "Backend_Stress"
+      ],
+      "difficulty": "High",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Element library",
+      "screenshot": "463"
+    },
+    {
+      "row": 42,
+      "original_category": "Post-processing",
+      "name": "One-dimensional stress profiles",
+      "commands": "SetPlxList { StressEL_xx StressEL_yy StressEL_zz }\nWritePlx n@node@_via.plx y=0.04 z=0.35 Copper",
+      "reference": "p.682 SetPlxList; p.745 WritePlx",
+      "case_aliases": [
+        "Damascene"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "463"
+    },
+    {
+      "row": 43,
+      "original_category": "Post-processing",
+      "name": "Spatial data extraction to PLX",
+      "commands": "select z=\"Displacement_z\"\nplot.1d y=0 z=0",
+      "reference": "p.391 Selecting Fields for Viewing or Analysis; p.392 Obtaining 1D Data Cuts; p.614 plot.1d",
+      "case_aliases": [
+        "Cantilever"
+      ],
+      "difficulty": "Medium",
+      "mode": "General",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "463"
+    },
+    {
+      "row": 44,
+      "original_category": "Post-processing",
+      "name": "Deformation visualization and scale factor",
+      "commands": "struct tdr=n@node@_def deform deform.scale=5.0",
+      "reference": "p.705 struct; p.591 option",
+      "case_aliases": [
+        "Cantilever",
+        "Backend_Thermomech",
+        "User_Fluid",
+        "User_Cap",
+        "User_Warpage",
+        "User_Line"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "463"
+    },
+    {
+      "row": 45,
+      "original_category": "Post-processing",
+      "name": "Total and step displacement output",
+      "commands": "pdbSet Mechanics Save.Displacement.Field 1\npdbSet Mechanics Save.Total.Displacement 1\npdbSet Mechanics Save.Step.Displacement 1",
+      "reference": "p.166 Displacement Field",
+      "case_aliases": [
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability",
+        "User_Warpage",
+        "User_Line",
+        "User_TSV"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "463"
+    },
+    {
+      "row": 46,
+      "original_category": "Post-processing",
+      "name": "Gauss-point data visualization",
+      "commands": "Interpolate Gauss-point data to element data, then visualize it using the element-data workflow.",
+      "reference": "p.133 Description of Output Fields",
+      "case_aliases": [
+        "Damascene",
+        "Cantilever",
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "463"
+    },
+    {
+      "row": 47,
+      "original_category": "Post-processing",
+      "name": "Gauss-point variable output",
+      "commands": "StressGP and ElasticStrainGP are default mechanical-analysis output variables.",
+      "reference": "p.127 Fields defined on Gauss points",
+      "case_aliases": [
+        "Damascene",
+        "Cantilever",
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "463"
+    },
+    {
+      "row": 48,
+      "original_category": "Post-processing",
+      "name": "Elastic strain-energy density output",
+      "commands": "Strain-energy density is a default mechanical-analysis output variable.",
+      "reference": "p.133 Description of Output Fields",
+      "case_aliases": [
+        "Damascene",
+        "Cantilever",
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ],
+      "difficulty": "Medium",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "463"
+    },
+    {
+      "row": 49,
+      "original_category": "Post-processing",
+      "name": "Stress-induced mobility enhancement",
+      "commands": "pdbSetBoolean Mechanics Calculate.Mobility 1",
+      "reference": "p.165 Stress-Induced Mobility Enhancement",
+      "case_aliases": [
+        "User_TSV"
+      ],
+      "difficulty": "High",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "463"
+    },
+    {
+      "row": 50,
+      "original_category": "Geometry / mesh",
+      "name": "Geometry translation",
+      "commands": "transform translate",
+      "reference": "p.261 UseLines and the transform Command",
+      "case_aliases": [
+        "Backend_FlipChip"
+      ],
+      "difficulty": "Medium",
+      "mode": "General",
+      "source_status": "not started",
+      "category": "Geometry & mesh",
+      "screenshot": "462"
+    },
+    {
+      "row": 51,
+      "original_category": "Geometry / mesh",
+      "name": "Merge vertices",
+      "commands": "pdbSet Mechanics Merge.Vertices 1",
+      "reference": "N/A",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability"
+      ],
+      "difficulty": "High",
+      "mode": "Mechanics",
+      "source_status": "not started",
+      "category": "Geometry & mesh",
+      "screenshot": "462"
+    },
+    {
+      "row": 52,
+      "original_category": "Crack analysis",
+      "name": "Crack analysis",
+      "commands": "pdbSet Mechanics Model Crack",
+      "reference": "p.150 Crack Analysis",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_Thermomech"
+      ],
+      "difficulty": "High",
+      "mode": "Mechanics",
+      "source_status": "not startnot started",
+      "category": "Nonlinearity",
+      "screenshot": "462"
+    },
+    {
+      "row": 53,
+      "original_category": "General",
+      "name": "Field-data export",
+      "commands": "SetTDRList {LatticeTemperature FinalTemp} !Solutions",
+      "reference": "p.683 SetTDRList",
+      "case_aliases": [
+        "Backend_Thermomech"
+      ],
+      "difficulty": "Medium",
+      "mode": "General",
+      "source_status": "not started",
+      "category": "Post-processing & output",
+      "screenshot": "462"
+    },
+    {
+      "row": 54,
+      "original_category": "General",
+      "name": "Shell commands from Tcl",
+      "commands": "fexec rm -rf n@node@_2_sis.tdr",
+      "reference": "p.498 fexec",
+      "case_aliases": [
+        "Backend_CopperReliability"
+      ],
+      "difficulty": "Medium",
+      "mode": "General",
+      "source_status": "not started",
+      "category": "Scripting & data exchange",
+      "screenshot": "462"
+    },
+    {
+      "row": 55,
+      "original_category": "General",
+      "name": "External Tcl source files",
+      "commands": "source settings.cmd",
+      "reference": "N/A",
+      "case_aliases": [
+        "Backend_Thermomech",
+        "User_Warpage"
+      ],
+      "difficulty": "Medium",
+      "mode": "General",
+      "source_status": "done",
+      "category": "Scripting & data exchange",
+      "screenshot": "462"
+    },
+    {
+      "row": 56,
+      "original_category": "General",
+      "name": "Iterative solver configuration",
+      "commands": "pdbSet Math Flow 3D ILS.method sts3\npdbSet Math Flow 3D ILS.tolrel 1e-3\npdbSetDouble Math Flow ILS.refine.residual 1e-3\npdbSet Math Flow 3D ILS.ilut.tau 1e-14\npdbSet Math Flow 3D ILS.scaling diagsym\npdbSet Math Flow 3D ILS.nonsymmOrdering none\npdbSet Math Flow 3D ILS.refine.sts 1\npdbSet Math Flow 3D ILS.leftPreconditioner 1",
+      "reference": "p.400 Setting Parameters of the Iterative Solver ILS",
+      "case_aliases": [
+        "Backend_Thermomech",
+        "Backend_CopperReliability"
+      ],
+      "difficulty": "Medium",
+      "mode": "General",
+      "source_status": "not started",
+      "category": "Solver components",
+      "screenshot": "462"
+    },
+    {
+      "row": 57,
+      "original_category": "General",
+      "name": "Global temperature setting",
+      "commands": "SetTemp <n>[<C>|<K>]",
+      "reference": "p.683 SetTemp",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Stress"
+      ],
+      "difficulty": "Medium",
+      "mode": "Thermal",
+      "source_status": "done",
+      "category": "Heat transfer & materials",
+      "screenshot": "462"
+    },
+    {
+      "row": 58,
+      "original_category": "General",
+      "name": "Field-data import",
+      "commands": "load tdr=<c> sum",
+      "reference": "p.62 Interpolating Field Data From an External Structure File Using Load Command; p.558 load",
+      "case_aliases": [
+        "Backend_FlipChip",
+        "Backend_CopperReliability",
+        "Backend_Thermomech",
+        "Backend_Stress",
+        "Backend_SolderReliability"
+      ],
+      "difficulty": "Medium",
+      "mode": "General",
+      "source_status": "not started",
+      "category": "Scripting & data exchange",
+      "screenshot": "462"
+    },
+    {
+      "row": 59,
+      "original_category": "General",
+      "name": "Units in Tcl commands",
+      "commands": "supply contact.name=<c> temperature=<n> [<C>|<K>]",
+      "reference": "N/A",
+      "case_aliases": [
+        "all"
+      ],
+      "difficulty": "Medium",
+      "mode": "General",
+      "source_status": "not started",
+      "category": "Scripting & data exchange",
+      "screenshot": "462"
+    },
+    {
+      "row": 60,
+      "original_category": "General",
+      "name": "Eigenvalue solver",
+      "commands": "mode buckling\npdbSetBoolean Mechanics ArcLength 0",
+      "reference": "p.128 Linear Buckling Analysis",
+      "case_aliases": [
+        "User_Line"
+      ],
+      "difficulty": "Medium",
+      "mode": "General",
+      "source_status": "not started",
+      "category": "Solver components",
+      "screenshot": "462"
+    }
+  ]
+}

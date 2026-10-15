@@ -1,0 +1,1 @@
+["taskset", "-c", "6", "nice", "-n", "10", "timeout", "--signal=TERM", "--kill-after=10s", "600s", "/home/mozztcad/geo3d-worktrees/integrate-si-latest-20261007/build/sinterconnect_run", "-u", "-b", "n2_sis.cmd"]

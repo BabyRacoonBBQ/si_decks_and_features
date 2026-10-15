@@ -1,0 +1,24 @@
+* text=auto eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.css text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.pptx binary
+*.tdr binary
+*.zip binary
+*.gz binary
+# Keep the screenshot/OCR reference byte-for-byte rather than normalizing it.
+芯片与封装仿真_HTML幻灯片.html -text
+Resources/xiaodong-originals/** binary
+# Preserve archived inputs and evidence hashes across Windows/Linux clones.
+Resources/** -text
+sinterconnect-catalog/assets/** -text

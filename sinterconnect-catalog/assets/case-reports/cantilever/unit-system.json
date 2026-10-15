@@ -1,0 +1,62 @@
+{
+  "canonical": {
+    "length": "mm",
+    "pressure": "Pa",
+    "force": "uN",
+    "time": "s",
+    "temperature": "C",
+    "voltage": "V",
+    "current": "A",
+    "dimensionless": "1"
+  },
+  "defaults": {
+    "length": "um",
+    "pressure": "dyn/cm2",
+    "force": "dyn",
+    "time": "s",
+    "temperature": "C",
+    "voltage": "V",
+    "current": "A",
+    "dimensionless": "1"
+  },
+  "units": {
+    "length": {
+      "mm": {"factor": 1.0, "offset": 0.0},
+      "um": {"factor": 0.001, "offset": 0.0},
+      "nm": {"factor": 0.000001, "offset": 0.0},
+      "cm": {"factor": 10.0, "offset": 0.0},
+      "m": {"factor": 1000.0, "offset": 0.0},
+      "Angs": {"factor": 0.0000001, "offset": 0.0}
+    },
+    "pressure": {
+      "Pa": {"factor": 1.0, "offset": 0.0},
+      "kPa": {"factor": 1000.0, "offset": 0.0},
+      "MPa": {"factor": 1000000.0, "offset": 0.0},
+      "GPa": {"factor": 1000000000.0, "offset": 0.0},
+      "dyn/cm2": {"factor": 0.1, "offset": 0.0},
+      "bar": {"factor": 100000.0, "offset": 0.0},
+      "atm": {"factor": 101325.0, "offset": 0.0}
+    },
+    "force": {
+      "uN": {"factor": 1.0, "offset": 0.0},
+      "mN": {"factor": 1000.0, "offset": 0.0},
+      "N": {"factor": 1000000.0, "offset": 0.0},
+      "dyn": {"factor": 10.0, "offset": 0.0}
+    },
+    "time": {
+      "s": {"factor": 1.0, "offset": 0.0},
+      "ms": {"factor": 0.001, "offset": 0.0},
+      "us": {"factor": 0.000001, "offset": 0.0},
+      "ns": {"factor": 0.000000001, "offset": 0.0},
+      "min": {"factor": 60.0, "offset": 0.0},
+      "hr": {"factor": 3600.0, "offset": 0.0}
+    },
+    "temperature": {
+      "C": {"factor": 1.0, "offset": 0.0},
+      "K": {"factor": 1.0, "offset": -273.15}
+    },
+    "voltage": {"V": {"factor": 1.0, "offset": 0.0}, "mV": {"factor": 0.001, "offset": 0.0}},
+    "current": {"A": {"factor": 1.0, "offset": 0.0}, "mA": {"factor": 0.001, "offset": 0.0}},
+    "dimensionless": {"1": {"factor": 1.0, "offset": 0.0}}
+  }
+}

@@ -1,0 +1,35 @@
+# Independent project and unrelated local notes
+/rea-review/
+/rea-feature-analysis.md
+
+# Local environments and maintenance backups
+/.report-runtime/
+/sinterconnect-catalog-backups/
+**/__pycache__/
+*.py[cod]
+**/node_modules/
+**/.venv/
+**/.pytest_cache/
+**/.cache/
+**/.mpl-cache/
+
+# Local VM maintenance state; case recovery ZIPs remain tracked
+/Resources/case-archive/pre-maintenance-source-backup.tar.gz
+/Resources/case-archive/*.vmx
+/Resources/case-archive/vm-maintenance/
+/Resources/case-archive/VM-*-MANIFEST.json
+/Resources/case-archive/VM-STORAGE-AUDIT.md
+
+# Machine settings and secrets
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*

@@ -1,0 +1,58 @@
+{
+  "title": "进度日志",
+  "weeks": [
+    {
+      "start": "2026-10-12",
+      "end": "2026-10-18",
+      "updated": "2026-10-14",
+      "title": "首个后端案例跑通，屈曲求解链路接通",
+      "entries": [
+        {
+          "type": "案例进展",
+          "title": "首个后端应用案例跑通",
+          "description": "封装热机械可靠性案例跑通：先计算温度场，再将温度结果用于力学计算，得到热失配引起的应力结果。",
+          "status": "已跑通",
+          "page": "case-backend.html",
+          "evidence": "用户本周进度确认；封装热机械案例交接记录。",
+          "release_note": "首个后端案例跑通：封装热机械可靠性。"
+        },
+        {
+          "type": "新增功能",
+          "title": "线性屈曲分析",
+          "description": "接入真实力学求解流程，可计算临界载荷倍数和屈曲模态。三阶特征值为 71.761、71.761、609.80，与参考结果一致。",
+          "status": "案例对比通过",
+          "page": "case-buckling.html",
+          "evidence": "2026-10-13 线性屈曲还原报告；已核对实际运行日志。",
+          "release_note": "新增线性屈曲，特征值与参考结果一致。"
+        },
+        {
+          "type": "新增功能",
+          "title": "后屈曲分析",
+          "description": "新增后屈曲功能及独立测试案例，用于分析屈曲后的变形和承载行为。现有记录保留了案例输入，完整数值对比仍待核对。",
+          "status": "新增功能",
+          "page": "case-postbuckling.html",
+          "evidence": "用户本周进度确认；现有后屈曲案例归档。",
+          "release_note": "新增后屈曲，数值对比待核对。"
+        },
+        {
+          "type": "求解器进展",
+          "title": "接通 ARPACK 与 MUMPS",
+          "description": "真实线性屈曲案例进入 MUMPS 矩阵分解，以及 ARPACK 的特征值迭代和结果提取流程；完成 MUMPS 包接口适配。",
+          "status": "真实案例运行通过",
+          "page": "case-buckling.html",
+          "evidence": "2026-10-13 运行报告及调用路径记录。",
+          "release_note": "接入 ARPACK，打通 MUMPS 求解链路。"
+        },
+        {
+          "type": "对标准备",
+          "title": "建立 GT-A 等价脚本维护记录",
+          "description": "为二十五个案例建立维护记录；悬臂梁已提供现有 APDL、CDB 和转换日志下载。其余案例脚本仍待补齐，尚未宣称等价验证通过。",
+          "status": "持续补齐",
+          "page": "case-source-cantilever.html",
+          "evidence": "转换器现有输出与逐案例维护清单。",
+          "release_note": "建立 GT-A 脚本维护记录，悬臂梁脚本可下载。"
+        }
+      ]
+    }
+  ]
+}

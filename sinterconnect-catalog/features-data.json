@@ -1,0 +1,472 @@
+[
+  {
+    "id": "mechanics-analysis-methods-quasistatic-equilibrium",
+    "name": "Quasistatic equilibrium",
+    "module": "Mechanics",
+    "category": "Analysis methods",
+    "status": "LCA",
+    "case_ids": [
+      "quasistatic",
+      "backend",
+      "submodel"
+    ],
+    "page": "feature-mechanics-analysis-methods-quasistatic-equilibrium.html"
+  },
+  {
+    "id": "mechanics-analysis-methods-linear-buckling",
+    "name": "Linear buckling",
+    "module": "Mechanics",
+    "category": "Analysis methods",
+    "status": "TODO",
+    "case_ids": [
+      "buckling"
+    ],
+    "page": "feature-mechanics-analysis-methods-linear-buckling.html"
+  },
+  {
+    "id": "mechanics-analysis-methods-post-buckling",
+    "name": "Post-buckling",
+    "module": "Mechanics",
+    "category": "Analysis methods",
+    "status": "TODO",
+    "case_ids": [
+      "postbuckling"
+    ],
+    "page": "feature-mechanics-analysis-methods-post-buckling.html"
+  },
+  {
+    "id": "mechanics-material-models-isotropic-elasticity",
+    "name": "Isotropic elasticity",
+    "module": "Mechanics",
+    "category": "Material models",
+    "status": "LCA",
+    "case_ids": [
+      "backend"
+    ],
+    "page": "feature-mechanics-material-models-isotropic-elasticity.html"
+  },
+  {
+    "id": "mechanics-material-models-anisotropic-elasticity",
+    "name": "Anisotropic elasticity",
+    "module": "Mechanics",
+    "category": "Material models",
+    "status": "LCA",
+    "case_ids": [
+      "backend"
+    ],
+    "page": "feature-mechanics-material-models-anisotropic-elasticity.html"
+  },
+  {
+    "id": "mechanics-material-models-viscous-viscoelastic",
+    "name": "Viscous & viscoelastic",
+    "module": "Mechanics",
+    "category": "Material models",
+    "status": "LCA",
+    "case_ids": [],
+    "page": "feature-mechanics-material-models-viscous-viscoelastic.html"
+  },
+  {
+    "id": "mechanics-material-models-plastic-viscoplastic",
+    "name": "Plastic & viscoplastic",
+    "module": "Mechanics",
+    "category": "Material models",
+    "status": "Alpha",
+    "case_ids": [],
+    "page": "feature-mechanics-material-models-plastic-viscoplastic.html"
+  },
+  {
+    "id": "mechanics-material-models-power-law-creep",
+    "name": "Power-law creep",
+    "module": "Mechanics",
+    "category": "Material models",
+    "status": "Prototype",
+    "case_ids": [],
+    "page": "feature-mechanics-material-models-power-law-creep.html"
+  },
+  {
+    "id": "mechanics-material-models-swelling",
+    "name": "Swelling",
+    "module": "Mechanics",
+    "category": "Material models",
+    "status": "Prototype",
+    "case_ids": [],
+    "page": "feature-mechanics-material-models-swelling.html"
+  },
+  {
+    "id": "mechanics-material-models-cohesive-damage-softening",
+    "name": "Cohesive damage / softening",
+    "module": "Mechanics",
+    "category": "Material models",
+    "status": "Prototype",
+    "case_ids": [],
+    "page": "feature-mechanics-material-models-cohesive-damage-softening.html"
+  },
+  {
+    "id": "mechanics-material-models-temperature-dependent-parameters",
+    "name": "Temperature-dependent parameters",
+    "module": "Mechanics",
+    "category": "Material models",
+    "status": "LCA",
+    "case_ids": [],
+    "page": "feature-mechanics-material-models-temperature-dependent-parameters.html"
+  },
+  {
+    "id": "mechanics-element-library-plane-strain",
+    "name": "Plane strain",
+    "module": "Mechanics",
+    "category": "Element library",
+    "status": "LCA",
+    "case_ids": [],
+    "page": "feature-mechanics-element-library-plane-strain.html"
+  },
+  {
+    "id": "mechanics-element-library-3d-solid",
+    "name": "3D solid",
+    "module": "Mechanics",
+    "category": "Element library",
+    "status": "LCA",
+    "case_ids": [],
+    "page": "feature-mechanics-element-library-3d-solid.html"
+  },
+  {
+    "id": "mechanics-element-library-plane-stress",
+    "name": "Plane stress",
+    "module": "Mechanics",
+    "category": "Element library",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-mechanics-element-library-plane-stress.html"
+  },
+  {
+    "id": "mechanics-element-library-axisymmetric",
+    "name": "Axisymmetric",
+    "module": "Mechanics",
+    "category": "Element library",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-mechanics-element-library-axisymmetric.html"
+  },
+  {
+    "id": "mechanics-element-library-composite-solid-shell",
+    "name": "Composite solid shell",
+    "module": "Mechanics",
+    "category": "Element library",
+    "status": "Alpha",
+    "case_ids": [],
+    "page": "feature-mechanics-element-library-composite-solid-shell.html"
+  },
+  {
+    "id": "mechanics-element-library-3d-timoshenko-composite-beam",
+    "name": "3D Timoshenko composite beam",
+    "module": "Mechanics",
+    "category": "Element library",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-mechanics-element-library-3d-timoshenko-composite-beam.html"
+  },
+  {
+    "id": "mechanics-element-library-first-second-order",
+    "name": "First / second order",
+    "module": "Mechanics",
+    "category": "Element library",
+    "status": "LCA",
+    "case_ids": [],
+    "page": "feature-mechanics-element-library-first-second-order.html"
+  },
+  {
+    "id": "mechanics-element-library-mixed-mesh",
+    "name": "Mixed mesh",
+    "module": "Mechanics",
+    "category": "Element library",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-mechanics-element-library-mixed-mesh.html"
+  },
+  {
+    "id": "mechanics-stress-causing-mechanisms-thermal-mismatch-intrinsic-stress",
+    "name": "Thermal mismatch · intrinsic stress",
+    "module": "Mechanics",
+    "category": "Stress-causing mechanisms",
+    "status": "LCA",
+    "case_ids": [
+      "backend",
+      "tsv",
+      "submodel"
+    ],
+    "page": "feature-mechanics-stress-causing-mechanisms-thermal-mismatch-intrinsic-stress.html"
+  },
+  {
+    "id": "mechanics-stress-causing-mechanisms-densification-grain-growth",
+    "name": "Densification · grain growth",
+    "module": "Mechanics",
+    "category": "Stress-causing mechanisms",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-mechanics-stress-causing-mechanisms-densification-grain-growth.html"
+  },
+  {
+    "id": "mechanics-stress-causing-mechanisms-gravity-force",
+    "name": "Gravity force",
+    "module": "Mechanics",
+    "category": "Stress-causing mechanisms",
+    "status": "Prototype",
+    "case_ids": [],
+    "page": "feature-mechanics-stress-causing-mechanisms-gravity-force.html"
+  },
+  {
+    "id": "mechanics-stress-causing-mechanisms-surface-reflow-edge-dislocation",
+    "name": "Surface reflow · edge dislocation",
+    "module": "Mechanics",
+    "category": "Stress-causing mechanisms",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-mechanics-stress-causing-mechanisms-surface-reflow-edge-dislocation.html"
+  },
+  {
+    "id": "mechanics-stress-causing-mechanisms-inverse-piezoelectric-effect",
+    "name": "Inverse piezoelectric effect",
+    "module": "Mechanics",
+    "category": "Stress-causing mechanisms",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-mechanics-stress-causing-mechanisms-inverse-piezoelectric-effect.html"
+  },
+  {
+    "id": "mechanics-stress-causing-mechanisms-fluid-surface-tension-pressure",
+    "name": "Fluid surface tension / pressure",
+    "module": "Mechanics",
+    "category": "Stress-causing mechanisms",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-mechanics-stress-causing-mechanisms-fluid-surface-tension-pressure.html"
+  },
+  {
+    "id": "mechanics-stress-causing-mechanisms-cohesive-zipping-phase-change",
+    "name": "Cohesive zipping · phase change",
+    "module": "Mechanics",
+    "category": "Stress-causing mechanisms",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-mechanics-stress-causing-mechanisms-cohesive-zipping-phase-change.html"
+  },
+  {
+    "id": "mechanics-stress-causing-mechanisms-etch-deposition-stress-rebalancing",
+    "name": "Etch / deposition stress rebalancing",
+    "module": "Mechanics",
+    "category": "Stress-causing mechanisms",
+    "status": "LCA",
+    "case_ids": [],
+    "page": "feature-mechanics-stress-causing-mechanisms-etch-deposition-stress-rebalancing.html"
+  },
+  {
+    "id": "mechanics-nonlinearity-geometric-nonlinearity",
+    "name": "Geometric nonlinearity",
+    "module": "Mechanics",
+    "category": "Nonlinearity",
+    "status": "LCA",
+    "case_ids": [
+      "deformation"
+    ],
+    "page": "feature-mechanics-nonlinearity-geometric-nonlinearity.html"
+  },
+  {
+    "id": "mechanics-nonlinearity-mechanical-contact-crack-analysis",
+    "name": "Mechanical contact · crack analysis",
+    "module": "Mechanics",
+    "category": "Nonlinearity",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-mechanics-nonlinearity-mechanical-contact-crack-analysis.html"
+  },
+  {
+    "id": "mechanics-boundary-conditions-constraints-prescribed-displacement-rate-traction-pressure-point-force",
+    "name": "Prescribed displacement / rate · traction · pressure · point force",
+    "module": "Mechanics",
+    "category": "Boundary conditions & constraints",
+    "status": "LCA",
+    "case_ids": [
+      "submodel",
+      "tsv"
+    ],
+    "page": "feature-mechanics-boundary-conditions-constraints-prescribed-displacement-rate-traction-pressure-point-force.html"
+  },
+  {
+    "id": "mechanics-boundary-conditions-constraints-moment-symmetry-periodic-boundary",
+    "name": "Moment · symmetry · periodic boundary",
+    "module": "Mechanics",
+    "category": "Boundary conditions & constraints",
+    "status": "Alpha",
+    "case_ids": [],
+    "page": "feature-mechanics-boundary-conditions-constraints-moment-symmetry-periodic-boundary.html"
+  },
+  {
+    "id": "mechanics-boundary-conditions-constraints-coupling-beam-plate-coupling-variable-boundary",
+    "name": "Coupling · beam-plate coupling · variable boundary",
+    "module": "Mechanics",
+    "category": "Boundary conditions & constraints",
+    "status": "Alpha",
+    "case_ids": [],
+    "page": "feature-mechanics-boundary-conditions-constraints-coupling-beam-plate-coupling-variable-boundary.html"
+  },
+  {
+    "id": "thermal-heat-transfer-materials-steady-state-transient",
+    "name": "Steady-state · transient",
+    "module": "Thermal",
+    "category": "Heat transfer & materials",
+    "status": "Alpha",
+    "case_ids": [],
+    "page": "feature-thermal-heat-transfer-materials-steady-state-transient.html"
+  },
+  {
+    "id": "thermal-heat-transfer-materials-conduction-convection-radiation",
+    "name": "Conduction · convection · radiation",
+    "module": "Thermal",
+    "category": "Heat transfer & materials",
+    "status": "Alpha",
+    "case_ids": [
+      "backend"
+    ],
+    "page": "feature-thermal-heat-transfer-materials-conduction-convection-radiation.html"
+  },
+  {
+    "id": "thermal-heat-transfer-materials-conductivity-heat-storage-emissivity",
+    "name": "Conductivity · heat storage · emissivity",
+    "module": "Thermal",
+    "category": "Heat transfer & materials",
+    "status": "Alpha",
+    "case_ids": [],
+    "page": "feature-thermal-heat-transfer-materials-conductivity-heat-storage-emissivity.html"
+  },
+  {
+    "id": "thermal-heat-transfer-materials-temperature-dependent-parameters",
+    "name": "Temperature-dependent parameters",
+    "module": "Thermal",
+    "category": "Heat transfer & materials",
+    "status": "Alpha",
+    "case_ids": [],
+    "page": "feature-thermal-heat-transfer-materials-temperature-dependent-parameters.html"
+  },
+  {
+    "id": "thermal-heat-transfer-materials-applied-heating-electrical-heating",
+    "name": "Applied heating · electrical heating",
+    "module": "Thermal",
+    "category": "Heat transfer & materials",
+    "status": "Alpha",
+    "case_ids": [],
+    "page": "feature-thermal-heat-transfer-materials-applied-heating-electrical-heating.html"
+  },
+  {
+    "id": "thermal-boundary-interface-conditions-prescribed-temperature-ramps-heat-flux-contact-power",
+    "name": "Prescribed temperature · ramps · heat flux · contact power",
+    "module": "Thermal",
+    "category": "Boundary & interface conditions",
+    "status": "Alpha",
+    "case_ids": [],
+    "page": "feature-thermal-boundary-interface-conditions-prescribed-temperature-ramps-heat-flux-contact-power.html"
+  },
+  {
+    "id": "thermal-boundary-interface-conditions-adiabatic-convection-radiation",
+    "name": "Adiabatic · convection · radiation",
+    "module": "Thermal",
+    "category": "Boundary & interface conditions",
+    "status": "Alpha",
+    "case_ids": [],
+    "page": "feature-thermal-boundary-interface-conditions-adiabatic-convection-radiation.html"
+  },
+  {
+    "id": "thermal-boundary-interface-conditions-thermal-resistor",
+    "name": "Thermal resistor",
+    "module": "Thermal",
+    "category": "Boundary & interface conditions",
+    "status": "Prototype",
+    "case_ids": [],
+    "page": "feature-thermal-boundary-interface-conditions-thermal-resistor.html"
+  },
+  {
+    "id": "thermal-boundary-interface-conditions-temperature-flux-continuity",
+    "name": "Temperature / flux continuity",
+    "module": "Thermal",
+    "category": "Boundary & interface conditions",
+    "status": "Prototype",
+    "case_ids": [],
+    "page": "feature-thermal-boundary-interface-conditions-temperature-flux-continuity.html"
+  },
+  {
+    "id": "thermal-boundary-interface-conditions-interface-thermal-resistance",
+    "name": "Interface thermal resistance",
+    "module": "Thermal",
+    "category": "Boundary & interface conditions",
+    "status": "Prototype",
+    "case_ids": [],
+    "page": "feature-thermal-boundary-interface-conditions-interface-thermal-resistance.html"
+  },
+  {
+    "id": "coupled-electrical-analysis-modes-thermomechanical",
+    "name": "Thermomechanical",
+    "module": "Coupled / Electrical",
+    "category": "Analysis modes",
+    "status": "Alpha",
+    "case_ids": [
+      "backend",
+      "tsv",
+      "submodel"
+    ],
+    "page": "feature-coupled-electrical-analysis-modes-thermomechanical.html"
+  },
+  {
+    "id": "coupled-electrical-analysis-modes-electrical-current-electrostatic",
+    "name": "Electrical current · electrostatic",
+    "module": "Coupled / Electrical",
+    "category": "Analysis modes",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-coupled-electrical-analysis-modes-electrical-current-electrostatic.html"
+  },
+  {
+    "id": "coupled-electrical-analysis-modes-electrothermal",
+    "name": "Electrothermal",
+    "module": "Coupled / Electrical",
+    "category": "Analysis modes",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-coupled-electrical-analysis-modes-electrothermal.html"
+  },
+  {
+    "id": "coupled-electrical-analysis-modes-electromechanical",
+    "name": "Electromechanical",
+    "module": "Coupled / Electrical",
+    "category": "Analysis modes",
+    "status": "TODO",
+    "case_ids": [],
+    "page": "feature-coupled-electrical-analysis-modes-electromechanical.html"
+  },
+  {
+    "id": "numerics-solver-components-fem-mechanics-fvm-thermal-electrical",
+    "name": "FEM mechanics · FVM thermal / electrical",
+    "module": "Numerics",
+    "category": "Solver components",
+    "status": "",
+    "case_ids": [],
+    "page": "feature-numerics-solver-components-fem-mechanics-fvm-thermal-electrical.html"
+  },
+  {
+    "id": "numerics-solver-components-trbdf-newton-direct-iterative-solvers",
+    "name": "TRBDF · Newton · direct / iterative solvers",
+    "module": "Numerics",
+    "category": "Solver components",
+    "status": "",
+    "case_ids": [],
+    "page": "feature-numerics-solver-components-trbdf-newton-direct-iterative-solvers.html"
+  },
+  {
+    "id": "numerics-solver-components-arpack-mumps-recovery-see-linear-buckling",
+    "name": "ARPACK / MUMPS recovery: see linear buckling",
+    "module": "Numerics",
+    "category": "Solver components",
+    "status": "",
+    "case_ids": [
+      "buckling"
+    ],
+    "page": "feature-numerics-solver-components-arpack-mumps-recovery-see-linear-buckling.html"
+  }
+]

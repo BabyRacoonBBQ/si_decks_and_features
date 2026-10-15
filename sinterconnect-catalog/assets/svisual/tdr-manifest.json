@@ -1,0 +1,22 @@
+[
+  {
+    "alias": "Damascene",
+    "tdr": "/home/mozztcad/si_workspace/integration-20261007/validation02/DualDamascene/n3_sis.tdr",
+    "sha256": "8bf9e1c1d04ff20ab992cf45770730a9d04d4d081384bcd48ffd4eb915ee37cb"
+  },
+  {
+    "alias": "Cantilever",
+    "tdr": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/local/n4_sis.tdr",
+    "sha256": "00d9e6da7585735e72e6ed75048b000a2419c541180f77b760465e776e5cc13b"
+  },
+  {
+    "alias": "3D_Interconnect",
+    "tdr": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Interconnect/n12_final_sis.tdr",
+    "sha256": "58038a162517cf17f3c215e5695db46bb3a0660abdc75073ccb9e85a3169bd01"
+  },
+  {
+    "alias": "Inverter",
+    "tdr": "/home/mozztcad/si_workspace/integration-20261007/validation02/Inverter/n@node@_sis.tdr",
+    "sha256": "f0c1c4e739bb20f345289e262ee6595b051ca0f81235a631d7917518a6558cac"
+  }
+]

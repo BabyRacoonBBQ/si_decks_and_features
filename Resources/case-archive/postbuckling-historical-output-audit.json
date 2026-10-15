@@ -1,0 +1,45 @@
+{
+  "scope": "Read-only inspection of existing historical post-buckling outputs; no build, solver, converter, or regression run was performed.",
+  "current_source_validation": "UNBUILT / UNVERIFIED; these historical outputs do not certify the current source or binary.",
+  "case": "post-buckling-supercritical",
+  "local_directory": "/home/mozztcad/tmp/local-mechanics/post-buckling-supercritical",
+  "reference_directory": "/home/mozztcad/tmp/post-buckling-vendor-full-replay2",
+  "input_check": "case.cmd files have identical lines after newline normalization.",
+  "initial_vertex_order_equal": true,
+  "frame": 3,
+  "preceding_mechanics_log_time_s": 0.01,
+  "field": "ElasticStrain",
+  "unit": "dimensionless",
+  "flattened_component_index_zero_based": 236,
+  "local_value": 0.0003756438778427561,
+  "reference_value": 0.0007512877556855211,
+  "local_divided_by_reference": 0.49999999999999406,
+  "maximum_absolute_field_difference": 0.000375643877842765,
+  "max_difference_divided_by_reference_absolute_maximum": 0.4371285139488306,
+  "same_frame_other_fields": {
+    "Displacement": {
+      "max_absolute_difference_cm": 1.4778077951627371e-19,
+      "normalized_maximum_difference": 1.9448692968757806e-13
+    },
+    "MisesStress": {
+      "max_absolute_difference_dyn_per_cm2": 0.000003180583007633686,
+      "normalized_maximum_difference": 4.457277629724482e-13
+    },
+    "EulerianStrain": {
+      "max_absolute_difference": 5.134747607573459e-16,
+      "normalized_maximum_difference": 5.960494127732918e-13
+    }
+  },
+  "interpretation": "The retained ElasticStrain field has a clear component-level mismatch. Some components are approximately one half of the reference. A tensor/engineering shear convention or output-path issue is a candidate, not a proven root cause. This is not evidence that all physical fields disagree.",
+  "tdr_sha256": {
+    "local": "59e3bdb36f21800af603091b40d1309a695b4b9b72fd4eb57155fe9d25f39dd1",
+    "reference": "5d8ed49550de22dba523d0fb52c38c094437683a1122b1b217d41e9138d8c6e7"
+  },
+  "provenance_limits": [
+    "The retained output files do not establish the producing local binary's SHA-256.",
+    "The local case.log contains a completed historical run, but run-final.stdout.log and the currently retained frame set stop after frame 27. These are not treated as one complete run.",
+    "No complete current-source post-buckling comparison is claimed."
+  ],
+  "existing_source_review": "/home/mozztcad/geo3d/temp/submit-georun/20261014-final/source-review-repair/getF-elastic-writer-native-review.json",
+  "existing_source_review_status": "Elastic-strain geometry/output path source restoration is recorded; matching-build runtime validation remains pending."
+}

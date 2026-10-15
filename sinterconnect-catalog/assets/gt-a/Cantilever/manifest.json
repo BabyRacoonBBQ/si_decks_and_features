@@ -1,0 +1,41 @@
+{
+  "tool": "ANSYS",
+  "status": "Converted",
+  "equivalence": "Not validated",
+  "files": [
+    {
+      "label": "APDL script (existing converter output)",
+      "url": "assets/gt-a/Cantilever/Cantilever.apdl",
+      "source": "D:\\my_repos\\si_to_ans_converter\\test\\3d_cantilever\\ansys_mapdl\\3D_Cantilever_sis.apdl",
+      "sha256": "e29f6a7f8130a6a2610830af0993aaa294463f2f6deca025de058737b9b3eef7"
+    },
+    {
+      "label": "CDB model (current converter format)",
+      "url": "assets/gt-a/Cantilever/Cantilever.cdb",
+      "source": "D:\\my_repos\\si_to_ans_converter\\test\\3d_cantilever\\sinterconnect\\output-5\\3D_Cantilever_sis.cdb",
+      "sha256": "a17762a5c6c6f09e324e4116e1cc62daa2e17af6de997902362a678efe86b25a"
+    },
+    {
+      "label": "Conversion log",
+      "url": "assets/gt-a/Cantilever/conversion.log",
+      "source": "D:\\my_repos\\si_to_ans_converter\\test\\3d_cantilever\\sinterconnect\\output-5\\3D_Cantilever_sis.cdb.converter.log",
+      "sha256": "2087a3b464a88d1805fca5894aeeb8a2c6c185e43b18c5503c20404dd3b90b75"
+    },
+    {
+      "label": "Conversion input CMD",
+      "url": "assets/gt-a/Cantilever/input.cmd",
+      "source": "D:\\my_repos\\si_to_ans_converter\\test\\3d_cantilever\\sinterconnect\\3D_Cantilever_sis.cmd",
+      "sha256": "42605847847281205df3696231dfdceed95bd0b11311a3d6c0033f1e77a56fd1"
+    },
+    {
+      "label": "Historical ANSYS run log",
+      "url": "assets/gt-a/Cantilever/ansys-run.out",
+      "source": "D:\\my_repos\\si_to_ans_converter\\test\\3d_cantilever\\ansys_mapdl\\3d_cantilever_sis.out",
+      "sha256": "b04d777ae9fabafe6b49fd501daa6419b48a750c972a9d093e0d6298e8cdbd24"
+    }
+  ],
+  "next_step": "Locate the matching CMD and solve-time mesh, convert supported semantics, then compare ANSYS results.",
+  "note": "An existing APDL script and a successful CDB conversion are available. The APDL directory contains a completed historical MAPDL run. The newer CDB conversion records solver_validation: not run. Numerical equivalence and identity with the displayed TDR variant have not been established.",
+  "mesh_source": "D:\\my_repos\\si_to_ans_converter\\test\\3d_cantilever\\sinterconnect\\3D_cantilever_pre_solve_sis.tdr",
+  "mesh_sha256": "84992a6ed38b14859a5b909257a8a779bf13ec1b9e22f63232e704663d90a457"
+}

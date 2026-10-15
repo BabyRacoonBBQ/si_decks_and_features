@@ -1,0 +1,26 @@
+{
+  "Package_Reliability": {
+    "slide": 4,
+    "mesh": "82,477 solid tetrahedra · 15,653 solid vertices",
+    "accuracy": [
+      ["Maximum temperature (K)", "489.456", "489.456", "489.433"],
+      ["Maximum equivalent stress (MPa)", "1105.423", "1105.423", "1106.836"]
+    ],
+    "performance": [
+      ["Thermal solve", "4.25", "2.30", "8.30"],
+      ["Mechanics solve", "7.07", "4.24", "10.00"]
+    ]
+  },
+  "Submodeling": {
+    "slide": 5,
+    "mesh": "Global model: 246,681 tetrahedra · Local model: 422,904 tetrahedra",
+    "accuracy": [
+      ["Global maximum equivalent stress (MPa)", "887.678", "887.678", "887.678"],
+      ["Local maximum equivalent stress (MPa)", "703.701", "703.701", "703.700"]
+    ],
+    "performance": [
+      ["Global solve", "16.69", "16.45", "38.60"],
+      ["Local solve", "43.02", "39.10", "77.50"]
+    ]
+  }
+}

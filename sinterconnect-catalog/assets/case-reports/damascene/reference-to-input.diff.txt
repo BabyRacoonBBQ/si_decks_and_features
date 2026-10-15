@@ -1,0 +1,28 @@
+--- vendor-original
+
++++ three-stage-input
+
+@@ -40,10 +40,14 @@
+
+ deposit Copper temperature= 250<C> coord= -0.65 type= fill
+ strip Photoresist
+ deposit Nitride temperature= 250<C> coord= -0.7 type= fill
++struct tdr=n1
++init tdr=n1
+ mode mechanics
+ solve temperature= 25
+ SetPlxList { StressEL_xx StressEL_yy StressEL_zz }
+-WritePlx n@node@_via.plx y= 0.04 z= 0.35 Copper
++WritePlx n2_via.plx y= 0.04 z= 0.35 Copper
++struct tdr=n2
++init tdr=n2
+ contact Copper name= upper box sidewall \
+ xlo= -0.65 xhi= -0.45 ylo= 0.0 yhi= 0.05 zlo= 0.7 zhi= 0.7
+ contact Copper name= lower box sidewall \
+@@ -58,4 +62,4 @@
+
+ supply contact.name= tm1 temperature= 25<C>
+ mode mechanics current thermal
+ solve time= 1<s>
+-struct tdr= n@node@
++struct tdr= n3

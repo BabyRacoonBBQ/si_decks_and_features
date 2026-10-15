@@ -1,0 +1,32 @@
+[
+  {
+    "archive": "01_Package_reliability.zip",
+    "bytes": 9406879,
+    "sha256": "8a2385ea9c90090f0338aab81e8e8a8ebe43f95efb86bedd2c674c022a2a2ad0"
+  },
+  {
+    "archive": "02_Submodelling.zip",
+    "bytes": 10708403,
+    "sha256": "490ad6824d66f6796b355a79cf5a9a8e4019ac10f7504bd37f1ed14eae650954"
+  },
+  {
+    "archive": "03_Quasistatic_equilibrium.zip",
+    "bytes": 149418,
+    "sha256": "eea2029f90f721bda3c0cf123e7c2fd7f2ca06d4dd227beeed2a45fb1661725b"
+  },
+  {
+    "archive": "04_Linear_buckling.zip",
+    "bytes": 87441,
+    "sha256": "3fd1304105e3c902606a985a16d8f60045775a707fbd2c8418fa3b8f0e826d09"
+  },
+  {
+    "archive": "05_Post_buckling.zip",
+    "bytes": 193476,
+    "sha256": "c15d24286921534928a5f33bd72d173352eaba4139bd92f424a9c989ca3658c4"
+  },
+  {
+    "archive": "06_Large_deformation.zip",
+    "bytes": 173070,
+    "sha256": "291f00cfa418c566988df50aff6aee66efabe86e22fe8b03b97275cc9bfca20e"
+  }
+]

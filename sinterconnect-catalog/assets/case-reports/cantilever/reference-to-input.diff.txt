@@ -1,0 +1,34 @@
+--- archived-reference.cmd
+
++++ converter-input.cmd
+
+@@ -15,7 +15,11 @@
+
+ 
+ init !DelayFullD
+ 
+-struct tdr=3D_cantilever_init
++# This is the authoritative pre-solve mesh checkpoint.
++# Run this CMD in the Sinterconnect VM, then use this TDR directly or convert
++# it with the VM's tdx tool to an external DF-ISE GRD/DAT pair. Do not create
++# a replacement mesh in the converter repository.
++struct tdr=3D_cantilever_pre_solve
+ 
+ stressdata bc.location=Bottom bc.value= {dx=0 dy=0 dz=0}
+ stressdata bc.location=Left bc.value= {sx=0 sy=0 sz=0}
+@@ -25,13 +29,10 @@
+
+ stressdata bc.location=pointend point.coord= {0 0 0} bc.value= {pfx=0 pfy=0 pfz=-0.03<dyn>}
+ 
+ mode mechanics
+-solve 
++solve
+ 
+ struct tdr=n4
+ struct tdr=3D_cantilever_def deform deform.scale= 5.0
+ 
+ select z="Displacement_z"
+ plot.1d y=0 z=0
+-
+-
+-

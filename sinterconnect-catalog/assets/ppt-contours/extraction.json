@@ -1,0 +1,86 @@
+[
+  {
+    "slide": 2,
+    "file": "slide-2-image-1.gif",
+    "target": "ppt/media/image22.gif",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"19\" name=\"Image 0\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{C9B83843-E6C2-9759-AF68-7BBE6CF93501}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId3\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"2956560\" y=\"1996440\" /><ns1:ext cx=\"1645920\" cy=\"678942\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 2,
+    "file": "slide-2-image-2.png",
+    "target": "ppt/media/image23.png",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"20\" name=\"Image 1\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{AD95B607-11D8-B60F-B339-AB7E8142A0EC}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId4\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"2956560\" y=\"2773680\" /><ns1:ext cx=\"1645920\" cy=\"678942\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 2,
+    "file": "slide-2-image-3.png",
+    "target": "ppt/media/image24.png",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"21\" name=\"Image 2\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{9C0BA0DA-2212-43EA-3565-4B039AA8B731}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId5\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"3276600\" y=\"2842260\" /><ns1:ext cx=\"1325880\" cy=\"546926\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 2,
+    "file": "slide-2-image-4.gif",
+    "target": "ppt/media/image25.gif",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"22\" name=\"Image 3\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{1FAFB7F8-CB8E-439C-125A-65757FB6F7C2}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId6\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"2956560\" y=\"3550920\" /><ns1:ext cx=\"1645920\" cy=\"678942\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 2,
+    "file": "slide-2-image-5.gif",
+    "target": "ppt/media/image26.gif",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"23\" name=\"Image 4\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{0B2581AA-5615-DCD5-7070-463AA8472728}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId7\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"10332720\" y=\"2545080\" /><ns1:ext cx=\"3267456\" cy=\"975360\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 4,
+    "file": "slide-4-image-1.gif",
+    "target": "ppt/media/image27.gif",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"13\" name=\"Image 0\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{BE10E763-3E8D-6EB3-1C4E-AB3B9AB83A22}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId3\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"632460\" y=\"2362200\" /><ns1:ext cx=\"2133600\" cy=\"1450848\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 4,
+    "file": "slide-4-image-2.gif",
+    "target": "ppt/media/image28.gif",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"14\" name=\"Image 1\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{A5D2D202-7070-8097-9A40-46214FA57DB5}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId4\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"2819400\" y=\"2781300\" /><ns1:ext cx=\"1943100\" cy=\"1560851\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 4,
+    "file": "slide-4-image-3.gif",
+    "target": "ppt/media/image29.gif",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"15\" name=\"Image 2\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{F3EA0FF0-28A3-F1AF-DC4A-B800B0949B89}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId5\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"5006340\" y=\"2781300\" /><ns1:ext cx=\"1943100\" cy=\"1560851\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 5,
+    "file": "slide-5-image-1.gif",
+    "target": "ppt/media/image30.gif",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"13\" name=\"Image 0\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{E3BC6E7B-F061-FD87-DCB6-C0A393F24662}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId3\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"647700\" y=\"2362200\" /><ns1:ext cx=\"2133600\" cy=\"1450848\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 5,
+    "file": "slide-5-image-2.png",
+    "target": "ppt/media/image31.png",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"14\" name=\"Image 1\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{AA7FD004-7BAA-A5F5-EBC2-7763E84248CA}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId4\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"2819400\" y=\"2857500\" /><ns1:ext cx=\"1943100\" cy=\"1478446\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 5,
+    "file": "slide-5-image-3.png",
+    "target": "ppt/media/image32.png",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"15\" name=\"Image 2\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{9C1AAE46-F94E-5C3E-75EE-0560F3353487}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId5\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"5334000\" y=\"2857500\" /><ns1:ext cx=\"1295400\" cy=\"1512333\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 6,
+    "file": "slide-6-image-1.png",
+    "target": "ppt/media/image33.png",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"69\" name=\"Image 0\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{518D40D5-5D53-A714-04E1-BC33113CF442}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId3\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"685800\" y=\"6972300\" /><ns1:ext cx=\"3924300\" cy=\"834017\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 7,
+    "file": "slide-7-image-1.png",
+    "target": "ppt/media/image34.png",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"34\" name=\"Image 0\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{FABFE026-B7D9-3ACA-4793-0E015D73C5D7}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId3\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"7574280\" y=\"2933700\" /><ns1:ext cx=\"3124200\" cy=\"1874520\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  },
+  {
+    "slide": 7,
+    "file": "slide-7-image-2.png",
+    "target": "ppt/media/image35.png",
+    "xml": "<ns0:pic xmlns:ns0=\"http://schemas.openxmlformats.org/presentationml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:ns2=\"http://schemas.microsoft.com/office/drawing/2014/main\" xmlns:ns3=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><ns0:nvPicPr><ns0:cNvPr id=\"36\" name=\"Image 1\" descr=\"preencoded.png\"><ns1:extLst><ns1:ext uri=\"{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}\"><ns2:creationId id=\"{4FE42BF4-9411-1BEB-8CC4-A1BDE8C9BF96}\" /></ns1:ext></ns1:extLst></ns0:cNvPr><ns0:cNvPicPr><ns1:picLocks noChangeAspect=\"1\" /></ns0:cNvPicPr><ns0:nvPr /></ns0:nvPicPr><ns0:blipFill><ns1:blip ns3:embed=\"rId4\" /><ns1:stretch><ns1:fillRect /></ns1:stretch></ns0:blipFill><ns0:spPr><ns1:xfrm><ns1:off x=\"10820400\" y=\"2933700\" /><ns1:ext cx=\"3124200\" cy=\"1874520\" /></ns1:xfrm><ns1:prstGeom prst=\"rect\"><ns1:avLst /></ns1:prstGeom></ns0:spPr></ns0:pic>"
+  }
+]

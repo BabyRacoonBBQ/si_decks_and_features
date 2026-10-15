@@ -1,0 +1,125 @@
+[
+  {
+    "archive": "01_Package_reliability.zip",
+    "sha256": "8a2385ea9c90090f0338aab81e8e8a8ebe43f95efb86bedd2c674c022a2a2ad0",
+    "expected_sha256": "8a2385ea9c90090f0338aab81e8e8a8ebe43f95efb86bedd2c674c022a2a2ad0",
+    "hash_matches": true,
+    "entry_count": 630,
+    "evidence_entries": [
+      "original/performance-benchmark/product-gated-verification-summary.json",
+      "original/performance-benchmark/vm-environment.json",
+      "original/performance-benchmark/slide-evidence/mechanics-local/results-summary.json",
+      "original/performance-benchmark/slide-evidence/package-local/compare-final.json",
+      "original/performance-benchmark/slide-evidence/package-local/identities.sha256",
+      "original/performance-benchmark/slide-evidence/post-compare/vendor/identities.sha256",
+      "original/performance-benchmark/slide-evidence/thermal-local/compare-final.json",
+      "original/performance-benchmark/slide-evidence/thermal-local/identities.sha256",
+      "benchmark-golden/vm/formal-20261011-a/environment.json",
+      "from-archives/package-benchmark-evidence.tar.gz/demo-coupled-local/identities.sha256",
+      "from-archives/package-benchmark-evidence.tar.gz/demo-coupled-vendor/identities.sha256",
+      "from-archives/package-benchmark-evidence.tar.gz/demo-thermal-local/identities.sha256",
+      "from-archives/package-benchmark-evidence.tar.gz/demo-thermal-vendor/identities.sha256",
+      "from-archives/package-benchmark-evidence.tar.gz/detailed-r1-local/identities.sha256",
+      "from-archives/package-benchmark-evidence.tar.gz/detailed-r1-vendor/identities.sha256",
+      "from-archives/package-benchmark-evidence.tar.gz/package-vendor/identities.sha256",
+      "duplicate-path-map.json",
+      "file-manifest.json"
+    ]
+  },
+  {
+    "archive": "02_Submodelling.zip",
+    "sha256": "490ad6824d66f6796b355a79cf5a9a8e4019ac10f7504bd37f1ed14eae650954",
+    "expected_sha256": "490ad6824d66f6796b355a79cf5a9a8e4019ac10f7504bd37f1ed14eae650954",
+    "hash_matches": true,
+    "entry_count": 1002,
+    "evidence_entries": [
+      "original/submodelling-verification/identities.sha256",
+      "benchmark-golden/pillar/honesty-audit/honesty-audit-report.md",
+      "benchmark-golden/pillar/vm/formal-pillar-a/environment.json",
+      "benchmark-golden/pillar/vm/formal-pillar-recovered-a/environment.json",
+      "duplicate-path-map.json",
+      "file-manifest.json",
+      "benchmark-golden/pillar/recovery/GeneralBoundary.recovered.cpp",
+      "benchmark-golden/pillar/recovery/geo_libraries.cmake",
+      "benchmark-golden/pillar/recovery/rcfx_standalone.cmake",
+      "benchmark-golden/pillar/recovery/vendor-siGeneralBoundary-methods.cpp"
+    ]
+  },
+  {
+    "archive": "03_Quasistatic_equilibrium.zip",
+    "sha256": "eea2029f90f721bda3c0cf123e7c2fd7f2ca06d4dd227beeed2a45fb1661725b",
+    "expected_sha256": "eea2029f90f721bda3c0cf123e7c2fd7f2ca06d4dd227beeed2a45fb1661725b",
+    "hash_matches": true,
+    "entry_count": 111,
+    "evidence_entries": [
+      "scripts/results-summary.json",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-linear/identities.sha256",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-mesh/identities.sha256",
+      "from-archives/stressthermal-arch-quasistatic-staticmodes-20261010.tar.gz/arch-quasistatic/identities.sha256",
+      "from-archives/stressthermal-buckling-v2-20261010.tar.gz/environment.json",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-02/identities.sha256",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-04/identities.sha256",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-06/identities.sha256",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-08/identities.sha256",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-10/identities.sha256",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-12/identities.sha256",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-14/identities.sha256",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-16/identities.sha256",
+      "duplicate-path-map.json",
+      "file-manifest.json"
+    ]
+  },
+  {
+    "archive": "04_Linear_buckling.zip",
+    "sha256": "3fd1304105e3c902606a985a16d8f60045775a707fbd2c8418fa3b8f0e826d09",
+    "expected_sha256": "3fd1304105e3c902606a985a16d8f60045775a707fbd2c8418fa3b8f0e826d09",
+    "hash_matches": true,
+    "entry_count": 68,
+    "evidence_entries": [
+      "scripts/results-summary.json",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-linear/identities.sha256",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-mesh/identities.sha256",
+      "from-archives/stressthermal-buckling-v2-20261010.tar.gz/plate-buckling/identities.sha256",
+      "from-archives/stressthermal-buckling-v2-20261010.tar.gz/environment.json",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/linear-buckling/identities.sha256",
+      "duplicate-path-map.json",
+      "file-manifest.json"
+    ]
+  },
+  {
+    "archive": "05_Post_buckling.zip",
+    "sha256": "c15d24286921534928a5f33bd72d173352eaba4139bd92f424a9c989ca3658c4",
+    "expected_sha256": "c15d24286921534928a5f33bd72d173352eaba4139bd92f424a9c989ca3658c4",
+    "hash_matches": true,
+    "entry_count": 73,
+    "evidence_entries": [
+      "scripts/results-summary.json",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-linear/identities.sha256",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-snap/identities.sha256",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-mesh/identities.sha256",
+      "from-archives/stressthermal-buckling-v2-20261010.tar.gz/environment.json",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/post-buckling/identities.sha256",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/post-buckling-supercritical/identities.sha256",
+      "duplicate-path-map.json",
+      "file-manifest.json"
+    ]
+  },
+  {
+    "archive": "06_Large_deformation.zip",
+    "sha256": "291f00cfa418c566988df50aff6aee66efabe86e22fe8b03b97275cc9bfca20e",
+    "expected_sha256": "291f00cfa418c566988df50aff6aee66efabe86e22fe8b03b97275cc9bfca20e",
+    "hash_matches": true,
+    "entry_count": 79,
+    "evidence_entries": [
+      "scripts/results-summary.json",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-linear/identities.sha256",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-mesh/identities.sha256",
+      "from-archives/stressthermal-buckling-v2-20261010.tar.gz/environment.json",
+      "from-archives/stressthermal-geometric-comparison-20261010.tar.gz/geometric-off/identities.sha256",
+      "from-archives/stressthermal-geometric-comparison-20261010.tar.gz/geometric-off-v2/identities.sha256",
+      "from-archives/stressthermal-geometric-comparison-20261010.tar.gz/geometric-on-v2/identities.sha256",
+      "duplicate-path-map.json",
+      "file-manifest.json"
+    ]
+  }
+]

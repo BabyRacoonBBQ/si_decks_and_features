@@ -1,0 +1,28 @@
+﻿Command: "D:\my_repos\si_to_ans_converter\.venv\Scripts\python.exe" "-m" "converter_core" "--input" "D:\my_repos\si_to_ans_converter\test\3d_cantilever\sinterconnect\3D_Cantilever_sis.cmd" "--mesh" "D:\my_repos\si_to_ans_converter\test\3d_cantilever\sinterconnect\3D_cantilever_pre_solve_sis.tdr" "--target" "cdb" "--output" "D:\my_repos\si_to_ans_converter\test\3d_cantilever\sinterconnect\output-5\3D_Cantilever_sis.cdb"
+Working directory: D:\my_repos\si_to_ans_converter
+Exit code: 0
+STDOUT:
+{
+  "stage": "cmd-to-cdb",
+  "input": "D:\\my_repos\\si_to_ans_converter\\test\\3d_cantilever\\sinterconnect\\3D_Cantilever_sis.cmd",
+  "mesh": "D:\\my_repos\\si_to_ans_converter\\test\\3d_cantilever\\sinterconnect\\3D_cantilever_pre_solve_sis.tdr",
+  "output": "D:\\my_repos\\si_to_ans_converter\\test\\3d_cantilever\\sinterconnect\\output-5\\3D_Cantilever_sis.cdb",
+  "warnings": [
+    "Untagged line is represented only by the supplied frozen mesh snapshot.",
+    "Untagged line is represented only by the supplied frozen mesh snapshot.",
+    "Zero stress traction at Left has no load effect.",
+    "Zero stress traction at Right has no load effect.",
+    "Zero stress traction at Back has no load effect.",
+    "Zero stress traction at Front has no load effect."
+  ],
+  "solver_validation": "not run"
+}
+
+STDERR:
+2026-10-07 22:13:07 | WARN | Zero stress traction at Left has no load effect.
+2026-10-07 22:13:07 | WARN | Zero stress traction at Right has no load effect.
+2026-10-07 22:13:07 | WARN | Zero stress traction at Back has no load effect.
+2026-10-07 22:13:07 | WARN | Zero stress traction at Front has no load effect.
+D:\my_repos\si_to_ans_converter\converter_core\cdb_writer\writer.py:76: UserWarning: Blocked CDB archives model data, not output requests; output semantics remain in Ix JSON
+  warnings.warn('Blocked CDB archives model data, not output requests; output semantics remain in Ix JSON', UserWarning)
+

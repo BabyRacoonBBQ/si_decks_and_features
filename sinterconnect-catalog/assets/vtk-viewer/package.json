@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@kitware/vtk.js": "37.4.2",
+    "esbuild": "0.28.2"
+  },
+  "name": "simulation-vtk-viewer",
+  "private": true,
+  "scripts": {
+    "build": "node build.cjs"
+  }
+}

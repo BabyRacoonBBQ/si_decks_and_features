@@ -1,0 +1,7 @@
+{
+  "tool": "ANSYS",
+  "status": "Pending",
+  "equivalence": "Not validated",
+  "files": [],
+  "next_step": "Locate the matching CMD and solve-time mesh, convert supported semantics, then compare ANSYS results."
+}

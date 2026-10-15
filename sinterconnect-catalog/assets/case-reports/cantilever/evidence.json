@@ -1,0 +1,217 @@
+{
+  "updated": "2026-10-15",
+  "scope": "Retained converter baseline plus separately identified historical SVisual results; no new simulation or numerical GT-A benchmark.",
+  "mesh_source": "D:\\my_repos\\si_to_ans_converter\\test\\3d_cantilever\\sinterconnect\\3D_cantilever_pre_solve_sis.tdr",
+  "mesh_retained_path": "assets/case-reports/cantilever/pre-solve.tdr",
+  "reference_archive": "../Resources/case-archive/03_Quasistatic_equilibrium.zip",
+  "reference_archive_sha256": "eea2029f90f721bda3c0cf123e7c2fd7f2ca06d4dd227beeed2a45fb1661725b",
+  "reference_entry": "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/vendor-reference-cantilever.cmd",
+  "mesh": {
+    "region": "Silicon_1",
+    "material": "Silicon",
+    "coordinate_unit": "cm",
+    "display_unit": "um",
+    "vertices": 37800,
+    "tetrahedra": 196392,
+    "connectivity": "TDR record type 5, four vertices",
+    "bounds_um": [
+      [
+        0.0,
+        -2.0,
+        -2.0
+      ],
+      [
+        50.0,
+        2.0,
+        2.0
+      ]
+    ],
+    "x_planes": 168,
+    "y_planes": 15,
+    "z_planes": 15,
+    "bottom_node_count": 225,
+    "point_load_nodes": [
+      113
+    ],
+    "retained_pdb_tags": {
+      "Params&Command.1": "String {line run.only       X location= 0.0000000000000000000000e+00<um> spacing= 2.9999999999999998889777e-01<um> tag= \"top\"}",
+      "Params&Command.2": "String {line run.only       X location= 5.0000000000000000000000e+01<um> spacing= 2.9999999999999998889777e-01<um> tag= \"bottom\"}",
+      "Params&Command.3": "String {line run.only       Y location= -2.0000000000000000000000e+00<um> spacing= 2.9999999999999998889777e-01<um> tag= \"left\"}",
+      "Params&Math&coord": "Switch coord.ucs",
+      "Params&Math&coordSwitchList": "Switch 1 {coord.dfise coord.ucs coord.yxz coord.-zyx coord.xyz coord.write coord.read}",
+      "Params&Math&maxNumberOfDomains": "Double -1.000000e+00",
+      "Params&Mechanics&LastMechanicsTemp": "Double 2.685000e+01",
+      "Params&Silicon&Mechanics&BulkModulus": "Double 5555555555.555556",
+      "Params&Silicon&Mechanics&ShearModulus": "Double 4166666666.666667",
+      "Params&Silicon_1&IsSubstrate": "Boolean 1",
+      "Params&Silicon_1&Like": "Silicon",
+      "Params&Command.4": "String {line run.only       Y location= 0.0000000000000000000000e+00<um> spacing= 2.9999999999999998889777e-01<um>}",
+      "Params&flat.orient.array.set": "Boolean 0",
+      "Params&slice.angle": "Double -9.000000e+01",
+      "Params&wafer.orient.array.set": "Boolean 0",
+      "Params&Command.5": "String {line run.only       Y location= 2.0000000000000000000000e+00<um> spacing= 2.9999999999999998889777e-01<um> tag= \"right\"}",
+      "Params&Command.6": "String {line run.only       Z location= -2.0000000000000000000000e+00<um> spacing= 2.9999999999999998889777e-01<um> tag= \"back\"}",
+      "Params&Command.7": "String {line run.only       Z location= 0.0000000000000000000000e+00<um> spacing= 2.9999999999999998889777e-01<um>}",
+      "Params&Command.8": "String {line run.only       Z location= 2.0000000000000000000000e+00<um> spacing= 2.9999999999999998889777e-01<um> tag= \"front\"}",
+      "Params&Command.number": "Double 8"
+    },
+    "spacing_um": {
+      "x": [
+        0.299401197604773,
+        0.29940119760479433
+      ],
+      "y": [
+        0.2857142857142856,
+        0.28571428571428586
+      ],
+      "z": [
+        0.2857142857142856,
+        0.28571428571428586
+      ]
+    }
+  },
+  "cdb_static_check": {
+    "nodes": 37800,
+    "tetrahedra": 196392,
+    "connectivity_equal": true,
+    "max_coordinate_serialization_difference_mm": 5.065392549852277e-16,
+    "zero_displacement_records": 675,
+    "constrained_nodes": 225,
+    "point_force": {
+      "node": 113,
+      "component": "FZ",
+      "value_N": -3e-07
+    },
+    "E_MPa": 1000,
+    "poisson_ratio": 0.2,
+    "solver_procedure_present": false,
+    "solver_validation": "not run; retained conversion log"
+  },
+  "historical_replay": {
+    "case": "3D_Cantilever",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/native/n4_init_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/local/n4_init_sis.tdr",
+        "reference_sha256": "458bf340781b1b80b32c4ec391f0dec15bae654926670606dfbed39b56b4ea0a",
+        "candidate_sha256": "5e781fcf74f0d1e152f79ddbc199d8535b943363f4e1b0d5c610901393dff1d7",
+        "reference_size": 4180083,
+        "candidate_size": 4180083,
+        "raw_differences": 170,
+        "proven_timestamp_bytes": 340,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/native/n4_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/local/n4_sis.tdr",
+        "reference_sha256": "486874b6117a116ffd14e8ddbbcec4933a52fab417773f48baf6793af417e37c",
+        "candidate_sha256": "00d9e6da7585735e72e6ed75048b000a2419c541180f77b760465e776e5cc13b",
+        "reference_size": 44177234,
+        "candidate_size": 44177234,
+        "raw_differences": 216,
+        "proven_timestamp_bytes": 432,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/native/n4_def_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/local/n4_def_sis.tdr",
+        "reference_sha256": "8905fb1434f5283aa685fc0c75ba9d7a0737611c2c45706f4b56a8ad1ade0e47",
+        "candidate_sha256": "158b6317627c1511a1a9a9089710672b5b45f05746551d48a8363a5792fd7029",
+        "reference_size": 46020842,
+        "candidate_size": 46020842,
+        "raw_differences": 202,
+        "proven_timestamp_bytes": 404,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      }
+    ]
+  },
+  "displayed_result": {
+    "alias": "Cantilever",
+    "tdr": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/local/n4_sis.tdr",
+    "sha256": "00d9e6da7585735e72e6ed75048b000a2419c541180f77b760465e776e5cc13b"
+  },
+  "displayed_legend_readings": {
+    "method": "Approximate transcription of retained SVisual color bars; not a fresh field reduction.",
+    "MisesStress_Pa": [
+      815.2,
+      1405000.0
+    ],
+    "displacement_magnitude_um": [
+      0,
+      0.577
+    ]
+  },
+  "analytical_estimate": {
+    "assumption": "Euler-Bernoulli slender, isotropic, linear elastic beam; nominal bending only.",
+    "E_Pa": 1000000000.0,
+    "poisson_ratio": 0.2,
+    "force_N": 3e-07,
+    "length_m": 5e-05,
+    "square_side_m": 4e-06,
+    "second_moment_m4": 2.133333333333333e-23,
+    "tip_displacement_um": 0.5859375000000001,
+    "nominal_root_bending_stress_MPa": 1.4062500000000002
+  },
+  "files": [
+    {
+      "path": "assets/case-reports/cantilever/pre-solve.tdr",
+      "sha256": "84992a6ed38b14859a5b909257a8a779bf13ec1b9e22f63232e704663d90a457",
+      "bytes": 4180083
+    },
+    {
+      "path": "assets/case-reports/cantilever/unit-system.json",
+      "sha256": "5263f181669b1e5d4663247d03ece277b5edc8dc13be4efd0b9953a463502e5a",
+      "bytes": 1952
+    },
+    {
+      "path": "assets/case-reports/cantilever/archived-reference.cmd",
+      "sha256": "791e27b7a311b6a4f76847b87377b7a905ddc93349cc4509e2b2354d54f2b787",
+      "bytes": 1180
+    },
+    {
+      "path": "assets/gt-a/Cantilever/input.cmd",
+      "sha256": "42605847847281205df3696231dfdceed95bd0b11311a3d6c0033f1e77a56fd1",
+      "bytes": 1442
+    },
+    {
+      "path": "assets/gt-a/Cantilever/Cantilever.cdb",
+      "sha256": "a17762a5c6c6f09e324e4116e1cc62daa2e17af6de997902362a678efe86b25a",
+      "bytes": 33344924
+    },
+    {
+      "path": "assets/gt-a/Cantilever/Cantilever.apdl",
+      "sha256": "e29f6a7f8130a6a2610830af0993aaa294463f2f6deca025de058737b9b3eef7",
+      "bytes": 14527948
+    },
+    {
+      "path": "assets/gt-a/Cantilever/conversion.log",
+      "sha256": "2087a3b464a88d1805fca5894aeeb8a2c6c185e43b18c5503c20404dd3b90b75",
+      "bytes": 1945
+    },
+    {
+      "path": "assets/gt-a/Cantilever/ansys-run.out",
+      "sha256": "b04d777ae9fabafe6b49fd501daa6419b48a750c972a9d093e0d6298e8cdbd24",
+      "bytes": 61018399
+    },
+    {
+      "path": "assets/svisual/Cantilever-1.png",
+      "sha256": "750360013c0823b02dfa84be613e322c17a529629c3a15ec4b5a8568781d51ba",
+      "bytes": 58712
+    },
+    {
+      "path": "assets/svisual/Cantilever-2.png",
+      "sha256": "1f8a52b641d595e411ebf5e16e33df684b9581bbe4782c67f1f82c3a297c09d3",
+      "bytes": 38532
+    }
+  ]
+}

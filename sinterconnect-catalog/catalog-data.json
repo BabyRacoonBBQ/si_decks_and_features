@@ -1,0 +1,468 @@
+{
+  "scope": "Local archive inventory; current remote verify mappings unverified",
+  "cases": [
+    {
+      "id": "tsv",
+      "name": "TSV",
+      "kind": "用户案例",
+      "source": "用户原始案例：照片经 OCR 转换、人工校正为 CMD（用户确认原始版本身份）",
+      "adapt": "本目录 OCR 转换版是原始版本；代码仓库中集成的是网格简化版。cmd_flat 与 cmd 是同一组输入的两种组织方式，不是简化前后两个版本。",
+      "original": "D:/WORK/qx_deck/SI/tsv_stress/cmd_flat/；cmd/ 为分类副本；ocr_clean/photo_to_cmd_manifest.csv 提供照片到 CMD 的追溯",
+      "cmd": [
+        "几何：n5..n11_dvs.cmd（7 个）",
+        "材料 / 网格预处理：n19..n25_sis.cmd（7 个）",
+        "热应力求解：n40..n46_sis.cmd（7 个）",
+        "对应 pp* 副本：21 个；common 模板 / 执行图：4 个"
+      ],
+      "flow": "照片 → OCR / 校正 → 原始 7 组 × 3 阶段链路 → 仓库网格简化版 → verify 流程",
+      "verify": "已集成（用户确认）",
+      "note": "原始目录 verify_in_vm.sh 仅做 vendor 语法检查：28 个展开文件 + 1 个展开模板。仓库简化版已集成（用户确认），具体仓库路径、verify 入口及当前结果仍待核对。",
+      "feature": "TSV 热应力 · 温度历程 · 材料 / 网格预处理 · 固定位移及方向约束",
+      "archive": null,
+      "source_files": [
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\common\\gexec.cmd",
+          "sha256": "650c459b6e7178b17d7f8a49e8a7931230ee9c4ba7473d00cccc9ef98ed28b97"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\common\\sde_dvs.cmd",
+          "sha256": "b1ea9d38547f642d4b577f25f38c24005c6fd8c6b1351671b964c76771593d40"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\common\\sdemodel_msh.cmd",
+          "sha256": "0d6e5732907124b3a26300c4a2919ce676d0e2ea90714f38520eaf451a03aeba"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\common\\sinterconnect_sis.cmd",
+          "sha256": "30d31558166b1e0749eca4bf11a98109372b4b8b2534a80678e2ba2ad267eb30"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n10_dvs.cmd",
+          "sha256": "d24c079b002884c45c86b0dc04199b14a0b6541042c05282510bf11e6de8c984"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n11_dvs.cmd",
+          "sha256": "c090d62fc46a6cf2a5dba9b66d06cfde169dd6b3d06872c033e837ac6545a2d3"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n5_dvs.cmd",
+          "sha256": "d6fcb869498cabedfa7c0e0435e729f6fc52551df54359aefea03fee239e8dd9"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n6_dvs.cmd",
+          "sha256": "7b08ff6d560b6f61d21e3268238db54b4da14a7343f8f19a2402a3ed7c259679"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n7_dvs.cmd",
+          "sha256": "93d1f670c5b043a3847c18be3578ff704adbca2e43c75bc0b48291bbe47809ec"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n8_dvs.cmd",
+          "sha256": "97d4897e85dfce5841c2b92c86b6462f65446d4f3d738d0a24d4cd183e5d0877"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\n9_dvs.cmd",
+          "sha256": "47d394d7679b77f6db94c1001c38c2345f9c3062aa86e9ab57ccc1f8ee908a85"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp10_dvs.cmd",
+          "sha256": "d24c079b002884c45c86b0dc04199b14a0b6541042c05282510bf11e6de8c984"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp11_dvs.cmd",
+          "sha256": "c090d62fc46a6cf2a5dba9b66d06cfde169dd6b3d06872c033e837ac6545a2d3"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp5_dvs.cmd",
+          "sha256": "d6fcb869498cabedfa7c0e0435e729f6fc52551df54359aefea03fee239e8dd9"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp6_dvs.cmd",
+          "sha256": "7b08ff6d560b6f61d21e3268238db54b4da14a7343f8f19a2402a3ed7c259679"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp7_dvs.cmd",
+          "sha256": "93d1f670c5b043a3847c18be3578ff704adbca2e43c75bc0b48291bbe47809ec"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp8_dvs.cmd",
+          "sha256": "97d4897e85dfce5841c2b92c86b6462f65446d4f3d738d0a24d4cd183e5d0877"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\geometry\\pp9_dvs.cmd",
+          "sha256": "47d394d7679b77f6db94c1001c38c2345f9c3062aa86e9ab57ccc1f8ee908a85"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n19_sis.cmd",
+          "sha256": "f0d040ca8d1e98ca2d45f1d02ff2e037ff1162ba6f5ac2c621975d11e71c308e"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n20_sis.cmd",
+          "sha256": "094e1b0ec028cf2649eab1ef8a58060f9935a115fddeacfdc3639826120bc202"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n21_sis.cmd",
+          "sha256": "2b6f7a2626d2c81455358503e574a21ad6d6a2ed747a5fe260a0ff2957057863"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n22_sis.cmd",
+          "sha256": "43188215f6251f0b0e11479231372969f41038b788445944578b24348bf28b92"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n23_sis.cmd",
+          "sha256": "c6fda80d2dac40f4416cba316c3172ed9f8bda7169b3c78d533edbcc61bc2de2"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n24_sis.cmd",
+          "sha256": "a42d7f9127a7011bafbf500e20e19b3b0b2ac9ef0be5619c9597f881c948319c"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\n25_sis.cmd",
+          "sha256": "54003ec8fc90d07152868ea2c912828349e3d6221868448ac5407849940fea1d"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp19_sis.cmd",
+          "sha256": "f0d040ca8d1e98ca2d45f1d02ff2e037ff1162ba6f5ac2c621975d11e71c308e"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp20_sis.cmd",
+          "sha256": "094e1b0ec028cf2649eab1ef8a58060f9935a115fddeacfdc3639826120bc202"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp21_sis.cmd",
+          "sha256": "2b6f7a2626d2c81455358503e574a21ad6d6a2ed747a5fe260a0ff2957057863"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp22_sis.cmd",
+          "sha256": "43188215f6251f0b0e11479231372969f41038b788445944578b24348bf28b92"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp23_sis.cmd",
+          "sha256": "c6fda80d2dac40f4416cba316c3172ed9f8bda7169b3c78d533edbcc61bc2de2"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp24_sis.cmd",
+          "sha256": "a42d7f9127a7011bafbf500e20e19b3b0b2ac9ef0be5619c9597f881c948319c"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\preprocess\\pp25_sis.cmd",
+          "sha256": "54003ec8fc90d07152868ea2c912828349e3d6221868448ac5407849940fea1d"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n40_sis.cmd",
+          "sha256": "1d2bbcabdc60855b0aa30ab01dd226e766042d7a92e57524f85edd213590eb9d"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n41_sis.cmd",
+          "sha256": "be3d5a62eaedaf06eef188c22b9a51b21d56e0e4b7b6a8c481acda217789cf94"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n42_sis.cmd",
+          "sha256": "72427364dcf2a878441b424c716ff9a5eff5f0b1ffde89303b23e65f583ba6cd"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n43_sis.cmd",
+          "sha256": "fa4fbd76dcad26d94662c55365e37b0ad78d72ef018c9ebeaf1b130446b2874a"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n44_sis.cmd",
+          "sha256": "1d9318ecde31e89c8c81e4560dbd12ceda4402304994ed480b2492e81fba96ea"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n45_sis.cmd",
+          "sha256": "7a277dfd7c60bf570f7f0e60c02b98ef2f01841a40891759b1948976ad251f3a"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\n46_sis.cmd",
+          "sha256": "28e8d7ee8c30164c5db2a1df0ebff9b6302c3674cbd13add268cb5749f79420d"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp40_sis.cmd",
+          "sha256": "1d2bbcabdc60855b0aa30ab01dd226e766042d7a92e57524f85edd213590eb9d"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp41_sis.cmd",
+          "sha256": "be3d5a62eaedaf06eef188c22b9a51b21d56e0e4b7b6a8c481acda217789cf94"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp42_sis.cmd",
+          "sha256": "72427364dcf2a878441b424c716ff9a5eff5f0b1ffde89303b23e65f583ba6cd"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp43_sis.cmd",
+          "sha256": "fa4fbd76dcad26d94662c55365e37b0ad78d72ef018c9ebeaf1b130446b2874a"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp44_sis.cmd",
+          "sha256": "1d9318ecde31e89c8c81e4560dbd12ceda4402304994ed480b2492e81fba96ea"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp45_sis.cmd",
+          "sha256": "7a277dfd7c60bf570f7f0e60c02b98ef2f01841a40891759b1948976ad251f3a"
+        },
+        {
+          "path": "D:\\WORK\\qx_deck\\SI\\tsv_stress\\cmd\\solve\\pp46_sis.cmd",
+          "sha256": "28e8d7ee8c30164c5db2a1df0ebff9b6302c3674cbd13add268cb5749f79420d"
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend / Package reliability",
+      "kind": "改编案例",
+      "source": "Backend · Package_ThermomechanicalReliability；归档记录为 PowerSO-10RF / LDMOS 改编",
+      "adapt": "几何、材料与求解流程经过 adaptation；benchmark 将热与力学拆成两个求解入口。",
+      "original": "benchmark-golden/original-case/dpack_struct_sis.cmd",
+      "cmd": [
+        "benchmark-golden/package/thermal_bench.cmd",
+        "benchmark-golden/package/mechanics_bench.cmd"
+      ],
+      "flow": "几何 / mesh.tdr → thermal_bench.cmd → 温度输出 → mechanics_bench.cmd",
+      "verify": "独立验证有记录；verify 集成待核对",
+      "note": "两个求解 CMD 顺序执行；几何生成是额外前置步骤。四步力学、400 K、初温及参数错误属于此案例的变体。",
+      "feature": "稳态传热 · 导热 / 对流 / 辐射 · 热膨胀 · 热应力",
+      "archive": "01_Package_reliability.zip"
+    },
+    {
+      "id": "submodel",
+      "name": "Submodeling",
+      "kind": "改编案例",
+      "source": "从已有案例的一部分提取改编（用户确认）；精确父案例映射待核对",
+      "adapt": "针对全局位移映射到单柱细网格的 feature 建立验证流程；不能标为完全无来源的自建案例。",
+      "original": "候选来源：original/submodel-candidates/PackageAssembly_Stress/*；归档同时有 vendor-original.cmd，尚不等于已证明直接派生关系",
+      "cmd": [
+        "benchmark-golden/pillar/inputs/global.cmd",
+        "benchmark-golden/pillar/inputs/unit-fine.cmd"
+      ],
+      "flow": "全局几何 / 网格 → global.cmd → 全局位移 → unit-fine.cmd → 局部应力",
+      "verify": "独立验证有记录；verify 集成待核对",
+      "note": "两个求解 CMD 存在数据依赖。冻结网格版本另有 global-freeze.cmd / unit-fine-freeze.cmd。温度是指定冷却载荷，不是热传导求解。",
+      "feature": "Global-to-local displacement mapping · 局部细化 · 机械约束",
+      "archive": "02_Submodelling.zip"
+    },
+    {
+      "id": "quasistatic",
+      "name": "Quasistatic equilibrium",
+      "kind": "自建 feature deck",
+      "source": "针对功能自行建立（用户确认）；无直接外部参考案例",
+      "adapt": "同一模型按加载量形成 16 个 frame；这是一个案例系列，不是 16 个独立 feature。",
+      "original": "自建基线；归档中的 vendor-reference-cantilever.cmd 仅作为另存参考，未确认派生关系",
+      "cmd": [
+        "quasistatic/frame-01/case.cmd … frame-16/case.cmd"
+      ],
+      "flow": "setup.py / refine.py → 共享网格 → 各 frame 的 case.cmd",
+      "verify": "运行记录存在；verify 集成待核对",
+      "note": "16 个 CMD 是参数变体，不表示按 01→16 串行传递结果。另有 arch-quasistatic 变体。",
+      "feature": "准静态平衡 · 位移 / 应力输出",
+      "archive": "03_Quasistatic_equilibrium.zip"
+    },
+    {
+      "id": "buckling",
+      "name": "Linear buckling",
+      "kind": "来源待核对",
+      "source": "归档有功能演示 deck；原始来源待核对",
+      "adapt": "主案例与 plate-buckling、arch-linear 分开保留；3 / 6 模态是求解配置变体。",
+      "original": "linear-buckling/case.cmd（归档基线）",
+      "cmd": [
+        "linear-buckling/case.cmd"
+      ],
+      "flow": "网格准备 → case.cmd → 特征值 / 屈曲模态 / TDR",
+      "verify": "独立验证有记录；verify 集成待核对",
+      "note": "单个主求解 CMD。实际 ARPACK 调用验证记录不代表所有屈曲变体都已验证。",
+      "feature": "线性屈曲 · ARPACK · 特征值与模态输出",
+      "archive": "04_Linear_buckling.zip"
+    },
+    {
+      "id": "postbuckling",
+      "name": "Post-buckling",
+      "kind": "来源待核对",
+      "source": "归档功能演示系列；直接来源待核对",
+      "adapt": "supercritical 是主案例；post-buckling 是早期亚临界标定，arch-snap 是另一变体。",
+      "original": "post-buckling-supercritical/case.cmd",
+      "cmd": [
+        "post-buckling-supercritical/case.cmd"
+      ],
+      "flow": "网格准备 → 主案例 case.cmd",
+      "verify": "归档存在；verify 集成待核对",
+      "note": "不同目录是独立变体，不是多个 CMD 共同构成一条流水线。当前完整通过状态未确认。",
+      "feature": "屈曲后响应 · 非线性路径",
+      "archive": "05_Post_buckling.zip"
+    },
+    {
+      "id": "deformation",
+      "name": "Large deformation",
+      "kind": "来源待核对",
+      "source": "归档功能演示系列；直接来源待核对",
+      "adapt": "几何非线性关闭 / 开启的配对比较；v2 是归档说明指定入口。",
+      "original": "geometric-off/on 原始版本与 v2 均保留",
+      "cmd": [
+        "geometric-off-v2/case.cmd",
+        "geometric-on-v2/case.cmd"
+      ],
+      "flow": "共享几何 / 网格 → OFF 与 ON 分别求解 → 比较",
+      "verify": "本轮暂缓",
+      "note": "两个 CMD 是配对运行，不是顺序数据依赖。用户已明确暂不做大变形验证。",
+      "feature": "几何非线性 · 大变形 / 转动",
+      "archive": "06_Large_deformation.zip"
+    }
+  ],
+  "archive_cmd_entries": {
+    "tsv": [
+      "cmd/common/gexec.cmd",
+      "cmd/common/sde_dvs.cmd",
+      "cmd/common/sdemodel_msh.cmd",
+      "cmd/common/sinterconnect_sis.cmd",
+      "cmd/geometry/n10_dvs.cmd",
+      "cmd/geometry/n11_dvs.cmd",
+      "cmd/geometry/n5_dvs.cmd",
+      "cmd/geometry/n6_dvs.cmd",
+      "cmd/geometry/n7_dvs.cmd",
+      "cmd/geometry/n8_dvs.cmd",
+      "cmd/geometry/n9_dvs.cmd",
+      "cmd/geometry/pp10_dvs.cmd",
+      "cmd/geometry/pp11_dvs.cmd",
+      "cmd/geometry/pp5_dvs.cmd",
+      "cmd/geometry/pp6_dvs.cmd",
+      "cmd/geometry/pp7_dvs.cmd",
+      "cmd/geometry/pp8_dvs.cmd",
+      "cmd/geometry/pp9_dvs.cmd",
+      "cmd/preprocess/n19_sis.cmd",
+      "cmd/preprocess/n20_sis.cmd",
+      "cmd/preprocess/n21_sis.cmd",
+      "cmd/preprocess/n22_sis.cmd",
+      "cmd/preprocess/n23_sis.cmd",
+      "cmd/preprocess/n24_sis.cmd",
+      "cmd/preprocess/n25_sis.cmd",
+      "cmd/preprocess/pp19_sis.cmd",
+      "cmd/preprocess/pp20_sis.cmd",
+      "cmd/preprocess/pp21_sis.cmd",
+      "cmd/preprocess/pp22_sis.cmd",
+      "cmd/preprocess/pp23_sis.cmd",
+      "cmd/preprocess/pp24_sis.cmd",
+      "cmd/preprocess/pp25_sis.cmd",
+      "cmd/solve/n40_sis.cmd",
+      "cmd/solve/n41_sis.cmd",
+      "cmd/solve/n42_sis.cmd",
+      "cmd/solve/n43_sis.cmd",
+      "cmd/solve/n44_sis.cmd",
+      "cmd/solve/n45_sis.cmd",
+      "cmd/solve/n46_sis.cmd",
+      "cmd/solve/pp40_sis.cmd",
+      "cmd/solve/pp41_sis.cmd",
+      "cmd/solve/pp42_sis.cmd",
+      "cmd/solve/pp43_sis.cmd",
+      "cmd/solve/pp44_sis.cmd",
+      "cmd/solve/pp45_sis.cmd",
+      "cmd/solve/pp46_sis.cmd"
+    ],
+    "backend": [
+      "original/performance-benchmark/proposed-3d-interconnect-thermal.cmd",
+      "original/performance-benchmark/vendor-original.cmd",
+      "original/performance-benchmark/slide-evidence/demo-coupled-vendor/case.cmd",
+      "original/performance-benchmark/slide-evidence/demo-coupled-vendor/mp.cmd",
+      "original/performance-benchmark/slide-evidence/demo-coupled-vendor/settings.cmd",
+      "original/performance-benchmark/slide-evidence/demo-thermal-vendor/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/geometric-off-v2/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/linear-buckling/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/post-buckling-supercritical/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-01/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-02/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-03/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-04/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-05/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-06/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-07/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-08/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-09/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-10/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-11/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-12/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-13/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-14/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-15/case.cmd",
+      "original/performance-benchmark/slide-evidence/mechanics-local/quasistatic/frame-16/case.cmd",
+      "benchmark-golden/probe-defaults.cmd",
+      "benchmark-golden/original-case/dpack_struct_sis.cmd",
+      "benchmark-golden/package/mechanics_bench.cmd",
+      "benchmark-golden/package/thermal_bench.cmd",
+      "from-archives/package-benchmark-evidence.tar.gz/detailed-r1-local/case.cmd",
+      "from-archives/package-benchmark-evidence.tar.gz/mesh-package-final/package.cmd",
+      "from-archives/package-benchmark-evidence.tar.gz/mesh-roof/package.cmd",
+      "from-archives/package-benchmark-evidence.tar.gz/package-vendor/case.cmd",
+      "from-archives/package-benchmark-evidence.tar.gz/thermal-recovery/local-entry/case.cmd",
+      "from-archives/package-benchmark-evidence.tar.gz/thermal-recovery/transform-verification/formal-switch/switch_conflicts/native/switch_conflicts.cmd",
+      "from-archives/package-benchmark-evidence.tar.gz/thermal-recovery/transform-verification/formal-switch/switch_conflicts_full2d/native/switch_conflicts_full2d.cmd",
+      "from-archives/package-benchmark-evidence.tar.gz/thermal-recovery/transform-verification/formal-switch/validation_order/native/validation_order.cmd",
+      "from-archives/package-benchmark-evidence.tar.gz/thermal-recovery/transform-verification/gate/handler/native/handler.cmd",
+      "from-archives/package-benchmark-evidence.tar.gz/thermal-recovery/transform-verification/gate/switches/native/switches.cmd"
+    ],
+    "submodel": [
+      "original/flipchip-array-verification/vendor-original.cmd",
+      "original/submodel-candidates/PackageAssembly_Stress/GlobalFlow_sis.cmd",
+      "original/submodel-candidates/PackageAssembly_Stress/LocalFlow_sis.cmd",
+      "original/submodel-candidates/PackageAssembly_Stress/LocalProcess_sis.cmd",
+      "original/submodel-candidates/PackageAssembly_Stress/RegionalFlow_sis.cmd",
+      "original/submodel-candidates/PackageAssembly_Stress/sde_test.cmd",
+      "benchmark-golden/pillar/calibration-a/stressthermal/global.cmd",
+      "benchmark-golden/pillar/calibration-a/stressthermal/unit-fine.cmd",
+      "benchmark-golden/pillar/calibration-a/vendor/unit-fine.cmd",
+      "benchmark-golden/pillar/freeze/global-freeze.cmd",
+      "benchmark-golden/pillar/freeze/unit-fine-freeze.cmd",
+      "benchmark-golden/pillar/honesty-audit/assemble-sample-20261011/local-repair/global.cmd",
+      "benchmark-golden/pillar/inputs/global.cmd",
+      "benchmark-golden/pillar/inputs/unit-fine.cmd",
+      "benchmark-golden/pillar/mapdl/formal-pillar-mapdl-a-r1/local/local.cmd",
+      "benchmark-golden/pillar/mapdl/formal-pillar-mapdl-a-r2/local/local.cmd",
+      "benchmark-golden/pillar/mapdl/formal-pillar-mapdl-a-r3/local/local.cmd",
+      "benchmark-golden/pillar/mapdl/orientation-calibration-a/local/local.cmd",
+      "benchmark-golden/pillar/mapdl/orientation-calibration-a/local-b/local.cmd",
+      "benchmark-golden/pillar/point-spc-host/model.cmd"
+    ],
+    "quasistatic": [
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-linear/case.cmd",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-mesh/case.cmd",
+      "from-archives/stressthermal-arch-quasistatic-staticmodes-20261010.tar.gz/arch-quasistatic/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-01/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-02/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-03/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-04/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-05/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-06/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-07/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-08/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-09/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-10/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-11/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-12/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-13/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-14/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-15/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/quasistatic/frame-16/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/vendor-reference-cantilever.cmd"
+    ],
+    "buckling": [
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-linear/case.cmd",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-mesh/case.cmd",
+      "from-archives/stressthermal-buckling-v2-20261010.tar.gz/plate-buckling/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/linear-buckling/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/vendor-reference-cantilever.cmd"
+    ],
+    "postbuckling": [
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-linear/case.cmd",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-snap/case.cmd",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-mesh/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/post-buckling/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/post-buckling-supercritical/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/vendor-reference-cantilever.cmd"
+    ],
+    "deformation": [
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-linear/case.cmd",
+      "from-archives/stressthermal-arch-pair-20261010.tar.gz/arch-mesh/case.cmd",
+      "from-archives/stressthermal-geometric-comparison-20261010.tar.gz/geometric-off/case.cmd",
+      "from-archives/stressthermal-geometric-comparison-20261010.tar.gz/geometric-on/case.cmd",
+      "from-archives/stressthermal-geometric-comparison-20261010.tar.gz/geometric-off-v2/case.cmd",
+      "from-archives/stressthermal-geometric-comparison-20261010.tar.gz/geometric-on-v2/case.cmd",
+      "from-archives/stressthermal-mechanics-examples-20261010.tar.gz/stressthermal-mechanics-examples-20261010/vendor-reference-cantilever.cmd"
+    ]
+  }
+}

@@ -1,0 +1,411 @@
+[
+  {
+    "case": "DualDamascene",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/geo3d-worktrees/recover-si-dual-damascene/runs/dual_damascene/native01/n1_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/DualDamascene/n1_sis.tdr",
+        "reference_sha256": "db2ee699cc287943dbc66693b0b269658ce3b83ace7d772af01521137af35779",
+        "candidate_sha256": "1f1d5196ce4360b50cb4ab8144cc1644f598bd2ec5b58a0b67b2d48c21c266a3",
+        "reference_size": 6441112,
+        "candidate_size": 6441112,
+        "raw_differences": 1038,
+        "proven_timestamp_bytes": 1384,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/geo3d-worktrees/recover-si-dual-damascene/runs/dual_damascene/native01/n2_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/DualDamascene/n2_sis.tdr",
+        "reference_sha256": "59dd41a288bac4bb97f35a0536c3f2be6f03d14875347d90bdf330089d455da2",
+        "candidate_sha256": "368f74f35e2aaca6a7ea0c9bc86ba82a98a86aa00ea20a4abbbb160c82e93f9d",
+        "reference_size": 6438662,
+        "candidate_size": 6438662,
+        "raw_differences": 990,
+        "proven_timestamp_bytes": 1320,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/geo3d-worktrees/recover-si-dual-damascene/runs/dual_damascene/native01/n3_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/DualDamascene/n3_sis.tdr",
+        "reference_sha256": "9073aa2bd748bda372671d7624e5f563fdfd1153a82cc8da2615d9b63cf06ad9",
+        "candidate_sha256": "8bf9e1c1d04ff20ab992cf45770730a9d04d4d081384bcd48ffd4eb915ee37cb",
+        "reference_size": 7557902,
+        "candidate_size": 7557902,
+        "raw_differences": 1338,
+        "proven_timestamp_bytes": 1784,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      },
+      {
+        "file": "n2_via.plx",
+        "accepted": true,
+        "raw_match": true,
+        "reference_sha256": "7b0e70aa92edaea7499c872c397665f8b1ee734ba30d97997dee61e30c450f74",
+        "candidate_sha256": "7b0e70aa92edaea7499c872c397665f8b1ee734ba30d97997dee61e30c450f74"
+      }
+    ]
+  },
+  {
+    "case": "3D_Interconnect",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/tmp/geo3d-calltree-3d-interconnect.eWJBAs/writer_dataset_vendor_231_writer_full_254/n12_init_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Interconnect/n12_init_sis.tdr",
+        "reference_sha256": "c3cd126a07d4910710c3db3a4db2956349363038279d27a00216fb8b35e28f23",
+        "candidate_sha256": "fea395bcb4a31a91e14eeb491a8a39d50ceea122c3adfd9ed5bc8541b2ef301c",
+        "reference_size": 457578,
+        "candidate_size": 457578,
+        "raw_differences": 264,
+        "proven_timestamp_bytes": 352,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      },
+      {
+        "reference": "/tmp/geo3d-calltree-3d-interconnect.eWJBAs/writer_dataset_vendor_231_writer_full_254/n12_final_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Interconnect/n12_final_sis.tdr",
+        "reference_sha256": "093531094cd84349e3ba37a469df8484005e628959c304853cfaa850453d65a9",
+        "candidate_sha256": "58038a162517cf17f3c215e5695db46bb3a0660abdc75073ccb9e85a3169bd01",
+        "reference_size": 22414859,
+        "candidate_size": 22414859,
+        "raw_differences": 1680,
+        "proven_timestamp_bytes": 2240,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "case": "Inverter",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/geo3d-worktrees/integrate-si-latest-20261007/data/sinterconnect/inverter/native/n@node@_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/Inverter/n@node@_sis.tdr",
+        "reference_sha256": "ce6dc2e524cfa57f26085cb0ed2952cc49313296334ce83110407357ceab376e",
+        "candidate_sha256": "f0c1c4e739bb20f345289e262ee6595b051ca0f81235a631d7917518a6558cac",
+        "reference_size": 1912042,
+        "candidate_size": 1912042,
+        "raw_differences": 501,
+        "proven_timestamp_bytes": 668,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "case": "3D_Cantilever",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/native/n4_init_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/local/n4_init_sis.tdr",
+        "reference_sha256": "458bf340781b1b80b32c4ec391f0dec15bae654926670606dfbed39b56b4ea0a",
+        "candidate_sha256": "5e781fcf74f0d1e152f79ddbc199d8535b943363f4e1b0d5c610901393dff1d7",
+        "reference_size": 4180083,
+        "candidate_size": 4180083,
+        "raw_differences": 170,
+        "proven_timestamp_bytes": 340,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/native/n4_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/local/n4_sis.tdr",
+        "reference_sha256": "486874b6117a116ffd14e8ddbbcec4933a52fab417773f48baf6793af417e37c",
+        "candidate_sha256": "00d9e6da7585735e72e6ed75048b000a2419c541180f77b760465e776e5cc13b",
+        "reference_size": 44177234,
+        "candidate_size": 44177234,
+        "raw_differences": 216,
+        "proven_timestamp_bytes": 432,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/native/n4_def_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/3D_Cantilever/local/n4_def_sis.tdr",
+        "reference_sha256": "8905fb1434f5283aa685fc0c75ba9d7a0737611c2c45706f4b56a8ad1ade0e47",
+        "candidate_sha256": "158b6317627c1511a1a9a9089710672b5b45f05746551d48a8363a5792fd7029",
+        "reference_size": 46020842,
+        "candidate_size": 46020842,
+        "raw_differences": 202,
+        "proven_timestamp_bytes": 404,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "case": "TSV_n5",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n5/native/n19_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n5/local/n19_sis.tdr",
+        "reference_sha256": "488de48e0d6b369512c5164691757053b5e29ca20e8698ae90215b453631dcb2",
+        "candidate_sha256": "fa0fa4b6140ea666eeea01b6160d54d7fe9a30da95ffc0429169245f40a498be",
+        "reference_size": 737664,
+        "candidate_size": 737664,
+        "raw_differences": 172,
+        "proven_timestamp_bytes": 344,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n5/native/n40_tsv_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n5/local/n40_tsv_sis.tdr",
+        "reference_sha256": "b9818c8422e0795c8b277f318a9cc002606b436c9b672b92252c7f722dfaec97",
+        "candidate_sha256": "e19f0a34e0cc7794efdc1a82797c7f6e365abf64191541d6a0330f65b3099356",
+        "reference_size": 5150680,
+        "candidate_size": 5150680,
+        "raw_differences": 500,
+        "proven_timestamp_bytes": 1000,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "case": "TSV_n6",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n6/native/n20_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n6/local/n20_sis.tdr",
+        "reference_sha256": "d604887aa1afdc31372b5420c58f9f17cb8564da07c12f49da1b50b85eb74dd6",
+        "candidate_sha256": "4f85d89b2848feb29623b78dc28dc7b48a945d33a4b4001324c28e8687c30a43",
+        "reference_size": 607641,
+        "candidate_size": 607641,
+        "raw_differences": 172,
+        "proven_timestamp_bytes": 344,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n6/native/n41_tsv_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n6/local/n41_tsv_sis.tdr",
+        "reference_sha256": "fe3dec8f5963b658c397e6d888244377cca34a74be076b9b5e7bfbd938b8977c",
+        "candidate_sha256": "3fa0e1fa2894e7a3825f12db0bdb612c78bc263792f2ea47972882a02cfb4cbe",
+        "reference_size": 3408014,
+        "candidate_size": 3408014,
+        "raw_differences": 500,
+        "proven_timestamp_bytes": 1000,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "case": "TSV_n7",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n7/native/n21_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n7/local/n21_sis.tdr",
+        "reference_sha256": "920cd80e8e6743887de265cc1665f3eebb59149b837c40fe3a2fdf4f0b3e5124",
+        "candidate_sha256": "2c53b15eec0c0986d9a1763cc20652df070b24dc884cca5950f7ead89f6b97a1",
+        "reference_size": 620805,
+        "candidate_size": 620805,
+        "raw_differences": 172,
+        "proven_timestamp_bytes": 344,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n7/native/n42_tsv_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n7/local/n42_tsv_sis.tdr",
+        "reference_sha256": "af44c1e9cf6df9053bdc319c52301bad86576b8c250a266adaa8037b16fadd07",
+        "candidate_sha256": "61fa2082ee4728af3cfdffd82da72c3a36dcbbfde3a2c01e19ac797f14d32d29",
+        "reference_size": 3600928,
+        "candidate_size": 3600928,
+        "raw_differences": 500,
+        "proven_timestamp_bytes": 1000,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "case": "TSV_n8",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n8/native/n22_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n8/local/n22_sis.tdr",
+        "reference_sha256": "f1e5bd0a657ba7122e0627f0e02443fe4869eab2c51cf633675851484cb27da9",
+        "candidate_sha256": "1c8d7153c2e855fa42a5f65fbae97f377c80cad4cf656368fad04dfcfb1fd8e9",
+        "reference_size": 605300,
+        "candidate_size": 605300,
+        "raw_differences": 172,
+        "proven_timestamp_bytes": 344,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n8/native/n43_tsv_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n8/local/n43_tsv_sis.tdr",
+        "reference_sha256": "488a557450eafc3249420c830da55e31317c1edbe62040d24b226c102a9b1145",
+        "candidate_sha256": "b64a79e68e020b48632ea0e2a4bba1d4211a81250a34ea109cf98850715989e0",
+        "reference_size": 3369899,
+        "candidate_size": 3369899,
+        "raw_differences": 500,
+        "proven_timestamp_bytes": 1000,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "case": "TSV_n9",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n9/native/n23_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n9/local/n23_sis.tdr",
+        "reference_sha256": "ed8d4fb46a7473f3df1ca2c8638edde55a25c3c713dcc601f1467bfb2c928a6c",
+        "candidate_sha256": "0acd626c7c11cfd5be85a23928a949d358db876eead30dec520f04bfede6a4f1",
+        "reference_size": 588960,
+        "candidate_size": 588960,
+        "raw_differences": 172,
+        "proven_timestamp_bytes": 344,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n9/native/n44_tsv_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n9/local/n44_tsv_sis.tdr",
+        "reference_sha256": "45c798eb7f5682bbed0702685642ef3295f8fc851ad80e82759c77b097620fbc",
+        "candidate_sha256": "ad0dad279e73a7aeee94196f3b42ec534ce92e3a333c83e62f9ef4a2665f0e60",
+        "reference_size": 3126395,
+        "candidate_size": 3126395,
+        "raw_differences": 500,
+        "proven_timestamp_bytes": 1000,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "case": "TSV_n10",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n10/native/n24_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n10/local/n24_sis.tdr",
+        "reference_sha256": "d0fef4d1605fb1976d5188e008b00a97b67cf07a2aa9b0f0da51e754c685447d",
+        "candidate_sha256": "e9ab8d991fa82167a38529fdb9dea5e1d231b85ae23a3d356ceaf5a160230e75",
+        "reference_size": 590028,
+        "candidate_size": 590028,
+        "raw_differences": 172,
+        "proven_timestamp_bytes": 344,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n10/native/n45_tsv_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n10/local/n45_tsv_sis.tdr",
+        "reference_sha256": "6c781d69415b55a20fedb2f8e10a4cf6bbb1143e7b1ecc7159535a267b3e6d45",
+        "candidate_sha256": "0e2c453d9dba05f0bb30608104a08caf87d6216d72f17063dbd614357744d28b",
+        "reference_size": 3142533,
+        "candidate_size": 3142533,
+        "raw_differences": 500,
+        "proven_timestamp_bytes": 1000,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "case": "TSV_n11",
+    "status": "PASS",
+    "comparisons": [
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n11/native/n25_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n11/local/n25_sis.tdr",
+        "reference_sha256": "a7f8ce1da8d644eada4cdd5a2d246580fef5171de6f51686ee38073f787c843f",
+        "candidate_sha256": "dc7ca8374b5939a0c9382bedea2c5a81a668ef9e7fcadc38bca5c9b8a497b0c1",
+        "reference_size": 589694,
+        "candidate_size": 589694,
+        "raw_differences": 172,
+        "proven_timestamp_bytes": 344,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      },
+      {
+        "reference": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n11/native/n46_tsv_sis.tdr",
+        "candidate": "/home/mozztcad/si_workspace/integration-20261007/validation02/TSV_n11/local/n46_tsv_sis.tdr",
+        "reference_sha256": "0741915adfb51f68aa2d00dd9cbe5163b63a97f5b88728a8372eb7ce934946c6",
+        "candidate_sha256": "b53921f5ada1c20f279dfac707f62ad861f767716d6082ecb893c879168938f4",
+        "reference_size": 3142417,
+        "candidate_size": 3142417,
+        "raw_differences": 500,
+        "proven_timestamp_bytes": 1000,
+        "non_timestamp_differences": 0,
+        "first_non_timestamp_offset": null,
+        "byte_match": true,
+        "canonical_exact": true,
+        "accepted": true
+      }
+    ]
+  }
+]
